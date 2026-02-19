@@ -19,6 +19,8 @@ app.include_router(route.router, prefix="/api")
 app.include_router(emergency.router, prefix="/api")
 app.include_router(user.router, prefix="/api")
 
+logger.info(f"NETRIKAN API initialized - v{settings.APP_VERSION}")
+
 
 @app.get("/health")
 def health_check():
@@ -29,7 +31,7 @@ def health_check():
 def analyze(payload: dict):
     """
     Unified endpoint to test agent orchestration flow.
+    Processes location and contextual data through all agents.
     """
     logger.info("Received analysis request")
     return agent_manager.run(payload)
-
