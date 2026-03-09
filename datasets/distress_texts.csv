@@ -1,0 +1,541 @@
+text_id,distress_text,category,confidence_score,severity_level,context,response_type
+1,Help me!,help,0.791,Critical,Home,Safe-Location
+2,Help me!,help,0.909,Medium,Public-place,Alert-Guardian
+3,Help me!,help,0.659,Medium,Unknown,Alert-Guardian
+4,Help me!,help,0.784,Medium,On-road,Police
+5,Help me!,help,0.745,High,On-road,Safe-Location
+6,Help me!,help,0.789,High,On-road,Alert-Guardian
+7,Help me!,help,0.893,Medium,Unknown,Police
+8,Help me!,help,0.904,Medium,Public-place,Alert-Guardian
+9,Help me!,help,0.653,Medium,On-road,Safe-Location
+10,Help me!,help,0.66,Critical,Home,Ambulance
+11,Help me!,help,0.889,Medium,On-road,Safe-Location
+12,Help me!,help,0.83,Medium,Unknown,Police
+13,Help me!,help,0.69,High,Public-place,Ambulance
+14,Help me!,help,0.822,High,Public-place,Alert-Guardian
+15,Help me!,help,0.868,High,On-road,Police
+16,Help me!,help,0.605,Critical,Public-place,Ambulance
+17,Help me!,help,0.869,Critical,Public-place,Safe-Location
+18,Help me!,help,0.73,High,Unknown,Police
+19,Help me!,help,0.727,Critical,Public-place,Police
+20,Help me!,help,0.743,High,On-road,Safe-Location
+21,Help me!,help,0.876,High,Unknown,Alert-Guardian
+22,Help me!,help,0.692,Medium,Unknown,Alert-Guardian
+23,Help me!,help,0.941,Medium,Public-place,Police
+24,Help me!,help,0.806,Medium,Public-place,Alert-Guardian
+25,Help me!,help,0.69,Critical,On-road,Ambulance
+26,Help me!,help,0.724,Critical,Public-place,Safe-Location
+27,Help me!,help,0.835,Critical,Home,Safe-Location
+28,Help me!,help,0.828,High,Public-place,Police
+29,Help me!,help,0.851,Medium,Public-place,Police
+30,Help me!,help,0.789,Critical,Public-place,Alert-Guardian
+31,I need help,help,0.78,High,On-road,Police
+32,I need help,help,0.877,High,Home,Police
+33,I need help,help,0.859,High,Unknown,Police
+34,I need help,help,0.72,Critical,On-road,Ambulance
+35,I need help,help,0.815,High,Unknown,Safe-Location
+36,I need help,help,0.774,High,Home,Police
+37,I need help,help,0.787,Medium,Home,Safe-Location
+38,I need help,help,0.655,Critical,Home,Safe-Location
+39,I need help,help,0.757,Critical,Unknown,Police
+40,I need help,help,0.774,High,Unknown,Alert-Guardian
+41,I need help,help,0.694,Medium,Home,Alert-Guardian
+42,I need help,help,0.803,Critical,Public-place,Police
+43,I need help,help,0.893,Critical,Unknown,Ambulance
+44,I need help,help,0.658,Medium,Public-place,Alert-Guardian
+45,I need help,help,0.712,Medium,On-road,Police
+46,I need help,help,0.62,Medium,Public-place,Ambulance
+47,I need help,help,0.618,High,On-road,Alert-Guardian
+48,I need help,help,0.65,Medium,Public-place,Police
+49,I need help,help,0.928,High,On-road,Ambulance
+50,I need help,help,0.909,Critical,On-road,Safe-Location
+51,I need help,help,0.807,Critical,Public-place,Police
+52,I need help,help,0.77,High,On-road,Police
+53,I need help,help,0.918,Medium,Public-place,Safe-Location
+54,I need help,help,0.656,Critical,Home,Alert-Guardian
+55,I need help,help,0.809,Medium,Unknown,Safe-Location
+56,I need help,help,0.83,Medium,On-road,Safe-Location
+57,I need help,help,0.758,Critical,Public-place,Police
+58,I need help,help,0.904,High,Home,Safe-Location
+59,I need help,help,0.814,Medium,Unknown,Safe-Location
+60,I need help,help,0.713,High,On-road,Police
+61,Please help,help,0.827,Medium,On-road,Ambulance
+62,Please help,help,0.762,Medium,Home,Police
+63,Please help,help,0.659,High,Unknown,Alert-Guardian
+64,Please help,help,0.802,Medium,Home,Police
+65,Please help,help,0.931,High,Home,Police
+66,Please help,help,0.611,Critical,Home,Police
+67,Please help,help,0.638,Medium,Unknown,Police
+68,Please help,help,0.733,Medium,Home,Police
+69,Please help,help,0.716,High,On-road,Alert-Guardian
+70,Please help,help,0.833,High,On-road,Safe-Location
+71,Please help,help,0.703,High,Unknown,Police
+72,Please help,help,0.91,Medium,Public-place,Ambulance
+73,Please help,help,0.881,Medium,Unknown,Ambulance
+74,Please help,help,0.652,Medium,Unknown,Safe-Location
+75,Please help,help,0.728,Critical,Public-place,Police
+76,Please help,help,0.761,High,Home,Ambulance
+77,Please help,help,0.66,Medium,Public-place,Alert-Guardian
+78,Please help,help,0.639,Critical,Home,Alert-Guardian
+79,Please help,help,0.741,Critical,Home,Safe-Location
+80,Please help,help,0.864,Medium,On-road,Police
+81,Please help,help,0.861,Critical,Unknown,Safe-Location
+82,Please help,help,0.807,High,Public-place,Police
+83,Please help,help,0.772,High,Unknown,Alert-Guardian
+84,Please help,help,0.946,Critical,Unknown,Safe-Location
+85,Please help,help,0.945,Medium,Unknown,Alert-Guardian
+86,Please help,help,0.909,High,On-road,Police
+87,Please help,help,0.875,High,Unknown,Police
+88,Please help,help,0.79,Medium,Unknown,Police
+89,Please help,help,0.874,Critical,Public-place,Police
+90,Please help,help,0.926,Critical,Home,Alert-Guardian
+91,Someone help me,help,0.81,Critical,On-road,Safe-Location
+92,Someone help me,help,0.631,Critical,Home,Safe-Location
+93,Someone help me,help,0.772,Medium,Public-place,Ambulance
+94,Someone help me,help,0.754,High,Home,Ambulance
+95,Someone help me,help,0.743,High,Home,Police
+96,Someone help me,help,0.917,Medium,Public-place,Alert-Guardian
+97,Someone help me,help,0.917,High,On-road,Safe-Location
+98,Someone help me,help,0.723,Medium,Home,Ambulance
+99,Someone help me,help,0.661,High,Public-place,Safe-Location
+100,Someone help me,help,0.9,Critical,Public-place,Alert-Guardian
+101,Someone help me,help,0.809,Critical,Unknown,Safe-Location
+102,Someone help me,help,0.799,Critical,On-road,Ambulance
+103,Someone help me,help,0.821,Medium,On-road,Police
+104,Someone help me,help,0.86,High,On-road,Alert-Guardian
+105,Someone help me,help,0.9,Medium,Unknown,Safe-Location
+106,Someone help me,help,0.703,Critical,On-road,Alert-Guardian
+107,Someone help me,help,0.663,High,Unknown,Safe-Location
+108,Someone help me,help,0.841,Critical,Public-place,Alert-Guardian
+109,Someone help me,help,0.805,High,On-road,Police
+110,Someone help me,help,0.85,High,Unknown,Police
+111,Someone help me,help,0.899,High,Home,Police
+112,Someone help me,help,0.791,Medium,Home,Ambulance
+113,Someone help me,help,0.702,High,On-road,Alert-Guardian
+114,Someone help me,help,0.753,Medium,On-road,Alert-Guardian
+115,Someone help me,help,0.799,Medium,Public-place,Safe-Location
+116,Someone help me,help,0.77,High,Home,Ambulance
+117,Someone help me,help,0.862,Medium,Home,Safe-Location
+118,Someone help me,help,0.844,Medium,Unknown,Ambulance
+119,Someone help me,help,0.808,Critical,Unknown,Safe-Location
+120,Someone help me,help,0.653,Medium,On-road,Safe-Location
+121,Help!,help,0.912,Critical,Public-place,Alert-Guardian
+122,Help!,help,0.763,High,Public-place,Police
+123,Help!,help,0.81,Medium,Public-place,Police
+124,Help!,help,0.859,Critical,On-road,Safe-Location
+125,Help!,help,0.938,Medium,On-road,Alert-Guardian
+126,Help!,help,0.891,Critical,Home,Ambulance
+127,Help!,help,0.786,Critical,Public-place,Police
+128,Help!,help,0.601,Critical,On-road,Alert-Guardian
+129,Help!,help,0.83,High,Home,Alert-Guardian
+130,Help!,help,0.925,Medium,On-road,Police
+131,Help!,help,0.825,Medium,Unknown,Safe-Location
+132,Help!,help,0.67,Medium,Home,Alert-Guardian
+133,Help!,help,0.82,High,Home,Police
+134,Help!,help,0.613,Medium,Unknown,Police
+135,Help!,help,0.848,Medium,On-road,Safe-Location
+136,Help!,help,0.941,High,On-road,Police
+137,Help!,help,0.844,Critical,Unknown,Police
+138,Help!,help,0.756,Medium,Unknown,Police
+139,Help!,help,0.851,Medium,Unknown,Alert-Guardian
+140,Help!,help,0.795,Critical,Home,Alert-Guardian
+141,Help!,help,0.84,Critical,Unknown,Ambulance
+142,Help!,help,0.775,Critical,Public-place,Ambulance
+143,Help!,help,0.844,Medium,Unknown,Safe-Location
+144,Help!,help,0.83,High,On-road,Safe-Location
+145,Help!,help,0.896,High,Public-place,Safe-Location
+146,Help!,help,0.74,Critical,Home,Ambulance
+147,Help!,help,0.772,Critical,On-road,Safe-Location
+148,Help!,help,0.855,High,Home,Police
+149,Help!,help,0.856,Medium,Unknown,Alert-Guardian
+150,Help!,help,0.675,Medium,Public-place,Ambulance
+151,Emergency!,emergency,0.65,Medium,Public-place,Alert-Guardian
+152,Emergency!,emergency,0.682,Medium,Unknown,Ambulance
+153,Emergency!,emergency,0.609,Critical,Home,Police
+154,Emergency!,emergency,0.628,Critical,Home,Safe-Location
+155,Emergency!,emergency,0.891,Critical,On-road,Ambulance
+156,Emergency!,emergency,0.882,Critical,Home,Police
+157,Emergency!,emergency,0.686,Critical,Public-place,Alert-Guardian
+158,Emergency!,emergency,0.697,High,Home,Alert-Guardian
+159,Emergency!,emergency,0.895,Critical,Unknown,Ambulance
+160,Emergency!,emergency,0.703,Critical,On-road,Safe-Location
+161,Emergency!,emergency,0.608,Medium,Unknown,Ambulance
+162,Emergency!,emergency,0.65,Critical,Unknown,Police
+163,Emergency!,emergency,0.66,Medium,On-road,Alert-Guardian
+164,Emergency!,emergency,0.666,Medium,Home,Police
+165,Emergency!,emergency,0.754,Critical,Unknown,Police
+166,Emergency!,emergency,0.805,High,Home,Police
+167,Emergency!,emergency,0.804,Critical,Unknown,Alert-Guardian
+168,Emergency!,emergency,0.622,High,On-road,Police
+169,Emergency!,emergency,0.626,High,Public-place,Safe-Location
+170,Emergency!,emergency,0.827,Critical,Unknown,Police
+171,Emergency!,emergency,0.655,Medium,On-road,Alert-Guardian
+172,Emergency!,emergency,0.874,Critical,Public-place,Police
+173,Emergency!,emergency,0.659,High,Home,Ambulance
+174,Emergency!,emergency,0.873,High,Unknown,Alert-Guardian
+175,Emergency!,emergency,0.807,High,On-road,Safe-Location
+176,Emergency!,emergency,0.671,Critical,Unknown,Alert-Guardian
+177,Emergency!,emergency,0.912,Critical,Public-place,Alert-Guardian
+178,Emergency!,emergency,0.658,High,Home,Safe-Location
+179,Emergency!,emergency,0.936,High,Public-place,Alert-Guardian
+180,Emergency!,emergency,0.622,High,Unknown,Safe-Location
+181,This is emergency,emergency,0.612,Medium,Home,Police
+182,This is emergency,emergency,0.81,High,Public-place,Ambulance
+183,This is emergency,emergency,0.775,Medium,Home,Police
+184,This is emergency,emergency,0.77,Critical,Public-place,Ambulance
+185,This is emergency,emergency,0.909,High,On-road,Police
+186,This is emergency,emergency,0.748,Critical,Unknown,Safe-Location
+187,This is emergency,emergency,0.843,Critical,Public-place,Alert-Guardian
+188,This is emergency,emergency,0.8,Medium,Unknown,Alert-Guardian
+189,This is emergency,emergency,0.921,Medium,Home,Alert-Guardian
+190,This is emergency,emergency,0.886,Medium,Home,Safe-Location
+191,This is emergency,emergency,0.789,High,Unknown,Police
+192,This is emergency,emergency,0.793,Critical,Unknown,Ambulance
+193,This is emergency,emergency,0.727,Medium,On-road,Police
+194,This is emergency,emergency,0.874,Medium,Public-place,Police
+195,This is emergency,emergency,0.909,High,Public-place,Alert-Guardian
+196,This is emergency,emergency,0.885,High,Home,Ambulance
+197,This is emergency,emergency,0.822,Critical,Unknown,Ambulance
+198,This is emergency,emergency,0.912,Medium,On-road,Safe-Location
+199,This is emergency,emergency,0.85,Medium,Unknown,Alert-Guardian
+200,This is emergency,emergency,0.893,Critical,Unknown,Alert-Guardian
+201,This is emergency,emergency,0.725,High,Home,Safe-Location
+202,This is emergency,emergency,0.742,Medium,Home,Alert-Guardian
+203,This is emergency,emergency,0.729,High,Public-place,Alert-Guardian
+204,This is emergency,emergency,0.648,High,Public-place,Safe-Location
+205,This is emergency,emergency,0.886,Critical,Unknown,Alert-Guardian
+206,This is emergency,emergency,0.934,Critical,On-road,Safe-Location
+207,This is emergency,emergency,0.72,High,Public-place,Safe-Location
+208,This is emergency,emergency,0.762,Medium,Public-place,Safe-Location
+209,This is emergency,emergency,0.61,High,Unknown,Safe-Location
+210,This is emergency,emergency,0.669,Medium,Public-place,Safe-Location
+211,It's an emergency,emergency,0.791,Medium,Home,Safe-Location
+212,It's an emergency,emergency,0.772,Critical,Public-place,Alert-Guardian
+213,It's an emergency,emergency,0.884,Medium,Unknown,Ambulance
+214,It's an emergency,emergency,0.805,Critical,On-road,Ambulance
+215,It's an emergency,emergency,0.824,Critical,Home,Police
+216,It's an emergency,emergency,0.882,Critical,Public-place,Safe-Location
+217,It's an emergency,emergency,0.683,Medium,On-road,Safe-Location
+218,It's an emergency,emergency,0.65,High,On-road,Ambulance
+219,It's an emergency,emergency,0.69,Critical,Public-place,Ambulance
+220,It's an emergency,emergency,0.909,Medium,Unknown,Alert-Guardian
+221,It's an emergency,emergency,0.88,Medium,Unknown,Ambulance
+222,It's an emergency,emergency,0.677,High,Home,Police
+223,It's an emergency,emergency,0.945,Critical,Public-place,Alert-Guardian
+224,It's an emergency,emergency,0.707,Critical,Unknown,Safe-Location
+225,It's an emergency,emergency,0.785,High,Home,Alert-Guardian
+226,It's an emergency,emergency,0.817,Critical,Public-place,Safe-Location
+227,It's an emergency,emergency,0.885,Critical,Unknown,Police
+228,It's an emergency,emergency,0.759,High,Public-place,Safe-Location
+229,It's an emergency,emergency,0.626,Critical,Public-place,Police
+230,It's an emergency,emergency,0.702,Medium,Public-place,Police
+231,It's an emergency,emergency,0.747,Critical,Home,Alert-Guardian
+232,It's an emergency,emergency,0.83,Medium,On-road,Alert-Guardian
+233,It's an emergency,emergency,0.744,Medium,Home,Police
+234,It's an emergency,emergency,0.748,High,Unknown,Ambulance
+235,It's an emergency,emergency,0.677,Medium,On-road,Alert-Guardian
+236,It's an emergency,emergency,0.802,Critical,Unknown,Police
+237,It's an emergency,emergency,0.615,Critical,Unknown,Police
+238,It's an emergency,emergency,0.629,High,Home,Alert-Guardian
+239,It's an emergency,emergency,0.669,Critical,Home,Ambulance
+240,It's an emergency,emergency,0.933,Critical,Public-place,Alert-Guardian
+241,Emergency situation,emergency,0.93,Medium,Home,Ambulance
+242,Emergency situation,emergency,0.767,High,Unknown,Alert-Guardian
+243,Emergency situation,emergency,0.801,High,Home,Ambulance
+244,Emergency situation,emergency,0.825,Critical,On-road,Safe-Location
+245,Emergency situation,emergency,0.8,High,Home,Safe-Location
+246,Emergency situation,emergency,0.924,Critical,Home,Alert-Guardian
+247,Emergency situation,emergency,0.867,High,On-road,Police
+248,Emergency situation,emergency,0.672,Critical,Public-place,Alert-Guardian
+249,Emergency situation,emergency,0.937,High,Public-place,Police
+250,Emergency situation,emergency,0.732,High,Public-place,Police
+251,Emergency situation,emergency,0.655,Critical,Home,Safe-Location
+252,Emergency situation,emergency,0.904,Medium,Unknown,Police
+253,Emergency situation,emergency,0.687,Medium,On-road,Police
+254,Emergency situation,emergency,0.885,Medium,Home,Safe-Location
+255,Emergency situation,emergency,0.79,High,On-road,Safe-Location
+256,Emergency situation,emergency,0.612,Critical,On-road,Safe-Location
+257,Emergency situation,emergency,0.748,Medium,Public-place,Alert-Guardian
+258,Emergency situation,emergency,0.775,Medium,Public-place,Police
+259,Emergency situation,emergency,0.661,Critical,Unknown,Police
+260,Emergency situation,emergency,0.682,High,Public-place,Ambulance
+261,Emergency situation,emergency,0.657,Medium,Unknown,Ambulance
+262,Emergency situation,emergency,0.849,High,Public-place,Ambulance
+263,Emergency situation,emergency,0.883,Medium,Unknown,Ambulance
+264,Emergency situation,emergency,0.687,High,Public-place,Safe-Location
+265,Emergency situation,emergency,0.682,High,Unknown,Ambulance
+266,Emergency situation,emergency,0.906,Critical,Home,Safe-Location
+267,Emergency situation,emergency,0.743,High,Unknown,Ambulance
+268,Emergency situation,emergency,0.866,Medium,Home,Ambulance
+269,Emergency situation,emergency,0.913,Medium,On-road,Police
+270,Emergency situation,emergency,0.645,Medium,Home,Safe-Location
+271,Call police,police,0.618,Medium,On-road,Ambulance
+272,Call police,police,0.896,High,Home,Safe-Location
+273,Call police,police,0.773,High,On-road,Alert-Guardian
+274,Call police,police,0.753,Medium,Home,Safe-Location
+275,Call police,police,0.602,High,Public-place,Safe-Location
+276,Call police,police,0.686,High,On-road,Police
+277,Call police,police,0.616,High,On-road,Police
+278,Call police,police,0.681,High,On-road,Ambulance
+279,Call police,police,0.787,High,Unknown,Ambulance
+280,Call police,police,0.916,Medium,Unknown,Ambulance
+281,Call police,police,0.645,Medium,Unknown,Alert-Guardian
+282,Call police,police,0.717,Medium,Public-place,Safe-Location
+283,Call police,police,0.91,Critical,Unknown,Safe-Location
+284,Call police,police,0.879,Medium,Home,Safe-Location
+285,Call police,police,0.737,Critical,Home,Ambulance
+286,Call police,police,0.65,Medium,On-road,Safe-Location
+287,Call police,police,0.799,High,Home,Alert-Guardian
+288,Call police,police,0.725,Critical,On-road,Safe-Location
+289,Call police,police,0.842,High,On-road,Police
+290,Call police,police,0.839,High,Unknown,Police
+291,Call police,police,0.613,High,Public-place,Safe-Location
+292,Call police,police,0.829,Critical,On-road,Safe-Location
+293,Call police,police,0.782,High,Public-place,Ambulance
+294,Call police,police,0.805,Medium,On-road,Police
+295,Call police,police,0.742,Critical,On-road,Ambulance
+296,Call police,police,0.63,Critical,Public-place,Ambulance
+297,Call police,police,0.821,Critical,On-road,Safe-Location
+298,Call police,police,0.833,Medium,On-road,Alert-Guardian
+299,Call police,police,0.885,High,Public-place,Safe-Location
+300,Call police,police,0.791,Medium,On-road,Police
+301,Police!,police,0.922,Medium,Public-place,Alert-Guardian
+302,Police!,police,0.77,Critical,Home,Alert-Guardian
+303,Police!,police,0.619,High,Unknown,Police
+304,Police!,police,0.615,Critical,On-road,Ambulance
+305,Police!,police,0.766,Critical,Home,Ambulance
+306,Police!,police,0.729,High,Home,Ambulance
+307,Police!,police,0.893,Critical,On-road,Police
+308,Police!,police,0.757,Medium,Public-place,Police
+309,Police!,police,0.826,Medium,Public-place,Alert-Guardian
+310,Police!,police,0.709,High,Public-place,Alert-Guardian
+311,Police!,police,0.648,High,On-road,Police
+312,Police!,police,0.841,Medium,Public-place,Safe-Location
+313,Police!,police,0.789,High,Unknown,Police
+314,Police!,police,0.857,High,Home,Police
+315,Police!,police,0.675,High,Public-place,Police
+316,Police!,police,0.852,Medium,Home,Police
+317,Police!,police,0.812,High,Home,Alert-Guardian
+318,Police!,police,0.832,High,Home,Ambulance
+319,Police!,police,0.91,Critical,On-road,Ambulance
+320,Police!,police,0.778,Critical,Public-place,Police
+321,Police!,police,0.866,Critical,Unknown,Police
+322,Police!,police,0.625,Medium,Public-place,Ambulance
+323,Police!,police,0.691,Critical,Home,Police
+324,Police!,police,0.782,High,Home,Ambulance
+325,Police!,police,0.726,Medium,Unknown,Ambulance
+326,Police!,police,0.612,Critical,Home,Ambulance
+327,Police!,police,0.895,Critical,On-road,Ambulance
+328,Police!,police,0.637,Critical,Home,Alert-Guardian
+329,Police!,police,0.785,Critical,Public-place,Ambulance
+330,Police!,police,0.687,High,Unknown,Ambulance
+331,Need police,police,0.806,Critical,Home,Alert-Guardian
+332,Need police,police,0.942,Critical,Home,Police
+333,Need police,police,0.891,Medium,Home,Ambulance
+334,Need police,police,0.729,Critical,Public-place,Police
+335,Need police,police,0.915,Medium,On-road,Safe-Location
+336,Need police,police,0.916,High,Unknown,Alert-Guardian
+337,Need police,police,0.668,High,Home,Police
+338,Need police,police,0.83,Medium,Unknown,Safe-Location
+339,Need police,police,0.781,Critical,Unknown,Safe-Location
+340,Need police,police,0.649,High,Home,Ambulance
+341,Need police,police,0.614,Medium,Unknown,Ambulance
+342,Need police,police,0.782,High,Public-place,Safe-Location
+343,Need police,police,0.801,Critical,On-road,Ambulance
+344,Need police,police,0.75,Medium,On-road,Alert-Guardian
+345,Need police,police,0.755,Medium,Home,Ambulance
+346,Need police,police,0.932,Critical,On-road,Alert-Guardian
+347,Need police,police,0.927,Critical,On-road,Police
+348,Need police,police,0.936,Critical,On-road,Ambulance
+349,Need police,police,0.886,Critical,Unknown,Safe-Location
+350,Need police,police,0.807,Medium,On-road,Safe-Location
+351,Need police,police,0.794,Medium,On-road,Police
+352,Need police,police,0.84,Medium,Unknown,Safe-Location
+353,Need police,police,0.728,Critical,Public-place,Alert-Guardian
+354,Need police,police,0.789,Critical,Public-place,Ambulance
+355,Need police,police,0.601,Medium,Public-place,Alert-Guardian
+356,Need police,police,0.817,High,Unknown,Safe-Location
+357,Need police,police,0.789,Critical,Unknown,Ambulance
+358,Need police,police,0.781,Medium,Home,Alert-Guardian
+359,Need police,police,0.749,High,Public-place,Safe-Location
+360,Need police,police,0.722,Medium,Home,Ambulance
+361,Police help me,police,0.648,High,Home,Alert-Guardian
+362,Police help me,police,0.703,Critical,Home,Safe-Location
+363,Police help me,police,0.661,Medium,Home,Ambulance
+364,Police help me,police,0.818,Medium,Home,Safe-Location
+365,Police help me,police,0.91,Medium,Public-place,Police
+366,Police help me,police,0.898,High,Public-place,Alert-Guardian
+367,Police help me,police,0.818,High,Home,Safe-Location
+368,Police help me,police,0.651,High,Home,Police
+369,Police help me,police,0.842,Critical,Home,Safe-Location
+370,Police help me,police,0.731,Critical,On-road,Safe-Location
+371,Police help me,police,0.782,Critical,Unknown,Ambulance
+372,Police help me,police,0.842,Medium,Unknown,Safe-Location
+373,Police help me,police,0.805,High,Public-place,Alert-Guardian
+374,Police help me,police,0.827,High,Home,Alert-Guardian
+375,Police help me,police,0.778,High,Public-place,Safe-Location
+376,Police help me,police,0.612,Critical,Public-place,Alert-Guardian
+377,Police help me,police,0.747,Medium,Unknown,Safe-Location
+378,Police help me,police,0.694,High,Home,Police
+379,Police help me,police,0.88,Critical,Public-place,Ambulance
+380,Police help me,police,0.681,High,Unknown,Police
+381,Police help me,police,0.813,Critical,Public-place,Safe-Location
+382,Police help me,police,0.625,Medium,Home,Ambulance
+383,Police help me,police,0.911,High,On-road,Safe-Location
+384,Police help me,police,0.842,High,On-road,Safe-Location
+385,Police help me,police,0.82,Medium,Public-place,Police
+386,Police help me,police,0.852,Medium,Home,Ambulance
+387,Police help me,police,0.647,High,On-road,Alert-Guardian
+388,Police help me,police,0.691,Medium,Unknown,Safe-Location
+389,Police help me,police,0.811,High,Home,Police
+390,Police help me,police,0.749,High,Home,Police
+391,Police please,police,0.782,High,Public-place,Police
+392,Police please,police,0.646,Critical,Home,Safe-Location
+393,Police please,police,0.678,Medium,Public-place,Safe-Location
+394,Police please,police,0.804,Medium,Home,Ambulance
+395,Police please,police,0.626,Medium,On-road,Ambulance
+396,Police please,police,0.801,Medium,Home,Police
+397,Police please,police,0.612,Critical,Unknown,Police
+398,Police please,police,0.652,High,On-road,Police
+399,Police please,police,0.88,High,Public-place,Ambulance
+400,Police please,police,0.796,Medium,On-road,Alert-Guardian
+401,Police please,police,0.891,Medium,On-road,Ambulance
+402,Police please,police,0.606,High,Unknown,Alert-Guardian
+403,Police please,police,0.941,High,Unknown,Police
+404,Police please,police,0.614,Medium,Home,Ambulance
+405,Police please,police,0.655,High,Public-place,Alert-Guardian
+406,Police please,police,0.88,Medium,On-road,Alert-Guardian
+407,Police please,police,0.847,Critical,Home,Ambulance
+408,Police please,police,0.738,Critical,Home,Alert-Guardian
+409,Police please,police,0.729,Critical,Home,Safe-Location
+410,Police please,police,0.779,Critical,Unknown,Alert-Guardian
+411,Police please,police,0.719,Medium,On-road,Police
+412,Police please,police,0.861,Medium,On-road,Police
+413,Police please,police,0.697,Medium,Unknown,Alert-Guardian
+414,Police please,police,0.631,High,Home,Ambulance
+415,Police please,police,0.67,Critical,Home,Ambulance
+416,Police please,police,0.648,High,Home,Police
+417,Police please,police,0.938,Critical,On-road,Safe-Location
+418,Police please,police,0.673,Medium,Public-place,Safe-Location
+419,Police please,police,0.625,Medium,On-road,Alert-Guardian
+420,Police please,police,0.674,Medium,Unknown,Alert-Guardian
+421,I'm being attacked,attack,0.741,Medium,Unknown,Alert-Guardian
+422,I'm being attacked,attack,0.724,Medium,Home,Police
+423,I'm being attacked,attack,0.642,Medium,Home,Police
+424,I'm being attacked,attack,0.825,High,Home,Safe-Location
+425,I'm being attacked,attack,0.75,High,Public-place,Safe-Location
+426,I'm being attacked,attack,0.868,Medium,Public-place,Police
+427,I'm being attacked,attack,0.659,Medium,Public-place,Police
+428,I'm being attacked,attack,0.9,High,Home,Ambulance
+429,I'm being attacked,attack,0.895,Critical,Unknown,Alert-Guardian
+430,I'm being attacked,attack,0.636,Medium,Unknown,Safe-Location
+431,I'm being attacked,attack,0.755,Critical,Public-place,Ambulance
+432,I'm being attacked,attack,0.938,High,Unknown,Alert-Guardian
+433,I'm being attacked,attack,0.626,Medium,Home,Police
+434,I'm being attacked,attack,0.652,Critical,Home,Ambulance
+435,I'm being attacked,attack,0.647,High,Home,Alert-Guardian
+436,I'm being attacked,attack,0.671,Critical,Unknown,Safe-Location
+437,I'm being attacked,attack,0.759,Medium,Home,Police
+438,I'm being attacked,attack,0.664,Critical,Unknown,Ambulance
+439,I'm being attacked,attack,0.611,High,Home,Ambulance
+440,I'm being attacked,attack,0.618,Critical,Public-place,Safe-Location
+441,I'm being attacked,attack,0.913,High,Public-place,Alert-Guardian
+442,I'm being attacked,attack,0.823,High,Home,Safe-Location
+443,I'm being attacked,attack,0.914,Critical,Public-place,Alert-Guardian
+444,I'm being attacked,attack,0.68,Critical,Unknown,Safe-Location
+445,I'm being attacked,attack,0.748,Medium,Home,Ambulance
+446,I'm being attacked,attack,0.94,High,Public-place,Safe-Location
+447,I'm being attacked,attack,0.801,Medium,Public-place,Safe-Location
+448,I'm being attacked,attack,0.878,Medium,Public-place,Police
+449,I'm being attacked,attack,0.672,High,Home,Police
+450,I'm being attacked,attack,0.768,High,On-road,Safe-Location
+451,Under attack,attack,0.605,Critical,Public-place,Ambulance
+452,Under attack,attack,0.885,High,Public-place,Safe-Location
+453,Under attack,attack,0.767,High,Unknown,Police
+454,Under attack,attack,0.705,Critical,Unknown,Ambulance
+455,Under attack,attack,0.657,High,On-road,Police
+456,Under attack,attack,0.783,High,Unknown,Police
+457,Under attack,attack,0.762,Medium,Public-place,Police
+458,Under attack,attack,0.705,Medium,Unknown,Police
+459,Under attack,attack,0.79,Medium,Home,Safe-Location
+460,Under attack,attack,0.668,High,Unknown,Alert-Guardian
+461,Under attack,attack,0.765,Medium,Home,Ambulance
+462,Under attack,attack,0.647,Critical,On-road,Safe-Location
+463,Under attack,attack,0.852,Medium,Unknown,Alert-Guardian
+464,Under attack,attack,0.651,Medium,Unknown,Ambulance
+465,Under attack,attack,0.624,Medium,Public-place,Ambulance
+466,Under attack,attack,0.605,Medium,On-road,Police
+467,Under attack,attack,0.819,Critical,Home,Ambulance
+468,Under attack,attack,0.933,High,Unknown,Alert-Guardian
+469,Under attack,attack,0.864,Medium,On-road,Police
+470,Under attack,attack,0.784,Critical,Unknown,Ambulance
+471,Under attack,attack,0.797,Critical,Public-place,Ambulance
+472,Under attack,attack,0.714,Medium,On-road,Alert-Guardian
+473,Under attack,attack,0.921,High,Public-place,Ambulance
+474,Under attack,attack,0.905,Medium,Public-place,Safe-Location
+475,Under attack,attack,0.883,High,On-road,Alert-Guardian
+476,Under attack,attack,0.841,High,Unknown,Police
+477,Under attack,attack,0.861,Critical,Unknown,Safe-Location
+478,Under attack,attack,0.882,Medium,On-road,Ambulance
+479,Under attack,attack,0.69,Medium,Unknown,Safe-Location
+480,Under attack,attack,0.709,High,On-road,Alert-Guardian
+481,Someone attacking me,attack,0.704,High,Home,Ambulance
+482,Someone attacking me,attack,0.833,Medium,Home,Safe-Location
+483,Someone attacking me,attack,0.621,High,Public-place,Safe-Location
+484,Someone attacking me,attack,0.691,High,Public-place,Alert-Guardian
+485,Someone attacking me,attack,0.765,Critical,Unknown,Alert-Guardian
+486,Someone attacking me,attack,0.936,Medium,Unknown,Police
+487,Someone attacking me,attack,0.625,Critical,On-road,Ambulance
+488,Someone attacking me,attack,0.631,Medium,On-road,Police
+489,Someone attacking me,attack,0.758,High,Home,Police
+490,Someone attacking me,attack,0.768,High,Unknown,Safe-Location
+491,Someone attacking me,attack,0.667,Critical,Home,Safe-Location
+492,Someone attacking me,attack,0.681,High,On-road,Police
+493,Someone attacking me,attack,0.85,Medium,Home,Police
+494,Someone attacking me,attack,0.654,Critical,Unknown,Ambulance
+495,Someone attacking me,attack,0.918,Medium,On-road,Police
+496,Someone attacking me,attack,0.943,High,Unknown,Ambulance
+497,Someone attacking me,attack,0.824,High,Unknown,Police
+498,Someone attacking me,attack,0.838,Medium,Unknown,Ambulance
+499,Someone attacking me,attack,0.71,High,On-road,Safe-Location
+500,Someone attacking me,attack,0.901,Critical,On-road,Police
+501,Someone attacking me,attack,0.652,Critical,Home,Police
+502,Someone attacking me,attack,0.676,Medium,Public-place,Alert-Guardian
+503,Someone attacking me,attack,0.671,Critical,On-road,Ambulance
+504,Someone attacking me,attack,0.932,Medium,On-road,Ambulance
+505,Someone attacking me,attack,0.748,High,On-road,Alert-Guardian
+506,Someone attacking me,attack,0.817,Medium,Unknown,Ambulance
+507,Someone attacking me,attack,0.682,Critical,Public-place,Safe-Location
+508,Someone attacking me,attack,0.797,Critical,Public-place,Police
+509,Someone attacking me,attack,0.709,Medium,Public-place,Police
+510,Someone attacking me,attack,0.851,Critical,On-road,Alert-Guardian
+511,Help I'm attacked,attack,0.815,Medium,Public-place,Ambulance
+512,Help I'm attacked,attack,0.681,Critical,Home,Safe-Location
+513,Help I'm attacked,attack,0.725,High,Home,Police
+514,Help I'm attacked,attack,0.696,Critical,On-road,Police
+515,Help I'm attacked,attack,0.637,High,Unknown,Police
+516,Help I'm attacked,attack,0.792,Medium,On-road,Police
+517,Help I'm attacked,attack,0.659,Medium,Unknown,Alert-Guardian
+518,Help I'm attacked,attack,0.712,Medium,Public-place,Alert-Guardian
+519,Help I'm attacked,attack,0.638,Critical,Public-place,Alert-Guardian
+520,Help I'm attacked,attack,0.844,Critical,On-road,Ambulance
+521,Help I'm attacked,attack,0.641,High,Unknown,Police
+522,Help I'm attacked,attack,0.892,Critical,Home,Safe-Location
+523,Help I'm attacked,attack,0.672,High,Home,Ambulance
+524,Help I'm attacked,attack,0.884,Medium,On-road,Police
+525,Help I'm attacked,attack,0.938,Critical,On-road,Police
+526,Help I'm attacked,attack,0.78,Medium,Public-place,Police
+527,Help I'm attacked,attack,0.714,Medium,Home,Police
+528,Help I'm attacked,attack,0.795,Medium,Unknown,Alert-Guardian
+529,Help I'm attacked,attack,0.726,Medium,Unknown,Police
+530,Help I'm attacked,attack,0.681,High,On-road,Ambulance
+531,Help I'm attacked,attack,0.831,Medium,Unknown,Alert-Guardian
+532,Help I'm attacked,attack,0.852,Medium,Home,Alert-Guardian
+533,Help I'm attacked,attack,0.698,High,On-road,Police
+534,Help I'm attacked,attack,0.623,Critical,Public-place,Safe-Location
+535,Help I'm attacked,attack,0.604,Critical,Home,Ambulance
+536,Help I'm attacked,attack,0.618,Critical,Unknown,Police
+537,Help I'm attacked,attack,0.665,Medium,Unknown,Safe-Location
+538,Help I'm attacked,attack,0.762,High,On-road,Alert-Guardian
+539,Help I'm attacked,attack,0.677,High,Home,Police
+540,Help I'm attacked,attack,0.837,Critical,Home,Alert-Guardian

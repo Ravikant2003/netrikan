@@ -26,6 +26,12 @@ def crime_score(lat: float, lon: float) -> float:
     (Spatial ML can replace this later for production.)
     """
     load_crime_data()
-    # Placeholder heuristic with location-based weighting
-    location_factor = 0.4
-    return min(1.0, location_factor)
+
+    if crime_df is not None and not crime_df.empty:
+        row_count_factor = min(0.3, len(crime_df) / 100000)
+    else:
+        row_count_factor = 0.0
+
+    urban_density_factor = min(0.4, (abs(lat) + abs(lon)) / 300)
+    base_risk = 0.15
+    return round(min(1.0, base_risk + row_count_factor + urban_density_factor), 2)

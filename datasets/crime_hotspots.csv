@@ -1,0 +1,1001 @@
+id,city,latitude,longitude,crime_category,frequency_per_month,severity_level,last_incident_date,area_name,police_station
+1,Bengaluru,12.934,77.7298,Sexual Harassment,65,low,2025-12-14,Bengaluru_Zone_11,Bengaluru_PS_8
+2,Bengaluru,12.9217,77.4875,Murder,26,low,2026-03-05,Bengaluru_Zone_12,Bengaluru_PS_6
+3,Bengaluru,12.8218,77.7423,Theft,80,medium,2026-02-13,Bengaluru_Zone_12,Bengaluru_PS_9
+4,Bengaluru,12.909,77.6282,Mugging,96,high,2026-01-04,Bengaluru_Zone_15,Bengaluru_PS_3
+5,Bengaluru,12.9363,77.7396,Kidnapping,7,low,2026-01-15,Bengaluru_Zone_7,Bengaluru_PS_5
+6,Bengaluru,12.9567,77.4486,Kidnapping,64,medium,2026-02-26,Bengaluru_Zone_2,Bengaluru_PS_4
+7,Bengaluru,12.8939,77.6496,Sexual Harassment,51,high,2025-12-19,Bengaluru_Zone_17,Bengaluru_PS_4
+8,Bengaluru,12.8763,77.6712,Burglary,58,medium,2026-03-03,Bengaluru_Zone_18,Bengaluru_PS_2
+9,Bengaluru,12.9401,77.7226,Sexual Harassment,82,high,2026-01-04,Bengaluru_Zone_8,Bengaluru_PS_5
+10,Bengaluru,12.9382,77.526,Assault,28,medium,2025-12-08,Bengaluru_Zone_13,Bengaluru_PS_9
+11,Bengaluru,12.9105,77.4942,Kidnapping,75,low,2025-12-09,Bengaluru_Zone_1,Bengaluru_PS_8
+12,Bengaluru,12.8233,77.6892,Theft,12,high,2026-01-31,Bengaluru_Zone_1,Bengaluru_PS_5
+13,Bengaluru,13.0995,77.6399,Vehicle Theft,77,medium,2026-02-02,Bengaluru_Zone_16,Bengaluru_PS_7
+14,Bengaluru,12.9149,77.5422,Murder,48,medium,2026-01-31,Bengaluru_Zone_1,Bengaluru_PS_3
+15,Bengaluru,12.8575,77.6586,Theft,9,medium,2026-02-21,Bengaluru_Zone_7,Bengaluru_PS_9
+16,Bengaluru,13.0348,77.4779,Murder,67,high,2026-01-14,Bengaluru_Zone_4,Bengaluru_PS_5
+17,Bengaluru,12.8964,77.5677,Rape,17,high,2026-01-07,Bengaluru_Zone_19,Bengaluru_PS_6
+18,Bengaluru,13.0857,77.6319,Kidnapping,10,medium,2026-01-04,Bengaluru_Zone_11,Bengaluru_PS_7
+19,Bengaluru,13.0904,77.54,Theft,5,low,2026-02-08,Bengaluru_Zone_13,Bengaluru_PS_9
+20,Bengaluru,12.913,77.494,Kidnapping,66,low,2026-01-15,Bengaluru_Zone_10,Bengaluru_PS_8
+21,Bengaluru,13.1045,77.5416,Sexual Harassment,56,low,2026-01-04,Bengaluru_Zone_17,Bengaluru_PS_4
+22,Bengaluru,12.8957,77.6535,Murder,60,low,2026-01-07,Bengaluru_Zone_17,Bengaluru_PS_2
+23,Bengaluru,12.9724,77.46,Assault,5,high,2026-03-05,Bengaluru_Zone_12,Bengaluru_PS_6
+24,Bengaluru,12.8942,77.6462,Sexual Harassment,21,high,2026-01-28,Bengaluru_Zone_5,Bengaluru_PS_4
+25,Bengaluru,13.1166,77.5642,Theft,77,high,2025-12-27,Bengaluru_Zone_16,Bengaluru_PS_3
+26,Bengaluru,12.9989,77.6479,Murder,94,high,2026-02-16,Bengaluru_Zone_7,Bengaluru_PS_4
+27,Bengaluru,13.1038,77.5639,Vehicle Theft,86,low,2026-02-24,Bengaluru_Zone_18,Bengaluru_PS_7
+28,Bengaluru,12.984,77.6533,Vehicle Theft,20,medium,2026-01-06,Bengaluru_Zone_17,Bengaluru_PS_2
+29,Bengaluru,13.1205,77.7342,Assault,41,high,2026-02-26,Bengaluru_Zone_9,Bengaluru_PS_3
+30,Bengaluru,13.0317,77.6986,Rape,28,medium,2026-02-02,Bengaluru_Zone_11,Bengaluru_PS_1
+31,Bengaluru,12.8701,77.7142,Rape,93,high,2026-02-10,Bengaluru_Zone_18,Bengaluru_PS_2
+32,Bengaluru,12.9673,77.5791,Kidnapping,37,low,2026-02-21,Bengaluru_Zone_16,Bengaluru_PS_4
+33,Bengaluru,12.9315,77.6679,Murder,21,low,2026-01-18,Bengaluru_Zone_12,Bengaluru_PS_3
+34,Bengaluru,13.0125,77.5197,Burglary,55,medium,2026-02-27,Bengaluru_Zone_2,Bengaluru_PS_5
+35,Bengaluru,12.9724,77.6177,Theft,73,low,2026-01-18,Bengaluru_Zone_19,Bengaluru_PS_4
+36,Bengaluru,12.8289,77.6382,Theft,48,medium,2026-01-20,Bengaluru_Zone_6,Bengaluru_PS_3
+37,Bengaluru,13.0459,77.7305,Theft,50,low,2026-01-06,Bengaluru_Zone_1,Bengaluru_PS_4
+38,Bengaluru,12.9099,77.5601,Vehicle Theft,37,high,2026-02-17,Bengaluru_Zone_10,Bengaluru_PS_6
+39,Bengaluru,13.0304,77.6156,Sexual Harassment,36,high,2025-12-11,Bengaluru_Zone_2,Bengaluru_PS_2
+40,Bengaluru,12.9184,77.6992,Kidnapping,47,medium,2026-01-18,Bengaluru_Zone_7,Bengaluru_PS_7
+41,Bengaluru,12.9475,77.5215,Sexual Harassment,17,medium,2026-02-28,Bengaluru_Zone_4,Bengaluru_PS_4
+42,Bengaluru,13.0166,77.6552,Murder,91,high,2025-12-31,Bengaluru_Zone_19,Bengaluru_PS_9
+43,Bengaluru,12.8681,77.7392,Burglary,62,medium,2025-12-11,Bengaluru_Zone_17,Bengaluru_PS_4
+44,Bengaluru,12.8333,77.5356,Assault,12,low,2026-01-06,Bengaluru_Zone_12,Bengaluru_PS_5
+45,Bengaluru,12.9588,77.6972,Rape,98,high,2026-01-11,Bengaluru_Zone_8,Bengaluru_PS_4
+46,Bengaluru,12.8614,77.7355,Mugging,34,high,2026-02-18,Bengaluru_Zone_19,Bengaluru_PS_7
+47,Bengaluru,12.8969,77.4999,Vehicle Theft,13,low,2026-03-06,Bengaluru_Zone_1,Bengaluru_PS_2
+48,Bengaluru,12.8935,77.4728,Kidnapping,5,low,2026-01-02,Bengaluru_Zone_5,Bengaluru_PS_6
+49,Bengaluru,13.0406,77.4589,Mugging,20,high,2025-12-11,Bengaluru_Zone_14,Bengaluru_PS_5
+50,Bengaluru,12.8498,77.538,Rape,73,medium,2025-12-07,Bengaluru_Zone_16,Bengaluru_PS_5
+51,Bengaluru,12.9636,77.4966,Assault,27,medium,2026-02-25,Bengaluru_Zone_5,Bengaluru_PS_4
+52,Bengaluru,12.8352,77.557,Mugging,23,medium,2026-03-06,Bengaluru_Zone_5,Bengaluru_PS_4
+53,Bengaluru,13.0064,77.7278,Robbery,96,high,2025-12-13,Bengaluru_Zone_12,Bengaluru_PS_2
+54,Bengaluru,12.9936,77.4832,Murder,47,low,2026-02-23,Bengaluru_Zone_3,Bengaluru_PS_1
+55,Bengaluru,13.11,77.7162,Robbery,39,high,2025-12-16,Bengaluru_Zone_8,Bengaluru_PS_2
+56,Bengaluru,12.8998,77.5934,Mugging,79,low,2026-01-30,Bengaluru_Zone_4,Bengaluru_PS_5
+57,Bengaluru,13.0468,77.6867,Theft,40,medium,2026-02-11,Bengaluru_Zone_5,Bengaluru_PS_1
+58,Bengaluru,13.0256,77.6666,Murder,34,low,2026-01-04,Bengaluru_Zone_16,Bengaluru_PS_9
+59,Bengaluru,12.9176,77.7133,Theft,16,low,2026-02-16,Bengaluru_Zone_12,Bengaluru_PS_9
+60,Bengaluru,12.9174,77.7296,Rape,87,medium,2026-02-19,Bengaluru_Zone_5,Bengaluru_PS_3
+61,Bengaluru,13.0023,77.6107,Assault,57,high,2026-02-19,Bengaluru_Zone_7,Bengaluru_PS_5
+62,Bengaluru,12.9699,77.4619,Mugging,9,high,2025-12-10,Bengaluru_Zone_11,Bengaluru_PS_2
+63,Bengaluru,13.1122,77.651,Mugging,21,low,2026-02-28,Bengaluru_Zone_14,Bengaluru_PS_8
+64,Bengaluru,12.8434,77.6912,Mugging,70,low,2026-02-06,Bengaluru_Zone_5,Bengaluru_PS_6
+65,Bengaluru,13.1176,77.5569,Theft,90,low,2025-12-26,Bengaluru_Zone_13,Bengaluru_PS_4
+66,Bengaluru,12.9267,77.6571,Murder,65,medium,2026-01-27,Bengaluru_Zone_10,Bengaluru_PS_3
+67,Bengaluru,12.855,77.5924,Robbery,96,medium,2026-01-08,Bengaluru_Zone_8,Bengaluru_PS_9
+68,Bengaluru,13.0449,77.6489,Kidnapping,67,low,2026-02-10,Bengaluru_Zone_1,Bengaluru_PS_6
+69,Bengaluru,12.9525,77.6852,Assault,84,medium,2025-12-12,Bengaluru_Zone_11,Bengaluru_PS_5
+70,Bengaluru,12.8975,77.6532,Kidnapping,22,high,2026-01-17,Bengaluru_Zone_14,Bengaluru_PS_1
+71,Bengaluru,13.0099,77.6199,Vehicle Theft,61,high,2026-02-23,Bengaluru_Zone_10,Bengaluru_PS_8
+72,Bengaluru,12.94,77.4766,Assault,12,medium,2026-01-30,Bengaluru_Zone_8,Bengaluru_PS_2
+73,Bengaluru,12.9014,77.5527,Rape,68,high,2026-01-03,Bengaluru_Zone_17,Bengaluru_PS_9
+74,Bengaluru,12.9145,77.6887,Murder,10,medium,2025-12-28,Bengaluru_Zone_15,Bengaluru_PS_9
+75,Bengaluru,12.9471,77.7244,Robbery,9,high,2026-02-02,Bengaluru_Zone_1,Bengaluru_PS_2
+76,Bengaluru,13.1178,77.4897,Assault,30,high,2025-12-08,Bengaluru_Zone_17,Bengaluru_PS_1
+77,Bengaluru,12.9622,77.569,Theft,25,high,2026-03-01,Bengaluru_Zone_17,Bengaluru_PS_5
+78,Bengaluru,13.1215,77.7436,Assault,27,low,2026-01-13,Bengaluru_Zone_5,Bengaluru_PS_3
+79,Bengaluru,12.8958,77.5798,Theft,55,low,2025-12-20,Bengaluru_Zone_4,Bengaluru_PS_1
+80,Bengaluru,13.0231,77.63,Sexual Harassment,43,medium,2026-02-01,Bengaluru_Zone_3,Bengaluru_PS_2
+81,Bengaluru,13.0773,77.6102,Assault,98,medium,2026-01-09,Bengaluru_Zone_17,Bengaluru_PS_7
+82,Bengaluru,13.0481,77.6307,Robbery,79,high,2026-01-28,Bengaluru_Zone_2,Bengaluru_PS_6
+83,Bengaluru,13.004,77.6356,Murder,67,medium,2026-01-14,Bengaluru_Zone_6,Bengaluru_PS_1
+84,Bengaluru,13.0567,77.5636,Vehicle Theft,55,low,2026-03-02,Bengaluru_Zone_4,Bengaluru_PS_8
+85,Bengaluru,13.0742,77.6753,Rape,92,low,2026-02-01,Bengaluru_Zone_6,Bengaluru_PS_5
+86,Bengaluru,12.9258,77.5073,Murder,27,high,2025-12-17,Bengaluru_Zone_11,Bengaluru_PS_6
+87,Bengaluru,13.0309,77.4986,Rape,60,low,2025-12-30,Bengaluru_Zone_3,Bengaluru_PS_2
+88,Bengaluru,13.0022,77.5118,Assault,9,medium,2026-01-24,Bengaluru_Zone_6,Bengaluru_PS_1
+89,Bengaluru,12.9819,77.5514,Robbery,53,medium,2025-12-07,Bengaluru_Zone_13,Bengaluru_PS_9
+90,Bengaluru,12.8493,77.5889,Burglary,60,medium,2026-01-03,Bengaluru_Zone_16,Bengaluru_PS_1
+91,Bengaluru,12.9047,77.6865,Theft,56,high,2026-01-19,Bengaluru_Zone_14,Bengaluru_PS_7
+92,Bengaluru,12.981,77.6608,Mugging,18,high,2026-01-10,Bengaluru_Zone_19,Bengaluru_PS_7
+93,Bengaluru,13.0277,77.6979,Robbery,42,high,2026-02-20,Bengaluru_Zone_5,Bengaluru_PS_7
+94,Bengaluru,12.9182,77.508,Mugging,48,low,2026-02-18,Bengaluru_Zone_13,Bengaluru_PS_4
+95,Bengaluru,12.9638,77.5511,Kidnapping,22,high,2025-12-11,Bengaluru_Zone_2,Bengaluru_PS_8
+96,Bengaluru,12.9976,77.6139,Mugging,45,low,2026-03-01,Bengaluru_Zone_2,Bengaluru_PS_8
+97,Bengaluru,12.9711,77.5437,Kidnapping,37,low,2026-02-13,Bengaluru_Zone_6,Bengaluru_PS_6
+98,Bengaluru,12.8954,77.4928,Sexual Harassment,59,low,2026-03-04,Bengaluru_Zone_19,Bengaluru_PS_8
+99,Bengaluru,13.0307,77.7438,Burglary,70,high,2026-03-03,Bengaluru_Zone_15,Bengaluru_PS_6
+100,Bengaluru,13.1141,77.5918,Burglary,55,medium,2026-01-09,Bengaluru_Zone_2,Bengaluru_PS_8
+101,Mumbai,19.069,72.9793,Assault,74,medium,2025-12-29,Mumbai_Zone_19,Mumbai_PS_4
+102,Mumbai,19.0783,72.8004,Theft,94,medium,2026-01-02,Mumbai_Zone_6,Mumbai_PS_5
+103,Mumbai,19.0778,73.0073,Murder,37,medium,2026-01-16,Mumbai_Zone_10,Mumbai_PS_5
+104,Mumbai,18.945,73.0247,Sexual Harassment,6,low,2026-01-03,Mumbai_Zone_5,Mumbai_PS_9
+105,Mumbai,19.1541,72.9064,Sexual Harassment,42,high,2026-01-31,Mumbai_Zone_17,Mumbai_PS_5
+106,Mumbai,19.1752,73.0172,Assault,79,low,2026-02-01,Mumbai_Zone_12,Mumbai_PS_3
+107,Mumbai,18.9459,72.95,Burglary,64,low,2025-12-25,Mumbai_Zone_11,Mumbai_PS_9
+108,Mumbai,19.1512,72.9676,Murder,89,low,2026-03-02,Mumbai_Zone_19,Mumbai_PS_4
+109,Mumbai,19.0209,72.9042,Robbery,44,high,2026-02-21,Mumbai_Zone_19,Mumbai_PS_6
+110,Mumbai,19.0879,72.8593,Theft,29,low,2025-12-31,Mumbai_Zone_14,Mumbai_PS_5
+111,Mumbai,19.1979,72.915,Murder,74,medium,2025-12-30,Mumbai_Zone_7,Mumbai_PS_3
+112,Mumbai,19.0265,72.7695,Theft,98,high,2026-02-08,Mumbai_Zone_4,Mumbai_PS_6
+113,Mumbai,19.1517,72.9398,Vehicle Theft,37,medium,2025-12-29,Mumbai_Zone_2,Mumbai_PS_5
+114,Mumbai,19.189,72.8303,Burglary,17,high,2026-01-19,Mumbai_Zone_4,Mumbai_PS_8
+115,Mumbai,19.1072,72.8784,Sexual Harassment,9,low,2026-01-19,Mumbai_Zone_4,Mumbai_PS_2
+116,Mumbai,18.9297,72.9072,Rape,40,medium,2026-01-23,Mumbai_Zone_5,Mumbai_PS_4
+117,Mumbai,18.9805,73.0002,Burglary,10,high,2026-01-19,Mumbai_Zone_14,Mumbai_PS_8
+118,Mumbai,19.0778,72.9111,Sexual Harassment,64,high,2025-12-21,Mumbai_Zone_12,Mumbai_PS_4
+119,Mumbai,19.2016,72.9647,Assault,76,high,2026-02-04,Mumbai_Zone_9,Mumbai_PS_6
+120,Mumbai,18.9492,72.759,Kidnapping,90,high,2026-02-12,Mumbai_Zone_1,Mumbai_PS_5
+121,Mumbai,19.2215,72.9794,Burglary,91,low,2026-03-06,Mumbai_Zone_19,Mumbai_PS_8
+122,Mumbai,19.1084,72.8415,Assault,13,medium,2026-01-14,Mumbai_Zone_9,Mumbai_PS_3
+123,Mumbai,19.0455,72.8889,Burglary,6,high,2025-12-15,Mumbai_Zone_2,Mumbai_PS_1
+124,Mumbai,19.1021,72.7376,Murder,58,low,2025-12-26,Mumbai_Zone_6,Mumbai_PS_5
+125,Mumbai,19.2005,72.8364,Burglary,30,medium,2025-12-12,Mumbai_Zone_17,Mumbai_PS_7
+126,Mumbai,19.2187,72.8654,Rape,90,high,2026-01-05,Mumbai_Zone_8,Mumbai_PS_1
+127,Mumbai,19.0159,72.8207,Vehicle Theft,55,high,2026-01-10,Mumbai_Zone_19,Mumbai_PS_1
+128,Mumbai,18.937,72.8693,Sexual Harassment,23,medium,2026-03-06,Mumbai_Zone_14,Mumbai_PS_3
+129,Mumbai,19.062,72.885,Theft,98,medium,2026-01-15,Mumbai_Zone_4,Mumbai_PS_1
+130,Mumbai,19.0263,72.7504,Murder,36,medium,2025-12-23,Mumbai_Zone_19,Mumbai_PS_2
+131,Mumbai,19.0486,72.7353,Robbery,11,low,2026-02-27,Mumbai_Zone_1,Mumbai_PS_9
+132,Mumbai,18.9926,72.797,Sexual Harassment,58,low,2025-12-30,Mumbai_Zone_19,Mumbai_PS_1
+133,Mumbai,19.093,72.9439,Murder,92,medium,2026-02-03,Mumbai_Zone_14,Mumbai_PS_4
+134,Mumbai,19.2093,72.77,Vehicle Theft,52,medium,2026-02-28,Mumbai_Zone_10,Mumbai_PS_7
+135,Mumbai,19.1468,72.9821,Murder,40,low,2026-01-06,Mumbai_Zone_18,Mumbai_PS_2
+136,Mumbai,19.1992,72.9151,Mugging,6,high,2025-12-10,Mumbai_Zone_12,Mumbai_PS_4
+137,Mumbai,19.1132,72.8505,Kidnapping,57,high,2025-12-11,Mumbai_Zone_12,Mumbai_PS_8
+138,Mumbai,18.9603,72.8974,Vehicle Theft,85,medium,2025-12-16,Mumbai_Zone_14,Mumbai_PS_9
+139,Mumbai,19.0885,72.9177,Vehicle Theft,77,medium,2026-02-13,Mumbai_Zone_11,Mumbai_PS_4
+140,Mumbai,18.9657,72.9979,Robbery,91,low,2025-12-22,Mumbai_Zone_6,Mumbai_PS_2
+141,Mumbai,19.0849,72.9722,Kidnapping,42,medium,2026-02-18,Mumbai_Zone_5,Mumbai_PS_9
+142,Mumbai,19.0752,72.9438,Assault,90,low,2026-02-08,Mumbai_Zone_6,Mumbai_PS_8
+143,Mumbai,19.0012,72.9176,Assault,75,medium,2026-01-21,Mumbai_Zone_17,Mumbai_PS_5
+144,Mumbai,19.0409,72.8834,Robbery,58,high,2026-01-01,Mumbai_Zone_19,Mumbai_PS_5
+145,Mumbai,19.1069,72.8013,Assault,15,high,2026-01-30,Mumbai_Zone_17,Mumbai_PS_7
+146,Mumbai,19.1091,73.0125,Vehicle Theft,28,medium,2026-02-13,Mumbai_Zone_5,Mumbai_PS_8
+147,Mumbai,18.9905,72.7371,Rape,87,high,2025-12-16,Mumbai_Zone_13,Mumbai_PS_2
+148,Mumbai,19.113,72.87,Kidnapping,77,low,2026-03-06,Mumbai_Zone_11,Mumbai_PS_8
+149,Mumbai,19.0564,72.8016,Murder,48,high,2026-02-23,Mumbai_Zone_19,Mumbai_PS_5
+150,Mumbai,18.9535,73.0029,Theft,78,low,2026-01-11,Mumbai_Zone_17,Mumbai_PS_8
+151,Mumbai,19.1535,72.9194,Theft,91,low,2025-12-17,Mumbai_Zone_6,Mumbai_PS_8
+152,Mumbai,19.0009,72.8745,Mugging,30,high,2026-02-03,Mumbai_Zone_10,Mumbai_PS_7
+153,Mumbai,19.2258,72.8944,Burglary,11,medium,2025-12-18,Mumbai_Zone_7,Mumbai_PS_9
+154,Mumbai,18.9838,72.7623,Vehicle Theft,97,medium,2026-01-27,Mumbai_Zone_3,Mumbai_PS_2
+155,Mumbai,19.0827,72.9211,Sexual Harassment,64,low,2026-03-04,Mumbai_Zone_5,Mumbai_PS_8
+156,Mumbai,19.0583,72.849,Vehicle Theft,19,low,2026-03-03,Mumbai_Zone_13,Mumbai_PS_2
+157,Mumbai,19.0821,72.8557,Robbery,59,high,2026-01-24,Mumbai_Zone_2,Mumbai_PS_7
+158,Mumbai,18.9816,72.8429,Murder,43,medium,2026-02-06,Mumbai_Zone_17,Mumbai_PS_5
+159,Mumbai,19.0699,72.9019,Kidnapping,14,medium,2026-02-10,Mumbai_Zone_7,Mumbai_PS_4
+160,Mumbai,19.1473,72.7993,Murder,49,medium,2026-02-05,Mumbai_Zone_18,Mumbai_PS_4
+161,Mumbai,19.1407,72.9044,Theft,57,medium,2025-12-18,Mumbai_Zone_9,Mumbai_PS_1
+162,Mumbai,19.0435,72.765,Mugging,41,low,2026-01-23,Mumbai_Zone_6,Mumbai_PS_7
+163,Mumbai,19.1897,73.0111,Robbery,29,high,2026-01-14,Mumbai_Zone_4,Mumbai_PS_8
+164,Mumbai,19.2088,72.9226,Assault,78,high,2026-01-09,Mumbai_Zone_9,Mumbai_PS_1
+165,Mumbai,19.2132,72.9756,Assault,9,medium,2026-01-19,Mumbai_Zone_17,Mumbai_PS_9
+166,Mumbai,19.2043,73.0262,Mugging,39,medium,2025-12-15,Mumbai_Zone_17,Mumbai_PS_8
+167,Mumbai,19.1952,72.8667,Sexual Harassment,93,low,2025-12-29,Mumbai_Zone_14,Mumbai_PS_5
+168,Mumbai,18.9534,72.9909,Murder,96,low,2026-02-26,Mumbai_Zone_3,Mumbai_PS_9
+169,Mumbai,19.1817,72.7383,Sexual Harassment,29,low,2026-02-24,Mumbai_Zone_2,Mumbai_PS_8
+170,Mumbai,19.0018,72.7292,Assault,52,medium,2026-02-17,Mumbai_Zone_6,Mumbai_PS_5
+171,Mumbai,18.9921,72.9327,Assault,81,low,2026-01-26,Mumbai_Zone_13,Mumbai_PS_3
+172,Mumbai,19.1734,72.832,Robbery,44,high,2025-12-20,Mumbai_Zone_13,Mumbai_PS_1
+173,Mumbai,19.1896,72.9669,Sexual Harassment,96,low,2026-01-07,Mumbai_Zone_16,Mumbai_PS_9
+174,Mumbai,19.0262,72.7993,Assault,46,high,2026-02-08,Mumbai_Zone_6,Mumbai_PS_7
+175,Mumbai,19.1905,73.0161,Kidnapping,35,high,2026-01-24,Mumbai_Zone_10,Mumbai_PS_5
+176,Mumbai,19.1491,72.7759,Rape,6,medium,2025-12-20,Mumbai_Zone_12,Mumbai_PS_7
+177,Mumbai,18.9839,72.7529,Theft,21,high,2026-01-06,Mumbai_Zone_13,Mumbai_PS_3
+178,Mumbai,18.9645,72.8127,Vehicle Theft,78,low,2026-01-03,Mumbai_Zone_15,Mumbai_PS_5
+179,Mumbai,18.9568,73.0089,Rape,72,high,2026-01-02,Mumbai_Zone_17,Mumbai_PS_6
+180,Mumbai,19.1386,72.8698,Burglary,94,high,2025-12-15,Mumbai_Zone_18,Mumbai_PS_4
+181,Mumbai,19.1203,72.906,Vehicle Theft,33,high,2026-02-02,Mumbai_Zone_6,Mumbai_PS_3
+182,Mumbai,19.0018,72.728,Robbery,50,medium,2026-02-06,Mumbai_Zone_4,Mumbai_PS_1
+183,Mumbai,18.9567,72.984,Vehicle Theft,33,low,2025-12-22,Mumbai_Zone_2,Mumbai_PS_4
+184,Mumbai,19.1224,72.8097,Theft,60,low,2026-02-14,Mumbai_Zone_15,Mumbai_PS_5
+185,Mumbai,19.1176,72.847,Kidnapping,73,high,2026-03-06,Mumbai_Zone_6,Mumbai_PS_2
+186,Mumbai,18.9899,72.737,Kidnapping,28,medium,2026-02-20,Mumbai_Zone_12,Mumbai_PS_8
+187,Mumbai,18.9738,72.7888,Assault,12,high,2026-02-08,Mumbai_Zone_14,Mumbai_PS_2
+188,Mumbai,19.1543,72.9156,Assault,28,medium,2026-03-04,Mumbai_Zone_14,Mumbai_PS_9
+189,Mumbai,18.9264,72.9072,Rape,13,medium,2026-01-18,Mumbai_Zone_2,Mumbai_PS_8
+190,Mumbai,19.056,73.023,Theft,76,low,2026-02-17,Mumbai_Zone_18,Mumbai_PS_6
+191,Mumbai,19.0135,72.9362,Theft,45,high,2025-12-11,Mumbai_Zone_19,Mumbai_PS_8
+192,Mumbai,18.9698,72.7585,Burglary,90,low,2025-12-23,Mumbai_Zone_8,Mumbai_PS_2
+193,Mumbai,19.0239,72.883,Theft,81,medium,2026-02-02,Mumbai_Zone_13,Mumbai_PS_4
+194,Mumbai,19.0333,72.8243,Burglary,94,medium,2026-02-20,Mumbai_Zone_2,Mumbai_PS_7
+195,Mumbai,19.1271,73.0132,Murder,10,low,2026-03-01,Mumbai_Zone_9,Mumbai_PS_7
+196,Mumbai,19.1099,72.8174,Sexual Harassment,76,medium,2026-01-04,Mumbai_Zone_15,Mumbai_PS_7
+197,Mumbai,19.1242,72.8936,Burglary,62,medium,2026-02-09,Mumbai_Zone_3,Mumbai_PS_9
+198,Mumbai,18.9752,72.8593,Robbery,16,high,2026-02-23,Mumbai_Zone_13,Mumbai_PS_9
+199,Mumbai,19.1875,72.7935,Vehicle Theft,49,low,2026-01-13,Mumbai_Zone_19,Mumbai_PS_2
+200,Mumbai,18.9323,72.9237,Assault,60,low,2026-01-07,Mumbai_Zone_3,Mumbai_PS_3
+201,Delhi,28.5785,77.0785,Theft,11,low,2025-12-12,Delhi_Zone_5,Delhi_PS_4
+202,Delhi,28.595,77.2871,Sexual Harassment,54,low,2026-01-15,Delhi_Zone_9,Delhi_PS_4
+203,Delhi,28.3832,77.1755,Rape,70,high,2026-02-01,Delhi_Zone_4,Delhi_PS_6
+204,Delhi,28.5709,77.3544,Mugging,16,high,2026-02-17,Delhi_Zone_8,Delhi_PS_5
+205,Delhi,28.5943,77.0963,Sexual Harassment,98,high,2026-01-24,Delhi_Zone_12,Delhi_PS_2
+206,Delhi,28.4287,77.3131,Kidnapping,66,medium,2026-01-06,Delhi_Zone_15,Delhi_PS_8
+207,Delhi,28.5482,77.2556,Vehicle Theft,74,low,2025-12-08,Delhi_Zone_2,Delhi_PS_3
+208,Delhi,28.5714,77.1544,Sexual Harassment,80,low,2026-02-12,Delhi_Zone_15,Delhi_PS_3
+209,Delhi,28.507,77.1561,Mugging,80,medium,2026-03-06,Delhi_Zone_5,Delhi_PS_4
+210,Delhi,28.5508,77.3414,Kidnapping,68,medium,2025-12-13,Delhi_Zone_11,Delhi_PS_5
+211,Delhi,28.4814,77.2169,Theft,48,high,2025-12-18,Delhi_Zone_6,Delhi_PS_4
+212,Delhi,28.4553,77.0739,Assault,24,medium,2026-02-06,Delhi_Zone_1,Delhi_PS_7
+213,Delhi,28.4418,77.1108,Assault,37,low,2026-01-15,Delhi_Zone_14,Delhi_PS_4
+214,Delhi,28.6704,77.3463,Robbery,93,medium,2026-02-06,Delhi_Zone_7,Delhi_PS_8
+215,Delhi,28.5291,77.2035,Burglary,88,high,2026-01-21,Delhi_Zone_16,Delhi_PS_2
+216,Delhi,28.435,77.2588,Robbery,89,low,2026-02-27,Delhi_Zone_6,Delhi_PS_5
+217,Delhi,28.6634,77.1334,Theft,59,high,2025-12-07,Delhi_Zone_11,Delhi_PS_2
+218,Delhi,28.4476,77.3061,Sexual Harassment,80,high,2025-12-25,Delhi_Zone_14,Delhi_PS_4
+219,Delhi,28.5774,77.1215,Assault,52,low,2025-12-07,Delhi_Zone_2,Delhi_PS_2
+220,Delhi,28.5559,77.1522,Theft,45,low,2026-01-18,Delhi_Zone_13,Delhi_PS_9
+221,Delhi,28.4015,77.1434,Rape,8,medium,2026-02-16,Delhi_Zone_6,Delhi_PS_2
+222,Delhi,28.6031,77.2961,Murder,79,low,2025-12-09,Delhi_Zone_7,Delhi_PS_9
+223,Delhi,28.4729,77.2459,Mugging,75,high,2026-02-14,Delhi_Zone_19,Delhi_PS_9
+224,Delhi,28.5533,77.2205,Murder,48,medium,2025-12-07,Delhi_Zone_11,Delhi_PS_3
+225,Delhi,28.4249,77.2496,Robbery,50,low,2026-03-04,Delhi_Zone_8,Delhi_PS_2
+226,Delhi,28.5182,77.0645,Mugging,29,low,2026-01-18,Delhi_Zone_5,Delhi_PS_4
+227,Delhi,28.5568,77.2863,Burglary,50,medium,2026-01-23,Delhi_Zone_13,Delhi_PS_5
+228,Delhi,28.4331,77.0591,Assault,19,low,2026-01-30,Delhi_Zone_11,Delhi_PS_3
+229,Delhi,28.3925,77.3371,Burglary,23,medium,2025-12-19,Delhi_Zone_4,Delhi_PS_5
+230,Delhi,28.4599,77.149,Murder,12,medium,2026-01-30,Delhi_Zone_18,Delhi_PS_2
+231,Delhi,28.4562,77.1809,Kidnapping,98,high,2026-02-28,Delhi_Zone_12,Delhi_PS_7
+232,Delhi,28.5319,77.2695,Sexual Harassment,46,low,2026-01-24,Delhi_Zone_4,Delhi_PS_4
+233,Delhi,28.5195,77.2986,Theft,48,low,2026-01-19,Delhi_Zone_13,Delhi_PS_7
+234,Delhi,28.5658,77.2114,Kidnapping,30,low,2026-02-20,Delhi_Zone_10,Delhi_PS_8
+235,Delhi,28.4977,77.3088,Sexual Harassment,28,low,2026-02-09,Delhi_Zone_5,Delhi_PS_4
+236,Delhi,28.4568,77.3036,Vehicle Theft,78,low,2026-02-17,Delhi_Zone_19,Delhi_PS_4
+237,Delhi,28.4193,77.184,Assault,51,low,2026-02-02,Delhi_Zone_17,Delhi_PS_6
+238,Delhi,28.3815,77.2494,Vehicle Theft,36,high,2026-02-25,Delhi_Zone_9,Delhi_PS_9
+239,Delhi,28.5234,77.3531,Murder,11,low,2026-02-17,Delhi_Zone_3,Delhi_PS_6
+240,Delhi,28.5081,77.2742,Vehicle Theft,28,medium,2026-02-16,Delhi_Zone_4,Delhi_PS_6
+241,Delhi,28.5479,77.139,Rape,40,high,2025-12-24,Delhi_Zone_8,Delhi_PS_1
+242,Delhi,28.4424,77.1633,Rape,17,low,2026-01-06,Delhi_Zone_2,Delhi_PS_5
+243,Delhi,28.3954,77.2489,Sexual Harassment,76,medium,2025-12-30,Delhi_Zone_12,Delhi_PS_3
+244,Delhi,28.4315,77.0725,Robbery,85,high,2025-12-10,Delhi_Zone_8,Delhi_PS_6
+245,Delhi,28.5431,77.3441,Kidnapping,59,medium,2026-01-04,Delhi_Zone_16,Delhi_PS_1
+246,Delhi,28.4647,77.3512,Murder,20,medium,2026-02-12,Delhi_Zone_19,Delhi_PS_8
+247,Delhi,28.3804,77.278,Sexual Harassment,69,low,2026-02-05,Delhi_Zone_6,Delhi_PS_6
+248,Delhi,28.4011,77.2834,Theft,20,medium,2026-02-21,Delhi_Zone_4,Delhi_PS_1
+249,Delhi,28.4426,77.1593,Kidnapping,89,medium,2025-12-24,Delhi_Zone_1,Delhi_PS_3
+250,Delhi,28.4935,77.191,Rape,86,high,2026-03-01,Delhi_Zone_3,Delhi_PS_6
+251,Delhi,28.5235,77.3544,Assault,16,high,2026-01-17,Delhi_Zone_10,Delhi_PS_6
+252,Delhi,28.6196,77.171,Sexual Harassment,34,medium,2026-03-01,Delhi_Zone_3,Delhi_PS_7
+253,Delhi,28.4658,77.0811,Assault,39,medium,2026-03-05,Delhi_Zone_3,Delhi_PS_2
+254,Delhi,28.6616,77.2287,Mugging,29,medium,2026-02-10,Delhi_Zone_1,Delhi_PS_4
+255,Delhi,28.5563,77.0986,Burglary,56,high,2026-01-25,Delhi_Zone_6,Delhi_PS_9
+256,Delhi,28.5743,77.0933,Assault,72,low,2025-12-18,Delhi_Zone_4,Delhi_PS_4
+257,Delhi,28.5063,77.0885,Burglary,36,low,2026-01-23,Delhi_Zone_2,Delhi_PS_7
+258,Delhi,28.42,77.0752,Murder,38,medium,2025-12-08,Delhi_Zone_2,Delhi_PS_2
+259,Delhi,28.3917,77.2653,Kidnapping,91,high,2026-02-26,Delhi_Zone_3,Delhi_PS_5
+260,Delhi,28.4108,77.1478,Murder,11,low,2026-03-03,Delhi_Zone_4,Delhi_PS_7
+261,Delhi,28.4431,77.1266,Rape,97,medium,2026-01-16,Delhi_Zone_5,Delhi_PS_4
+262,Delhi,28.4958,77.253,Murder,11,high,2025-12-11,Delhi_Zone_14,Delhi_PS_7
+263,Delhi,28.5945,77.2876,Vehicle Theft,6,medium,2026-02-14,Delhi_Zone_6,Delhi_PS_5
+264,Delhi,28.6025,77.0979,Vehicle Theft,9,low,2026-02-22,Delhi_Zone_18,Delhi_PS_5
+265,Delhi,28.4341,77.0762,Rape,85,high,2026-01-06,Delhi_Zone_11,Delhi_PS_5
+266,Delhi,28.6277,77.0862,Mugging,72,medium,2026-01-14,Delhi_Zone_16,Delhi_PS_2
+267,Delhi,28.5172,77.1696,Rape,33,medium,2026-01-24,Delhi_Zone_10,Delhi_PS_1
+268,Delhi,28.661,77.2929,Kidnapping,45,low,2026-03-05,Delhi_Zone_16,Delhi_PS_1
+269,Delhi,28.6267,77.0683,Sexual Harassment,25,high,2026-02-01,Delhi_Zone_8,Delhi_PS_6
+270,Delhi,28.5654,77.241,Vehicle Theft,92,low,2025-12-14,Delhi_Zone_5,Delhi_PS_1
+271,Delhi,28.5074,77.0711,Sexual Harassment,91,high,2026-03-06,Delhi_Zone_13,Delhi_PS_3
+272,Delhi,28.3958,77.0604,Assault,24,low,2026-01-08,Delhi_Zone_14,Delhi_PS_4
+273,Delhi,28.4793,77.2892,Vehicle Theft,32,high,2026-01-08,Delhi_Zone_5,Delhi_PS_5
+274,Delhi,28.5725,77.2861,Mugging,42,high,2025-12-16,Delhi_Zone_8,Delhi_PS_8
+275,Delhi,28.5618,77.1714,Robbery,71,low,2026-01-30,Delhi_Zone_4,Delhi_PS_9
+276,Delhi,28.5676,77.2159,Robbery,14,low,2026-01-30,Delhi_Zone_12,Delhi_PS_8
+277,Delhi,28.4086,77.2026,Robbery,15,medium,2026-02-20,Delhi_Zone_17,Delhi_PS_8
+278,Delhi,28.554,77.0853,Sexual Harassment,63,medium,2025-12-08,Delhi_Zone_18,Delhi_PS_6
+279,Delhi,28.4565,77.3353,Murder,50,low,2026-02-14,Delhi_Zone_3,Delhi_PS_7
+280,Delhi,28.6382,77.1343,Robbery,25,low,2026-02-14,Delhi_Zone_8,Delhi_PS_8
+281,Delhi,28.5417,77.111,Burglary,26,high,2025-12-08,Delhi_Zone_13,Delhi_PS_2
+282,Delhi,28.4068,77.2624,Rape,31,medium,2025-12-18,Delhi_Zone_19,Delhi_PS_7
+283,Delhi,28.6266,77.2766,Assault,65,low,2026-01-10,Delhi_Zone_3,Delhi_PS_6
+284,Delhi,28.5439,77.2635,Vehicle Theft,29,low,2026-02-27,Delhi_Zone_10,Delhi_PS_8
+285,Delhi,28.4484,77.2747,Theft,8,high,2026-01-02,Delhi_Zone_10,Delhi_PS_2
+286,Delhi,28.4356,77.2233,Vehicle Theft,95,high,2025-12-31,Delhi_Zone_9,Delhi_PS_9
+287,Delhi,28.5407,77.0584,Mugging,62,medium,2026-02-23,Delhi_Zone_17,Delhi_PS_9
+288,Delhi,28.6618,77.1672,Murder,99,high,2025-12-27,Delhi_Zone_19,Delhi_PS_5
+289,Delhi,28.4118,77.1724,Rape,24,medium,2026-02-11,Delhi_Zone_3,Delhi_PS_5
+290,Delhi,28.5733,77.0574,Vehicle Theft,25,medium,2026-01-28,Delhi_Zone_14,Delhi_PS_4
+291,Delhi,28.4288,77.1731,Theft,75,low,2026-02-21,Delhi_Zone_3,Delhi_PS_8
+292,Delhi,28.4056,77.1244,Rape,8,medium,2026-02-11,Delhi_Zone_2,Delhi_PS_2
+293,Delhi,28.555,77.0637,Murder,53,high,2025-12-14,Delhi_Zone_13,Delhi_PS_6
+294,Delhi,28.4374,77.3043,Murder,52,low,2026-01-11,Delhi_Zone_17,Delhi_PS_7
+295,Delhi,28.4452,77.1682,Theft,96,high,2026-01-19,Delhi_Zone_11,Delhi_PS_9
+296,Delhi,28.6543,77.2496,Theft,74,high,2026-02-20,Delhi_Zone_6,Delhi_PS_7
+297,Delhi,28.546,77.2331,Kidnapping,65,medium,2026-01-16,Delhi_Zone_3,Delhi_PS_1
+298,Delhi,28.5501,77.2327,Burglary,85,high,2026-01-15,Delhi_Zone_19,Delhi_PS_3
+299,Delhi,28.5033,77.3186,Assault,88,low,2026-02-14,Delhi_Zone_10,Delhi_PS_5
+300,Delhi,28.5862,77.2462,Vehicle Theft,43,medium,2026-01-31,Delhi_Zone_1,Delhi_PS_8
+301,Chennai,13.1516,80.3504,Burglary,50,low,2026-02-04,Chennai_Zone_4,Chennai_PS_5
+302,Chennai,12.9534,80.1378,Burglary,96,high,2026-01-31,Chennai_Zone_14,Chennai_PS_8
+303,Chennai,13.2252,80.2321,Mugging,93,low,2025-12-27,Chennai_Zone_12,Chennai_PS_9
+304,Chennai,13.079,80.1308,Rape,86,medium,2026-01-09,Chennai_Zone_4,Chennai_PS_2
+305,Chennai,13.056,80.2249,Robbery,36,high,2026-02-15,Chennai_Zone_15,Chennai_PS_7
+306,Chennai,13.0507,80.3691,Sexual Harassment,18,low,2026-01-29,Chennai_Zone_18,Chennai_PS_5
+307,Chennai,13.129,80.1801,Sexual Harassment,53,high,2025-12-08,Chennai_Zone_12,Chennai_PS_9
+308,Chennai,12.9876,80.1273,Assault,72,high,2025-12-26,Chennai_Zone_1,Chennai_PS_1
+309,Chennai,13.2269,80.1889,Mugging,47,low,2026-01-27,Chennai_Zone_17,Chennai_PS_1
+310,Chennai,13.1166,80.1885,Robbery,69,medium,2025-12-12,Chennai_Zone_5,Chennai_PS_2
+311,Chennai,13.132,80.1855,Mugging,20,high,2026-01-27,Chennai_Zone_12,Chennai_PS_8
+312,Chennai,13.1688,80.1543,Mugging,68,high,2026-01-03,Chennai_Zone_17,Chennai_PS_7
+313,Chennai,13.1943,80.2842,Rape,90,high,2025-12-12,Chennai_Zone_15,Chennai_PS_6
+314,Chennai,12.9812,80.1973,Kidnapping,44,medium,2026-02-07,Chennai_Zone_17,Chennai_PS_2
+315,Chennai,12.9523,80.2599,Sexual Harassment,48,low,2026-01-24,Chennai_Zone_3,Chennai_PS_6
+316,Chennai,13.0443,80.2562,Robbery,47,high,2025-12-28,Chennai_Zone_19,Chennai_PS_8
+317,Chennai,12.9887,80.1489,Kidnapping,40,low,2025-12-12,Chennai_Zone_8,Chennai_PS_7
+318,Chennai,13.1255,80.1795,Sexual Harassment,86,medium,2026-01-06,Chennai_Zone_6,Chennai_PS_2
+319,Chennai,13.0277,80.3779,Murder,31,medium,2026-01-26,Chennai_Zone_6,Chennai_PS_1
+320,Chennai,13.1121,80.1307,Sexual Harassment,36,high,2026-03-03,Chennai_Zone_6,Chennai_PS_6
+321,Chennai,13.1898,80.156,Vehicle Theft,20,low,2026-01-03,Chennai_Zone_13,Chennai_PS_7
+322,Chennai,12.9694,80.3383,Robbery,8,medium,2026-01-07,Chennai_Zone_5,Chennai_PS_9
+323,Chennai,12.9606,80.1295,Rape,38,medium,2026-03-02,Chennai_Zone_3,Chennai_PS_9
+324,Chennai,13.1784,80.2829,Murder,64,low,2026-02-24,Chennai_Zone_2,Chennai_PS_9
+325,Chennai,13.04,80.269,Murder,80,medium,2025-12-07,Chennai_Zone_16,Chennai_PS_5
+326,Chennai,12.9666,80.1469,Theft,89,high,2026-01-14,Chennai_Zone_2,Chennai_PS_9
+327,Chennai,13.1546,80.1781,Kidnapping,27,medium,2026-02-18,Chennai_Zone_5,Chennai_PS_3
+328,Chennai,12.942,80.3425,Robbery,70,high,2026-01-26,Chennai_Zone_15,Chennai_PS_7
+329,Chennai,12.9828,80.3173,Theft,76,high,2025-12-10,Chennai_Zone_3,Chennai_PS_4
+330,Chennai,13.1926,80.1854,Assault,61,low,2026-01-13,Chennai_Zone_14,Chennai_PS_4
+331,Chennai,13.2142,80.3821,Vehicle Theft,13,high,2025-12-20,Chennai_Zone_15,Chennai_PS_2
+332,Chennai,13.1279,80.383,Vehicle Theft,63,high,2026-01-20,Chennai_Zone_6,Chennai_PS_4
+333,Chennai,13.0472,80.1594,Murder,34,high,2025-12-19,Chennai_Zone_17,Chennai_PS_9
+334,Chennai,13.0591,80.1289,Burglary,91,medium,2026-01-18,Chennai_Zone_19,Chennai_PS_3
+335,Chennai,13.1805,80.3305,Rape,49,high,2025-12-19,Chennai_Zone_9,Chennai_PS_7
+336,Chennai,13.0925,80.3112,Rape,18,medium,2026-01-13,Chennai_Zone_4,Chennai_PS_8
+337,Chennai,13.0117,80.1345,Theft,56,low,2026-02-21,Chennai_Zone_11,Chennai_PS_5
+338,Chennai,13.0219,80.2107,Kidnapping,72,high,2025-12-29,Chennai_Zone_8,Chennai_PS_2
+339,Chennai,13.133,80.2987,Kidnapping,59,low,2026-01-04,Chennai_Zone_17,Chennai_PS_3
+340,Chennai,13.013,80.3574,Assault,25,low,2026-01-18,Chennai_Zone_5,Chennai_PS_3
+341,Chennai,13.0792,80.342,Kidnapping,65,low,2025-12-29,Chennai_Zone_3,Chennai_PS_1
+342,Chennai,12.9521,80.4074,Sexual Harassment,49,high,2026-01-19,Chennai_Zone_8,Chennai_PS_6
+343,Chennai,13.0631,80.3529,Kidnapping,23,medium,2026-01-14,Chennai_Zone_8,Chennai_PS_5
+344,Chennai,13.1221,80.2982,Murder,8,high,2025-12-26,Chennai_Zone_4,Chennai_PS_6
+345,Chennai,13.1687,80.4119,Robbery,92,medium,2026-01-11,Chennai_Zone_9,Chennai_PS_1
+346,Chennai,13.0134,80.2428,Burglary,29,medium,2026-02-18,Chennai_Zone_12,Chennai_PS_6
+347,Chennai,12.9464,80.1627,Mugging,69,low,2026-01-26,Chennai_Zone_14,Chennai_PS_3
+348,Chennai,13.0669,80.263,Theft,17,low,2026-01-17,Chennai_Zone_14,Chennai_PS_1
+349,Chennai,12.9984,80.1317,Theft,94,high,2025-12-12,Chennai_Zone_17,Chennai_PS_6
+350,Chennai,13.2122,80.2398,Assault,53,low,2026-02-18,Chennai_Zone_19,Chennai_PS_7
+351,Chennai,13.1051,80.1296,Murder,15,low,2026-01-20,Chennai_Zone_13,Chennai_PS_1
+352,Chennai,13.0497,80.3397,Sexual Harassment,76,low,2026-02-23,Chennai_Zone_16,Chennai_PS_1
+353,Chennai,13.1798,80.4072,Mugging,73,low,2026-01-20,Chennai_Zone_13,Chennai_PS_7
+354,Chennai,12.9449,80.3822,Robbery,70,medium,2026-02-02,Chennai_Zone_4,Chennai_PS_2
+355,Chennai,12.9604,80.2996,Sexual Harassment,88,low,2025-12-21,Chennai_Zone_19,Chennai_PS_9
+356,Chennai,13.2152,80.3213,Kidnapping,78,medium,2026-01-15,Chennai_Zone_11,Chennai_PS_2
+357,Chennai,12.9744,80.1554,Vehicle Theft,32,high,2025-12-13,Chennai_Zone_6,Chennai_PS_5
+358,Chennai,13.2034,80.1406,Sexual Harassment,6,low,2026-01-25,Chennai_Zone_12,Chennai_PS_3
+359,Chennai,13.0674,80.146,Mugging,89,medium,2026-01-17,Chennai_Zone_6,Chennai_PS_5
+360,Chennai,13.1404,80.2497,Murder,49,high,2025-12-24,Chennai_Zone_6,Chennai_PS_2
+361,Chennai,13.048,80.2557,Kidnapping,67,high,2025-12-22,Chennai_Zone_16,Chennai_PS_9
+362,Chennai,12.9409,80.2386,Sexual Harassment,43,medium,2026-01-10,Chennai_Zone_5,Chennai_PS_7
+363,Chennai,12.9755,80.3877,Theft,51,high,2026-02-06,Chennai_Zone_10,Chennai_PS_2
+364,Chennai,13.1238,80.2229,Theft,42,low,2026-02-27,Chennai_Zone_2,Chennai_PS_4
+365,Chennai,13.1068,80.2886,Rape,54,low,2026-02-05,Chennai_Zone_3,Chennai_PS_4
+366,Chennai,12.9625,80.1834,Mugging,55,medium,2026-03-01,Chennai_Zone_15,Chennai_PS_5
+367,Chennai,13.0195,80.3907,Assault,46,low,2026-01-31,Chennai_Zone_6,Chennai_PS_4
+368,Chennai,13.2312,80.2843,Rape,21,low,2026-02-13,Chennai_Zone_4,Chennai_PS_5
+369,Chennai,12.9789,80.2868,Robbery,90,low,2025-12-10,Chennai_Zone_19,Chennai_PS_3
+370,Chennai,13.0234,80.1985,Murder,89,medium,2026-02-14,Chennai_Zone_12,Chennai_PS_7
+371,Chennai,13.0961,80.1703,Sexual Harassment,17,high,2026-02-24,Chennai_Zone_4,Chennai_PS_3
+372,Chennai,13.1674,80.3411,Robbery,90,low,2026-02-11,Chennai_Zone_19,Chennai_PS_5
+373,Chennai,13.1519,80.1651,Assault,21,low,2026-01-30,Chennai_Zone_19,Chennai_PS_5
+374,Chennai,13.1124,80.2267,Burglary,25,medium,2026-02-24,Chennai_Zone_7,Chennai_PS_5
+375,Chennai,13.171,80.2034,Mugging,16,medium,2026-02-18,Chennai_Zone_19,Chennai_PS_3
+376,Chennai,13.0866,80.1488,Rape,74,high,2026-01-11,Chennai_Zone_4,Chennai_PS_6
+377,Chennai,13.0894,80.2895,Vehicle Theft,19,high,2025-12-22,Chennai_Zone_19,Chennai_PS_2
+378,Chennai,13.1504,80.389,Robbery,96,high,2026-01-19,Chennai_Zone_15,Chennai_PS_4
+379,Chennai,13.1747,80.2636,Kidnapping,76,low,2025-12-16,Chennai_Zone_17,Chennai_PS_1
+380,Chennai,13.0222,80.1928,Burglary,71,high,2025-12-28,Chennai_Zone_13,Chennai_PS_7
+381,Chennai,12.9384,80.2638,Burglary,47,high,2026-01-12,Chennai_Zone_10,Chennai_PS_5
+382,Chennai,13.0403,80.362,Sexual Harassment,39,medium,2026-01-09,Chennai_Zone_15,Chennai_PS_3
+383,Chennai,13.232,80.3237,Theft,75,medium,2026-02-28,Chennai_Zone_3,Chennai_PS_1
+384,Chennai,13.0352,80.3106,Assault,17,low,2026-01-06,Chennai_Zone_9,Chennai_PS_1
+385,Chennai,13.1865,80.3048,Sexual Harassment,27,low,2026-02-01,Chennai_Zone_14,Chennai_PS_4
+386,Chennai,13.0548,80.1405,Murder,76,high,2026-02-21,Chennai_Zone_13,Chennai_PS_2
+387,Chennai,12.9345,80.151,Burglary,20,medium,2026-01-26,Chennai_Zone_17,Chennai_PS_7
+388,Chennai,13.1853,80.1934,Burglary,64,medium,2025-12-31,Chennai_Zone_13,Chennai_PS_8
+389,Chennai,13.0213,80.1904,Vehicle Theft,71,high,2025-12-19,Chennai_Zone_7,Chennai_PS_5
+390,Chennai,13.1854,80.2854,Assault,17,low,2026-02-16,Chennai_Zone_19,Chennai_PS_9
+391,Chennai,13.1606,80.1771,Vehicle Theft,27,medium,2025-12-23,Chennai_Zone_10,Chennai_PS_4
+392,Chennai,13.1201,80.1422,Robbery,18,medium,2026-02-07,Chennai_Zone_14,Chennai_PS_4
+393,Chennai,13.0237,80.2077,Rape,81,high,2025-12-10,Chennai_Zone_8,Chennai_PS_2
+394,Chennai,13.0531,80.1683,Robbery,86,medium,2025-12-22,Chennai_Zone_9,Chennai_PS_1
+395,Chennai,13.028,80.1207,Mugging,97,medium,2026-02-17,Chennai_Zone_6,Chennai_PS_1
+396,Chennai,12.9515,80.3725,Kidnapping,10,low,2026-01-22,Chennai_Zone_11,Chennai_PS_9
+397,Chennai,13.0408,80.2018,Robbery,48,medium,2026-02-20,Chennai_Zone_19,Chennai_PS_3
+398,Chennai,13.2057,80.2339,Murder,41,low,2026-01-08,Chennai_Zone_1,Chennai_PS_9
+399,Chennai,13.1439,80.122,Vehicle Theft,89,low,2026-02-22,Chennai_Zone_5,Chennai_PS_1
+400,Chennai,13.0162,80.1596,Rape,51,low,2025-12-24,Chennai_Zone_19,Chennai_PS_3
+401,Lucknow,26.8899,80.8107,Assault,52,high,2026-02-07,Lucknow_Zone_9,Lucknow_PS_3
+402,Lucknow,26.834,80.8589,Murder,75,low,2026-02-22,Lucknow_Zone_18,Lucknow_PS_5
+403,Lucknow,26.9434,81.0513,Kidnapping,77,medium,2025-12-22,Lucknow_Zone_1,Lucknow_PS_4
+404,Lucknow,26.9,80.9785,Robbery,13,high,2026-01-30,Lucknow_Zone_18,Lucknow_PS_3
+405,Lucknow,26.7914,80.9896,Assault,32,medium,2026-01-12,Lucknow_Zone_1,Lucknow_PS_4
+406,Lucknow,26.7223,80.8091,Kidnapping,53,medium,2026-01-12,Lucknow_Zone_10,Lucknow_PS_5
+407,Lucknow,26.777,81.0468,Assault,28,medium,2025-12-11,Lucknow_Zone_17,Lucknow_PS_4
+408,Lucknow,26.9814,80.8056,Murder,21,medium,2026-02-11,Lucknow_Zone_11,Lucknow_PS_9
+409,Lucknow,26.9857,80.9519,Burglary,69,high,2026-02-07,Lucknow_Zone_16,Lucknow_PS_1
+410,Lucknow,26.8531,81.089,Burglary,57,medium,2026-01-07,Lucknow_Zone_15,Lucknow_PS_9
+411,Lucknow,26.7328,80.8759,Assault,29,low,2026-01-11,Lucknow_Zone_7,Lucknow_PS_4
+412,Lucknow,26.8893,80.9674,Assault,81,high,2026-01-15,Lucknow_Zone_9,Lucknow_PS_8
+413,Lucknow,26.9317,81.0303,Sexual Harassment,49,medium,2026-01-07,Lucknow_Zone_4,Lucknow_PS_8
+414,Lucknow,26.7164,80.8647,Robbery,32,low,2025-12-18,Lucknow_Zone_12,Lucknow_PS_4
+415,Lucknow,26.984,81.079,Assault,60,medium,2025-12-22,Lucknow_Zone_15,Lucknow_PS_6
+416,Lucknow,26.8064,80.8638,Vehicle Theft,61,medium,2026-02-10,Lucknow_Zone_10,Lucknow_PS_3
+417,Lucknow,26.7408,81.0395,Sexual Harassment,72,high,2026-02-07,Lucknow_Zone_11,Lucknow_PS_1
+418,Lucknow,26.8003,81.0714,Sexual Harassment,58,low,2026-01-19,Lucknow_Zone_9,Lucknow_PS_2
+419,Lucknow,26.9037,81.0754,Rape,56,low,2025-12-22,Lucknow_Zone_1,Lucknow_PS_2
+420,Lucknow,26.7873,81.0245,Mugging,25,medium,2025-12-28,Lucknow_Zone_6,Lucknow_PS_6
+421,Lucknow,26.9753,81.0245,Mugging,50,low,2026-03-04,Lucknow_Zone_6,Lucknow_PS_8
+422,Lucknow,26.7595,80.8112,Theft,85,high,2025-12-20,Lucknow_Zone_18,Lucknow_PS_6
+423,Lucknow,26.7294,80.9872,Sexual Harassment,68,high,2025-12-07,Lucknow_Zone_12,Lucknow_PS_5
+424,Lucknow,26.8278,80.9743,Vehicle Theft,86,medium,2026-03-01,Lucknow_Zone_4,Lucknow_PS_3
+425,Lucknow,26.9163,80.9027,Theft,47,low,2025-12-17,Lucknow_Zone_2,Lucknow_PS_2
+426,Lucknow,26.9239,80.8447,Sexual Harassment,98,high,2026-01-01,Lucknow_Zone_11,Lucknow_PS_7
+427,Lucknow,26.9311,81.0843,Robbery,90,low,2025-12-11,Lucknow_Zone_12,Lucknow_PS_9
+428,Lucknow,26.9473,81.0315,Mugging,47,low,2025-12-09,Lucknow_Zone_10,Lucknow_PS_8
+429,Lucknow,26.9511,81.0149,Burglary,31,low,2025-12-30,Lucknow_Zone_12,Lucknow_PS_4
+430,Lucknow,26.7834,80.9156,Robbery,5,low,2025-12-26,Lucknow_Zone_17,Lucknow_PS_3
+431,Lucknow,26.8144,81.0225,Murder,95,medium,2025-12-19,Lucknow_Zone_17,Lucknow_PS_2
+432,Lucknow,26.9944,80.9121,Assault,95,medium,2025-12-29,Lucknow_Zone_1,Lucknow_PS_2
+433,Lucknow,26.9674,81.0594,Rape,91,medium,2026-01-07,Lucknow_Zone_11,Lucknow_PS_9
+434,Lucknow,26.7084,80.807,Theft,26,medium,2026-01-25,Lucknow_Zone_4,Lucknow_PS_5
+435,Lucknow,26.9124,80.9652,Assault,80,medium,2026-02-16,Lucknow_Zone_13,Lucknow_PS_7
+436,Lucknow,26.9649,81.0801,Sexual Harassment,9,low,2025-12-19,Lucknow_Zone_4,Lucknow_PS_7
+437,Lucknow,26.8396,80.9455,Rape,97,low,2026-02-16,Lucknow_Zone_16,Lucknow_PS_7
+438,Lucknow,26.7065,80.987,Rape,19,high,2026-01-29,Lucknow_Zone_1,Lucknow_PS_3
+439,Lucknow,26.7252,81.0442,Rape,97,medium,2026-03-03,Lucknow_Zone_3,Lucknow_PS_2
+440,Lucknow,26.9595,80.9579,Sexual Harassment,27,low,2025-12-28,Lucknow_Zone_9,Lucknow_PS_9
+441,Lucknow,26.8738,80.8146,Burglary,61,medium,2026-01-26,Lucknow_Zone_7,Lucknow_PS_7
+442,Lucknow,26.788,80.8874,Murder,55,medium,2026-01-19,Lucknow_Zone_4,Lucknow_PS_6
+443,Lucknow,26.9162,80.9884,Kidnapping,73,low,2025-12-10,Lucknow_Zone_18,Lucknow_PS_5
+444,Lucknow,26.9105,81.0412,Kidnapping,51,medium,2026-01-27,Lucknow_Zone_16,Lucknow_PS_8
+445,Lucknow,26.9254,80.9589,Sexual Harassment,20,high,2026-02-04,Lucknow_Zone_10,Lucknow_PS_2
+446,Lucknow,26.9309,80.9713,Mugging,90,low,2026-02-18,Lucknow_Zone_4,Lucknow_PS_4
+447,Lucknow,26.8863,80.8352,Assault,69,high,2025-12-08,Lucknow_Zone_19,Lucknow_PS_4
+448,Lucknow,26.9884,80.9308,Robbery,19,high,2025-12-27,Lucknow_Zone_1,Lucknow_PS_7
+449,Lucknow,26.7342,81.0513,Kidnapping,85,medium,2026-01-25,Lucknow_Zone_9,Lucknow_PS_6
+450,Lucknow,26.7974,81.0898,Murder,85,high,2026-01-17,Lucknow_Zone_12,Lucknow_PS_7
+451,Lucknow,26.8615,80.8898,Mugging,19,medium,2025-12-14,Lucknow_Zone_11,Lucknow_PS_4
+452,Lucknow,26.734,81.0355,Theft,18,medium,2026-01-05,Lucknow_Zone_4,Lucknow_PS_8
+453,Lucknow,26.9082,81.0413,Kidnapping,53,high,2026-01-01,Lucknow_Zone_5,Lucknow_PS_6
+454,Lucknow,26.7322,81.0847,Murder,23,high,2026-01-23,Lucknow_Zone_10,Lucknow_PS_9
+455,Lucknow,26.7439,80.8891,Vehicle Theft,6,medium,2026-01-09,Lucknow_Zone_5,Lucknow_PS_8
+456,Lucknow,26.7718,80.9837,Murder,20,high,2025-12-14,Lucknow_Zone_19,Lucknow_PS_2
+457,Lucknow,26.771,80.845,Theft,16,medium,2026-01-13,Lucknow_Zone_11,Lucknow_PS_5
+458,Lucknow,26.8026,80.9826,Theft,9,low,2026-02-07,Lucknow_Zone_14,Lucknow_PS_5
+459,Lucknow,26.7172,81.0313,Robbery,23,medium,2025-12-28,Lucknow_Zone_2,Lucknow_PS_7
+460,Lucknow,26.98,80.9887,Burglary,11,high,2025-12-10,Lucknow_Zone_14,Lucknow_PS_7
+461,Lucknow,26.8222,81.0215,Sexual Harassment,24,low,2026-02-11,Lucknow_Zone_18,Lucknow_PS_9
+462,Lucknow,26.9908,80.8165,Mugging,21,medium,2026-03-01,Lucknow_Zone_5,Lucknow_PS_9
+463,Lucknow,26.9181,81.0076,Kidnapping,53,high,2026-01-17,Lucknow_Zone_12,Lucknow_PS_7
+464,Lucknow,26.776,80.8578,Kidnapping,39,medium,2026-02-11,Lucknow_Zone_10,Lucknow_PS_6
+465,Lucknow,26.9873,80.9773,Vehicle Theft,95,low,2026-02-15,Lucknow_Zone_9,Lucknow_PS_6
+466,Lucknow,26.9054,80.9336,Murder,70,medium,2026-01-13,Lucknow_Zone_2,Lucknow_PS_6
+467,Lucknow,26.9862,80.8715,Mugging,77,low,2026-01-18,Lucknow_Zone_6,Lucknow_PS_9
+468,Lucknow,26.8544,80.8711,Robbery,33,low,2025-12-14,Lucknow_Zone_10,Lucknow_PS_5
+469,Lucknow,26.9801,81.0172,Assault,26,medium,2026-02-05,Lucknow_Zone_13,Lucknow_PS_1
+470,Lucknow,26.7013,80.9711,Theft,13,high,2026-03-06,Lucknow_Zone_10,Lucknow_PS_4
+471,Lucknow,26.9144,80.9814,Burglary,52,medium,2026-02-18,Lucknow_Zone_10,Lucknow_PS_2
+472,Lucknow,26.9195,80.8943,Rape,89,high,2026-02-10,Lucknow_Zone_15,Lucknow_PS_4
+473,Lucknow,26.827,81.0132,Mugging,23,low,2026-01-23,Lucknow_Zone_9,Lucknow_PS_2
+474,Lucknow,26.9109,80.8236,Theft,27,high,2026-01-14,Lucknow_Zone_15,Lucknow_PS_1
+475,Lucknow,26.761,80.8774,Robbery,44,high,2026-01-05,Lucknow_Zone_18,Lucknow_PS_3
+476,Lucknow,26.7613,80.9753,Robbery,98,high,2026-02-25,Lucknow_Zone_18,Lucknow_PS_6
+477,Lucknow,26.8117,80.9443,Sexual Harassment,50,high,2025-12-23,Lucknow_Zone_6,Lucknow_PS_1
+478,Lucknow,26.7727,81.0925,Sexual Harassment,55,medium,2025-12-16,Lucknow_Zone_9,Lucknow_PS_6
+479,Lucknow,26.9366,80.8963,Theft,58,low,2026-02-26,Lucknow_Zone_18,Lucknow_PS_8
+480,Lucknow,26.9329,80.9196,Mugging,64,medium,2026-01-26,Lucknow_Zone_4,Lucknow_PS_2
+481,Lucknow,26.8915,81.0771,Robbery,67,medium,2026-02-24,Lucknow_Zone_13,Lucknow_PS_4
+482,Lucknow,26.8738,80.9185,Burglary,92,high,2026-03-06,Lucknow_Zone_3,Lucknow_PS_6
+483,Lucknow,26.8933,80.8743,Burglary,89,low,2026-03-02,Lucknow_Zone_17,Lucknow_PS_5
+484,Lucknow,26.9207,81.0124,Rape,87,high,2025-12-29,Lucknow_Zone_5,Lucknow_PS_1
+485,Lucknow,26.7896,80.8712,Sexual Harassment,27,low,2026-02-14,Lucknow_Zone_13,Lucknow_PS_7
+486,Lucknow,26.7615,81.039,Assault,40,medium,2026-01-17,Lucknow_Zone_10,Lucknow_PS_7
+487,Lucknow,26.7662,80.8918,Kidnapping,10,high,2026-01-31,Lucknow_Zone_7,Lucknow_PS_6
+488,Lucknow,26.8532,81.0345,Vehicle Theft,85,high,2025-12-17,Lucknow_Zone_3,Lucknow_PS_9
+489,Lucknow,26.7007,80.885,Assault,91,low,2026-02-03,Lucknow_Zone_14,Lucknow_PS_4
+490,Lucknow,26.7656,80.8315,Theft,89,medium,2026-03-01,Lucknow_Zone_12,Lucknow_PS_2
+491,Lucknow,26.7857,80.9586,Theft,36,medium,2025-12-19,Lucknow_Zone_10,Lucknow_PS_3
+492,Lucknow,26.7634,80.952,Vehicle Theft,51,medium,2026-02-16,Lucknow_Zone_15,Lucknow_PS_8
+493,Lucknow,26.8816,80.9633,Theft,66,low,2026-02-16,Lucknow_Zone_3,Lucknow_PS_8
+494,Lucknow,26.9073,80.8477,Robbery,17,medium,2026-03-06,Lucknow_Zone_2,Lucknow_PS_1
+495,Lucknow,26.8454,81.0761,Vehicle Theft,92,medium,2026-02-18,Lucknow_Zone_7,Lucknow_PS_5
+496,Lucknow,26.9261,80.9999,Mugging,53,high,2026-01-13,Lucknow_Zone_1,Lucknow_PS_1
+497,Lucknow,26.8801,81.0534,Murder,83,low,2026-02-03,Lucknow_Zone_16,Lucknow_PS_9
+498,Lucknow,26.9161,81.0054,Sexual Harassment,69,low,2025-12-11,Lucknow_Zone_16,Lucknow_PS_9
+499,Lucknow,26.8422,80.8963,Kidnapping,75,medium,2026-02-06,Lucknow_Zone_19,Lucknow_PS_3
+500,Lucknow,26.9532,81.061,Murder,15,low,2026-01-20,Lucknow_Zone_8,Lucknow_PS_2
+501,Kolkata,22.6931,88.2749,Sexual Harassment,26,medium,2025-12-21,Kolkata_Zone_15,Kolkata_PS_9
+502,Kolkata,22.6455,88.4683,Rape,61,low,2026-01-21,Kolkata_Zone_18,Kolkata_PS_2
+503,Kolkata,22.5766,88.5107,Rape,68,low,2025-12-30,Kolkata_Zone_19,Kolkata_PS_3
+504,Kolkata,22.5278,88.3257,Vehicle Theft,66,high,2026-01-06,Kolkata_Zone_11,Kolkata_PS_2
+505,Kolkata,22.6211,88.3591,Robbery,65,high,2026-01-18,Kolkata_Zone_4,Kolkata_PS_8
+506,Kolkata,22.5504,88.3783,Vehicle Theft,62,low,2025-12-14,Kolkata_Zone_12,Kolkata_PS_7
+507,Kolkata,22.6213,88.318,Burglary,33,medium,2026-02-18,Kolkata_Zone_16,Kolkata_PS_7
+508,Kolkata,22.6042,88.3438,Mugging,40,medium,2025-12-11,Kolkata_Zone_10,Kolkata_PS_6
+509,Kolkata,22.5385,88.3905,Kidnapping,44,low,2026-01-07,Kolkata_Zone_2,Kolkata_PS_1
+510,Kolkata,22.598,88.254,Murder,94,high,2026-02-17,Kolkata_Zone_17,Kolkata_PS_6
+511,Kolkata,22.5826,88.4049,Murder,98,low,2026-03-06,Kolkata_Zone_13,Kolkata_PS_5
+512,Kolkata,22.631,88.2795,Rape,11,medium,2025-12-23,Kolkata_Zone_7,Kolkata_PS_5
+513,Kolkata,22.6671,88.4473,Vehicle Theft,74,medium,2025-12-13,Kolkata_Zone_12,Kolkata_PS_1
+514,Kolkata,22.5523,88.2232,Burglary,74,low,2026-02-14,Kolkata_Zone_3,Kolkata_PS_5
+515,Kolkata,22.6116,88.4713,Burglary,93,medium,2026-01-07,Kolkata_Zone_8,Kolkata_PS_7
+516,Kolkata,22.7214,88.4615,Robbery,12,high,2026-01-12,Kolkata_Zone_6,Kolkata_PS_4
+517,Kolkata,22.6935,88.494,Mugging,71,low,2026-01-31,Kolkata_Zone_15,Kolkata_PS_1
+518,Kolkata,22.7109,88.4814,Assault,58,high,2026-02-05,Kolkata_Zone_16,Kolkata_PS_5
+519,Kolkata,22.4922,88.2182,Sexual Harassment,53,high,2025-12-18,Kolkata_Zone_11,Kolkata_PS_3
+520,Kolkata,22.7041,88.3383,Mugging,87,low,2025-12-29,Kolkata_Zone_19,Kolkata_PS_2
+521,Kolkata,22.6348,88.3307,Rape,52,high,2025-12-10,Kolkata_Zone_11,Kolkata_PS_2
+522,Kolkata,22.5252,88.3722,Assault,55,low,2026-02-23,Kolkata_Zone_18,Kolkata_PS_4
+523,Kolkata,22.6809,88.3523,Burglary,29,medium,2025-12-22,Kolkata_Zone_11,Kolkata_PS_2
+524,Kolkata,22.5313,88.473,Sexual Harassment,91,high,2026-02-14,Kolkata_Zone_12,Kolkata_PS_5
+525,Kolkata,22.4389,88.4072,Kidnapping,58,medium,2026-02-13,Kolkata_Zone_19,Kolkata_PS_1
+526,Kolkata,22.6134,88.3937,Sexual Harassment,80,medium,2025-12-11,Kolkata_Zone_18,Kolkata_PS_1
+527,Kolkata,22.6738,88.2648,Rape,54,low,2026-01-07,Kolkata_Zone_11,Kolkata_PS_8
+528,Kolkata,22.6634,88.5022,Murder,32,medium,2026-02-22,Kolkata_Zone_13,Kolkata_PS_2
+529,Kolkata,22.5944,88.297,Rape,58,medium,2025-12-22,Kolkata_Zone_8,Kolkata_PS_8
+530,Kolkata,22.6008,88.4247,Sexual Harassment,94,medium,2025-12-16,Kolkata_Zone_16,Kolkata_PS_7
+531,Kolkata,22.5731,88.5068,Sexual Harassment,52,high,2026-01-13,Kolkata_Zone_9,Kolkata_PS_3
+532,Kolkata,22.4828,88.2788,Theft,99,high,2026-01-09,Kolkata_Zone_8,Kolkata_PS_5
+533,Kolkata,22.4413,88.3145,Vehicle Theft,57,high,2026-02-23,Kolkata_Zone_17,Kolkata_PS_1
+534,Kolkata,22.6784,88.4953,Murder,15,medium,2026-01-16,Kolkata_Zone_7,Kolkata_PS_2
+535,Kolkata,22.5651,88.2305,Sexual Harassment,14,high,2025-12-13,Kolkata_Zone_3,Kolkata_PS_5
+536,Kolkata,22.6504,88.5042,Sexual Harassment,60,high,2026-02-24,Kolkata_Zone_14,Kolkata_PS_8
+537,Kolkata,22.4885,88.2201,Mugging,43,low,2026-01-30,Kolkata_Zone_13,Kolkata_PS_4
+538,Kolkata,22.4858,88.4566,Robbery,68,medium,2025-12-09,Kolkata_Zone_2,Kolkata_PS_7
+539,Kolkata,22.6346,88.3991,Assault,68,medium,2026-02-25,Kolkata_Zone_8,Kolkata_PS_8
+540,Kolkata,22.6098,88.296,Vehicle Theft,21,low,2026-01-09,Kolkata_Zone_10,Kolkata_PS_5
+541,Kolkata,22.5482,88.3514,Kidnapping,52,medium,2025-12-21,Kolkata_Zone_8,Kolkata_PS_1
+542,Kolkata,22.6813,88.3081,Vehicle Theft,43,low,2025-12-16,Kolkata_Zone_9,Kolkata_PS_8
+543,Kolkata,22.534,88.2724,Robbery,81,low,2026-01-03,Kolkata_Zone_12,Kolkata_PS_6
+544,Kolkata,22.6741,88.3223,Murder,52,medium,2026-02-19,Kolkata_Zone_7,Kolkata_PS_4
+545,Kolkata,22.5474,88.3681,Sexual Harassment,17,low,2025-12-16,Kolkata_Zone_17,Kolkata_PS_5
+546,Kolkata,22.5756,88.4348,Mugging,18,high,2026-01-12,Kolkata_Zone_4,Kolkata_PS_7
+547,Kolkata,22.7023,88.4364,Burglary,67,medium,2026-01-13,Kolkata_Zone_3,Kolkata_PS_3
+548,Kolkata,22.4775,88.4616,Burglary,42,high,2025-12-25,Kolkata_Zone_6,Kolkata_PS_3
+549,Kolkata,22.7043,88.4821,Theft,63,high,2025-12-28,Kolkata_Zone_9,Kolkata_PS_5
+550,Kolkata,22.6848,88.2888,Burglary,8,low,2026-01-21,Kolkata_Zone_10,Kolkata_PS_2
+551,Kolkata,22.4387,88.3269,Theft,58,low,2026-03-06,Kolkata_Zone_15,Kolkata_PS_1
+552,Kolkata,22.5108,88.285,Vehicle Theft,50,high,2025-12-07,Kolkata_Zone_15,Kolkata_PS_7
+553,Kolkata,22.4245,88.4457,Vehicle Theft,6,medium,2025-12-15,Kolkata_Zone_17,Kolkata_PS_7
+554,Kolkata,22.7032,88.3266,Robbery,17,high,2025-12-12,Kolkata_Zone_16,Kolkata_PS_7
+555,Kolkata,22.6166,88.2819,Kidnapping,56,medium,2026-01-13,Kolkata_Zone_1,Kolkata_PS_9
+556,Kolkata,22.5541,88.4657,Theft,48,high,2025-12-22,Kolkata_Zone_2,Kolkata_PS_9
+557,Kolkata,22.5234,88.3536,Kidnapping,61,high,2026-01-04,Kolkata_Zone_12,Kolkata_PS_1
+558,Kolkata,22.6058,88.2739,Murder,15,high,2026-01-23,Kolkata_Zone_17,Kolkata_PS_1
+559,Kolkata,22.4937,88.4171,Assault,44,high,2026-01-10,Kolkata_Zone_6,Kolkata_PS_6
+560,Kolkata,22.4424,88.2196,Murder,58,low,2026-01-17,Kolkata_Zone_3,Kolkata_PS_3
+561,Kolkata,22.5261,88.2229,Murder,70,high,2025-12-14,Kolkata_Zone_7,Kolkata_PS_1
+562,Kolkata,22.6186,88.2716,Robbery,42,high,2026-01-29,Kolkata_Zone_19,Kolkata_PS_4
+563,Kolkata,22.6443,88.2971,Rape,62,low,2026-01-14,Kolkata_Zone_17,Kolkata_PS_9
+564,Kolkata,22.5267,88.3446,Murder,62,high,2026-01-10,Kolkata_Zone_1,Kolkata_PS_2
+565,Kolkata,22.7201,88.3762,Sexual Harassment,92,medium,2026-03-03,Kolkata_Zone_6,Kolkata_PS_9
+566,Kolkata,22.4946,88.4269,Sexual Harassment,18,low,2026-02-10,Kolkata_Zone_2,Kolkata_PS_3
+567,Kolkata,22.4966,88.3552,Mugging,77,medium,2026-02-15,Kolkata_Zone_8,Kolkata_PS_3
+568,Kolkata,22.6939,88.4591,Mugging,31,low,2026-02-20,Kolkata_Zone_3,Kolkata_PS_9
+569,Kolkata,22.6217,88.3373,Robbery,91,high,2026-01-16,Kolkata_Zone_12,Kolkata_PS_7
+570,Kolkata,22.5111,88.3036,Theft,93,medium,2026-02-05,Kolkata_Zone_3,Kolkata_PS_5
+571,Kolkata,22.5516,88.4632,Burglary,89,medium,2026-01-28,Kolkata_Zone_15,Kolkata_PS_4
+572,Kolkata,22.6428,88.4036,Sexual Harassment,9,medium,2026-01-19,Kolkata_Zone_4,Kolkata_PS_2
+573,Kolkata,22.4544,88.4758,Sexual Harassment,27,high,2026-01-26,Kolkata_Zone_18,Kolkata_PS_9
+574,Kolkata,22.7054,88.2387,Assault,57,high,2026-01-29,Kolkata_Zone_13,Kolkata_PS_6
+575,Kolkata,22.487,88.2341,Robbery,69,high,2026-02-05,Kolkata_Zone_11,Kolkata_PS_7
+576,Kolkata,22.4744,88.3843,Burglary,96,medium,2025-12-24,Kolkata_Zone_7,Kolkata_PS_5
+577,Kolkata,22.4946,88.2572,Rape,93,low,2026-01-11,Kolkata_Zone_8,Kolkata_PS_5
+578,Kolkata,22.6068,88.2898,Mugging,58,medium,2026-02-14,Kolkata_Zone_15,Kolkata_PS_1
+579,Kolkata,22.4455,88.4827,Sexual Harassment,66,high,2026-02-18,Kolkata_Zone_17,Kolkata_PS_6
+580,Kolkata,22.4853,88.2393,Theft,82,low,2026-03-01,Kolkata_Zone_3,Kolkata_PS_8
+581,Kolkata,22.6651,88.461,Theft,35,low,2026-01-31,Kolkata_Zone_6,Kolkata_PS_5
+582,Kolkata,22.7027,88.4191,Kidnapping,38,medium,2026-01-19,Kolkata_Zone_5,Kolkata_PS_4
+583,Kolkata,22.4975,88.4101,Robbery,22,low,2026-02-21,Kolkata_Zone_14,Kolkata_PS_7
+584,Kolkata,22.5479,88.2488,Murder,67,high,2026-01-31,Kolkata_Zone_17,Kolkata_PS_3
+585,Kolkata,22.529,88.3791,Mugging,52,low,2026-02-18,Kolkata_Zone_7,Kolkata_PS_2
+586,Kolkata,22.4544,88.3204,Burglary,62,medium,2026-01-29,Kolkata_Zone_16,Kolkata_PS_4
+587,Kolkata,22.5895,88.2226,Rape,49,medium,2026-02-07,Kolkata_Zone_13,Kolkata_PS_2
+588,Kolkata,22.5897,88.2833,Sexual Harassment,19,high,2026-02-04,Kolkata_Zone_9,Kolkata_PS_7
+589,Kolkata,22.4887,88.4798,Sexual Harassment,61,high,2026-02-05,Kolkata_Zone_10,Kolkata_PS_6
+590,Kolkata,22.582,88.4171,Vehicle Theft,64,medium,2026-01-23,Kolkata_Zone_13,Kolkata_PS_7
+591,Kolkata,22.6725,88.376,Mugging,8,low,2026-02-12,Kolkata_Zone_6,Kolkata_PS_2
+592,Kolkata,22.4975,88.3781,Kidnapping,78,medium,2026-01-03,Kolkata_Zone_3,Kolkata_PS_1
+593,Kolkata,22.6316,88.3112,Theft,45,high,2026-03-02,Kolkata_Zone_6,Kolkata_PS_3
+594,Kolkata,22.7066,88.334,Vehicle Theft,15,low,2026-03-04,Kolkata_Zone_9,Kolkata_PS_7
+595,Kolkata,22.5605,88.3432,Kidnapping,77,high,2025-12-23,Kolkata_Zone_19,Kolkata_PS_5
+596,Kolkata,22.5148,88.3778,Kidnapping,32,medium,2026-02-10,Kolkata_Zone_10,Kolkata_PS_9
+597,Kolkata,22.6297,88.3161,Kidnapping,29,medium,2026-01-18,Kolkata_Zone_2,Kolkata_PS_3
+598,Kolkata,22.4931,88.4629,Burglary,49,high,2025-12-16,Kolkata_Zone_2,Kolkata_PS_9
+599,Kolkata,22.5485,88.2291,Theft,22,high,2026-01-07,Kolkata_Zone_16,Kolkata_PS_6
+600,Kolkata,22.6571,88.308,Mugging,80,low,2026-03-03,Kolkata_Zone_7,Kolkata_PS_6
+601,Hyderabad,17.3983,78.4193,Sexual Harassment,11,high,2026-01-20,Hyderabad_Zone_8,Hyderabad_PS_1
+602,Hyderabad,17.3015,78.432,Rape,89,low,2025-12-07,Hyderabad_Zone_16,Hyderabad_PS_4
+603,Hyderabad,17.37,78.4379,Assault,34,high,2026-02-19,Hyderabad_Zone_14,Hyderabad_PS_7
+604,Hyderabad,17.2504,78.4845,Assault,33,high,2026-02-20,Hyderabad_Zone_4,Hyderabad_PS_4
+605,Hyderabad,17.2834,78.5083,Assault,31,high,2026-02-06,Hyderabad_Zone_6,Hyderabad_PS_4
+606,Hyderabad,17.3573,78.3744,Robbery,73,medium,2026-02-05,Hyderabad_Zone_13,Hyderabad_PS_3
+607,Hyderabad,17.4441,78.3947,Burglary,97,medium,2026-01-14,Hyderabad_Zone_15,Hyderabad_PS_4
+608,Hyderabad,17.2716,78.37,Burglary,74,high,2025-12-18,Hyderabad_Zone_9,Hyderabad_PS_4
+609,Hyderabad,17.2667,78.3503,Vehicle Theft,79,low,2026-02-13,Hyderabad_Zone_4,Hyderabad_PS_2
+610,Hyderabad,17.244,78.4701,Vehicle Theft,72,high,2026-02-04,Hyderabad_Zone_3,Hyderabad_PS_9
+611,Hyderabad,17.3871,78.5281,Assault,36,medium,2026-01-07,Hyderabad_Zone_10,Hyderabad_PS_2
+612,Hyderabad,17.4206,78.5363,Vehicle Theft,35,high,2025-12-09,Hyderabad_Zone_1,Hyderabad_PS_7
+613,Hyderabad,17.2649,78.5177,Robbery,16,high,2025-12-16,Hyderabad_Zone_1,Hyderabad_PS_1
+614,Hyderabad,17.4306,78.571,Vehicle Theft,6,medium,2026-02-11,Hyderabad_Zone_4,Hyderabad_PS_3
+615,Hyderabad,17.2728,78.6304,Murder,16,high,2026-02-08,Hyderabad_Zone_17,Hyderabad_PS_6
+616,Hyderabad,17.4159,78.5415,Burglary,34,medium,2026-02-07,Hyderabad_Zone_10,Hyderabad_PS_8
+617,Hyderabad,17.3321,78.535,Burglary,46,high,2026-01-29,Hyderabad_Zone_16,Hyderabad_PS_6
+618,Hyderabad,17.2716,78.5471,Kidnapping,84,medium,2026-02-03,Hyderabad_Zone_2,Hyderabad_PS_8
+619,Hyderabad,17.2729,78.3451,Mugging,52,high,2026-01-06,Hyderabad_Zone_2,Hyderabad_PS_1
+620,Hyderabad,17.4369,78.554,Burglary,31,medium,2026-02-04,Hyderabad_Zone_14,Hyderabad_PS_2
+621,Hyderabad,17.2501,78.6038,Rape,28,low,2026-02-25,Hyderabad_Zone_14,Hyderabad_PS_5
+622,Hyderabad,17.4153,78.439,Mugging,80,medium,2025-12-27,Hyderabad_Zone_4,Hyderabad_PS_4
+623,Hyderabad,17.4531,78.5721,Rape,60,low,2026-02-02,Hyderabad_Zone_13,Hyderabad_PS_4
+624,Hyderabad,17.4193,78.5111,Vehicle Theft,20,high,2025-12-28,Hyderabad_Zone_4,Hyderabad_PS_5
+625,Hyderabad,17.4251,78.5147,Burglary,16,low,2025-12-10,Hyderabad_Zone_14,Hyderabad_PS_7
+626,Hyderabad,17.2729,78.5807,Theft,45,medium,2026-01-22,Hyderabad_Zone_2,Hyderabad_PS_5
+627,Hyderabad,17.266,78.4573,Sexual Harassment,82,high,2026-01-23,Hyderabad_Zone_1,Hyderabad_PS_5
+628,Hyderabad,17.4486,78.4437,Murder,58,medium,2025-12-10,Hyderabad_Zone_8,Hyderabad_PS_4
+629,Hyderabad,17.4047,78.491,Burglary,29,high,2026-02-13,Hyderabad_Zone_2,Hyderabad_PS_5
+630,Hyderabad,17.3516,78.4088,Vehicle Theft,5,high,2025-12-22,Hyderabad_Zone_7,Hyderabad_PS_6
+631,Hyderabad,17.3682,78.4963,Mugging,20,high,2026-02-15,Hyderabad_Zone_14,Hyderabad_PS_3
+632,Hyderabad,17.4787,78.4348,Theft,85,medium,2026-02-06,Hyderabad_Zone_6,Hyderabad_PS_8
+633,Hyderabad,17.3296,78.3767,Murder,64,high,2025-12-28,Hyderabad_Zone_12,Hyderabad_PS_4
+634,Hyderabad,17.4452,78.5627,Rape,23,medium,2026-01-21,Hyderabad_Zone_11,Hyderabad_PS_9
+635,Hyderabad,17.3204,78.4696,Assault,90,high,2025-12-14,Hyderabad_Zone_8,Hyderabad_PS_4
+636,Hyderabad,17.4003,78.4938,Murder,30,high,2026-01-23,Hyderabad_Zone_13,Hyderabad_PS_9
+637,Hyderabad,17.2608,78.3538,Vehicle Theft,55,high,2026-01-11,Hyderabad_Zone_14,Hyderabad_PS_6
+638,Hyderabad,17.392,78.4182,Burglary,50,medium,2026-01-24,Hyderabad_Zone_1,Hyderabad_PS_3
+639,Hyderabad,17.478,78.5116,Burglary,51,high,2026-02-24,Hyderabad_Zone_7,Hyderabad_PS_4
+640,Hyderabad,17.292,78.5472,Murder,41,medium,2026-01-13,Hyderabad_Zone_16,Hyderabad_PS_9
+641,Hyderabad,17.5276,78.5867,Burglary,61,medium,2026-03-03,Hyderabad_Zone_11,Hyderabad_PS_1
+642,Hyderabad,17.4378,78.4289,Burglary,91,low,2026-02-12,Hyderabad_Zone_18,Hyderabad_PS_9
+643,Hyderabad,17.3484,78.3553,Murder,40,medium,2025-12-19,Hyderabad_Zone_3,Hyderabad_PS_1
+644,Hyderabad,17.2669,78.3709,Rape,97,low,2025-12-18,Hyderabad_Zone_14,Hyderabad_PS_8
+645,Hyderabad,17.5307,78.3368,Assault,68,medium,2026-01-28,Hyderabad_Zone_10,Hyderabad_PS_7
+646,Hyderabad,17.4296,78.6231,Kidnapping,78,medium,2026-01-09,Hyderabad_Zone_7,Hyderabad_PS_2
+647,Hyderabad,17.3554,78.4381,Theft,57,medium,2026-03-03,Hyderabad_Zone_17,Hyderabad_PS_4
+648,Hyderabad,17.2976,78.3543,Theft,75,medium,2026-01-16,Hyderabad_Zone_9,Hyderabad_PS_3
+649,Hyderabad,17.2699,78.413,Rape,54,high,2026-01-23,Hyderabad_Zone_14,Hyderabad_PS_9
+650,Hyderabad,17.3539,78.4256,Murder,51,high,2026-01-07,Hyderabad_Zone_4,Hyderabad_PS_5
+651,Hyderabad,17.2592,78.6186,Mugging,52,high,2026-03-03,Hyderabad_Zone_11,Hyderabad_PS_2
+652,Hyderabad,17.424,78.5853,Robbery,94,low,2025-12-26,Hyderabad_Zone_1,Hyderabad_PS_7
+653,Hyderabad,17.3327,78.4549,Sexual Harassment,28,medium,2026-02-16,Hyderabad_Zone_5,Hyderabad_PS_2
+654,Hyderabad,17.4092,78.6175,Kidnapping,46,low,2025-12-23,Hyderabad_Zone_5,Hyderabad_PS_6
+655,Hyderabad,17.4204,78.4393,Burglary,25,high,2026-02-06,Hyderabad_Zone_1,Hyderabad_PS_5
+656,Hyderabad,17.367,78.5299,Assault,48,medium,2026-02-17,Hyderabad_Zone_3,Hyderabad_PS_7
+657,Hyderabad,17.5057,78.4517,Assault,62,low,2026-01-07,Hyderabad_Zone_11,Hyderabad_PS_4
+658,Hyderabad,17.2948,78.416,Robbery,97,medium,2025-12-31,Hyderabad_Zone_12,Hyderabad_PS_6
+659,Hyderabad,17.3748,78.4703,Assault,59,high,2026-02-19,Hyderabad_Zone_14,Hyderabad_PS_7
+660,Hyderabad,17.4165,78.4028,Vehicle Theft,53,low,2026-01-08,Hyderabad_Zone_13,Hyderabad_PS_6
+661,Hyderabad,17.2529,78.518,Mugging,57,high,2025-12-23,Hyderabad_Zone_7,Hyderabad_PS_7
+662,Hyderabad,17.3676,78.3857,Murder,14,low,2025-12-18,Hyderabad_Zone_3,Hyderabad_PS_6
+663,Hyderabad,17.3505,78.5931,Murder,71,high,2025-12-13,Hyderabad_Zone_15,Hyderabad_PS_4
+664,Hyderabad,17.2372,78.3444,Sexual Harassment,91,low,2025-12-30,Hyderabad_Zone_16,Hyderabad_PS_9
+665,Hyderabad,17.4024,78.6246,Kidnapping,75,high,2025-12-26,Hyderabad_Zone_6,Hyderabad_PS_2
+666,Hyderabad,17.2906,78.4991,Assault,48,low,2026-02-25,Hyderabad_Zone_11,Hyderabad_PS_8
+667,Hyderabad,17.324,78.3599,Kidnapping,85,medium,2025-12-19,Hyderabad_Zone_9,Hyderabad_PS_4
+668,Hyderabad,17.3424,78.6336,Assault,47,low,2026-02-17,Hyderabad_Zone_13,Hyderabad_PS_2
+669,Hyderabad,17.4367,78.3877,Murder,60,high,2026-02-03,Hyderabad_Zone_15,Hyderabad_PS_9
+670,Hyderabad,17.3596,78.3439,Theft,72,medium,2025-12-30,Hyderabad_Zone_8,Hyderabad_PS_6
+671,Hyderabad,17.4536,78.4313,Assault,29,medium,2025-12-15,Hyderabad_Zone_15,Hyderabad_PS_2
+672,Hyderabad,17.4383,78.5008,Robbery,51,high,2025-12-21,Hyderabad_Zone_15,Hyderabad_PS_2
+673,Hyderabad,17.4233,78.5309,Murder,39,high,2026-01-13,Hyderabad_Zone_14,Hyderabad_PS_6
+674,Hyderabad,17.4541,78.4837,Theft,55,high,2025-12-11,Hyderabad_Zone_19,Hyderabad_PS_2
+675,Hyderabad,17.4781,78.4185,Theft,23,high,2026-01-14,Hyderabad_Zone_17,Hyderabad_PS_5
+676,Hyderabad,17.4426,78.3787,Murder,44,medium,2025-12-20,Hyderabad_Zone_16,Hyderabad_PS_3
+677,Hyderabad,17.3538,78.3766,Vehicle Theft,90,low,2026-02-09,Hyderabad_Zone_8,Hyderabad_PS_5
+678,Hyderabad,17.5325,78.3992,Vehicle Theft,68,high,2026-01-23,Hyderabad_Zone_11,Hyderabad_PS_7
+679,Hyderabad,17.4117,78.6183,Robbery,91,high,2026-02-14,Hyderabad_Zone_7,Hyderabad_PS_7
+680,Hyderabad,17.3295,78.4041,Sexual Harassment,51,high,2026-01-24,Hyderabad_Zone_7,Hyderabad_PS_2
+681,Hyderabad,17.248,78.5465,Kidnapping,61,high,2026-02-14,Hyderabad_Zone_8,Hyderabad_PS_1
+682,Hyderabad,17.275,78.4151,Assault,96,low,2026-02-07,Hyderabad_Zone_9,Hyderabad_PS_2
+683,Hyderabad,17.3215,78.3386,Burglary,79,low,2026-01-28,Hyderabad_Zone_6,Hyderabad_PS_2
+684,Hyderabad,17.5174,78.389,Murder,28,high,2026-02-17,Hyderabad_Zone_17,Hyderabad_PS_4
+685,Hyderabad,17.3572,78.4931,Theft,29,low,2026-01-17,Hyderabad_Zone_11,Hyderabad_PS_2
+686,Hyderabad,17.5022,78.5158,Murder,27,high,2026-02-10,Hyderabad_Zone_16,Hyderabad_PS_6
+687,Hyderabad,17.5089,78.5083,Murder,38,high,2026-02-17,Hyderabad_Zone_2,Hyderabad_PS_9
+688,Hyderabad,17.4015,78.5131,Mugging,74,low,2026-01-18,Hyderabad_Zone_11,Hyderabad_PS_7
+689,Hyderabad,17.4519,78.5685,Kidnapping,22,low,2025-12-24,Hyderabad_Zone_15,Hyderabad_PS_4
+690,Hyderabad,17.4298,78.5374,Kidnapping,30,low,2026-02-19,Hyderabad_Zone_15,Hyderabad_PS_3
+691,Hyderabad,17.4022,78.5488,Assault,24,high,2026-02-17,Hyderabad_Zone_15,Hyderabad_PS_2
+692,Hyderabad,17.4798,78.3424,Mugging,65,high,2026-02-27,Hyderabad_Zone_3,Hyderabad_PS_9
+693,Hyderabad,17.2763,78.337,Assault,46,low,2026-01-30,Hyderabad_Zone_13,Hyderabad_PS_5
+694,Hyderabad,17.3067,78.5641,Rape,75,medium,2026-01-10,Hyderabad_Zone_7,Hyderabad_PS_8
+695,Hyderabad,17.4761,78.3618,Mugging,55,low,2025-12-08,Hyderabad_Zone_18,Hyderabad_PS_4
+696,Hyderabad,17.3531,78.3759,Robbery,29,low,2025-12-27,Hyderabad_Zone_3,Hyderabad_PS_3
+697,Hyderabad,17.3632,78.5303,Assault,87,medium,2026-01-07,Hyderabad_Zone_19,Hyderabad_PS_8
+698,Hyderabad,17.4826,78.5752,Vehicle Theft,39,high,2026-02-21,Hyderabad_Zone_17,Hyderabad_PS_3
+699,Hyderabad,17.5219,78.4497,Murder,53,low,2026-02-19,Hyderabad_Zone_15,Hyderabad_PS_6
+700,Hyderabad,17.2677,78.4113,Rape,87,medium,2026-02-18,Hyderabad_Zone_13,Hyderabad_PS_7
+701,Ahmedabad,23.1297,72.6508,Kidnapping,10,medium,2025-12-10,Ahmedabad_Zone_6,Ahmedabad_PS_9
+702,Ahmedabad,22.8886,72.6222,Mugging,32,high,2025-12-22,Ahmedabad_Zone_6,Ahmedabad_PS_3
+703,Ahmedabad,23.1582,72.52,Sexual Harassment,98,high,2025-12-25,Ahmedabad_Zone_19,Ahmedabad_PS_4
+704,Ahmedabad,22.9593,72.6564,Vehicle Theft,13,low,2026-03-06,Ahmedabad_Zone_8,Ahmedabad_PS_8
+705,Ahmedabad,23.0666,72.6089,Murder,11,high,2026-03-06,Ahmedabad_Zone_16,Ahmedabad_PS_6
+706,Ahmedabad,22.8989,72.4798,Mugging,37,medium,2026-01-03,Ahmedabad_Zone_4,Ahmedabad_PS_5
+707,Ahmedabad,23.0258,72.6027,Murder,52,low,2026-01-18,Ahmedabad_Zone_3,Ahmedabad_PS_4
+708,Ahmedabad,23.1527,72.5421,Theft,28,high,2025-12-15,Ahmedabad_Zone_18,Ahmedabad_PS_6
+709,Ahmedabad,23.1384,72.4356,Burglary,31,high,2026-01-16,Ahmedabad_Zone_4,Ahmedabad_PS_7
+710,Ahmedabad,22.9537,72.496,Kidnapping,92,low,2026-02-03,Ahmedabad_Zone_17,Ahmedabad_PS_1
+711,Ahmedabad,22.8893,72.4981,Kidnapping,97,medium,2025-12-15,Ahmedabad_Zone_7,Ahmedabad_PS_7
+712,Ahmedabad,23.0242,72.5737,Burglary,18,high,2026-01-12,Ahmedabad_Zone_2,Ahmedabad_PS_1
+713,Ahmedabad,23.0079,72.6822,Rape,89,low,2026-02-13,Ahmedabad_Zone_3,Ahmedabad_PS_5
+714,Ahmedabad,23.1186,72.616,Theft,47,low,2025-12-17,Ahmedabad_Zone_2,Ahmedabad_PS_4
+715,Ahmedabad,23.0264,72.5177,Burglary,85,high,2025-12-08,Ahmedabad_Zone_5,Ahmedabad_PS_5
+716,Ahmedabad,23.1487,72.5249,Kidnapping,41,low,2025-12-28,Ahmedabad_Zone_10,Ahmedabad_PS_9
+717,Ahmedabad,22.9041,72.5875,Burglary,68,medium,2026-02-13,Ahmedabad_Zone_2,Ahmedabad_PS_7
+718,Ahmedabad,23.0984,72.6413,Theft,22,high,2026-01-01,Ahmedabad_Zone_1,Ahmedabad_PS_1
+719,Ahmedabad,22.9082,72.5751,Robbery,31,high,2026-01-07,Ahmedabad_Zone_1,Ahmedabad_PS_9
+720,Ahmedabad,23.0973,72.6968,Robbery,91,medium,2025-12-09,Ahmedabad_Zone_17,Ahmedabad_PS_8
+721,Ahmedabad,23.1132,72.5238,Assault,47,high,2026-01-05,Ahmedabad_Zone_10,Ahmedabad_PS_1
+722,Ahmedabad,23.1309,72.6812,Murder,34,medium,2026-01-08,Ahmedabad_Zone_4,Ahmedabad_PS_3
+723,Ahmedabad,23.1149,72.5176,Vehicle Theft,44,medium,2025-12-11,Ahmedabad_Zone_1,Ahmedabad_PS_4
+724,Ahmedabad,23.1701,72.6787,Assault,94,medium,2026-02-26,Ahmedabad_Zone_15,Ahmedabad_PS_3
+725,Ahmedabad,22.9091,72.4269,Rape,92,high,2026-01-28,Ahmedabad_Zone_8,Ahmedabad_PS_1
+726,Ahmedabad,23.1579,72.4625,Vehicle Theft,87,medium,2026-01-03,Ahmedabad_Zone_3,Ahmedabad_PS_6
+727,Ahmedabad,23.1657,72.6638,Murder,45,medium,2026-01-01,Ahmedabad_Zone_16,Ahmedabad_PS_2
+728,Ahmedabad,22.9618,72.5108,Vehicle Theft,93,high,2026-01-10,Ahmedabad_Zone_3,Ahmedabad_PS_8
+729,Ahmedabad,22.9576,72.5193,Robbery,39,medium,2026-03-06,Ahmedabad_Zone_6,Ahmedabad_PS_5
+730,Ahmedabad,22.9241,72.5644,Assault,57,high,2026-01-05,Ahmedabad_Zone_8,Ahmedabad_PS_1
+731,Ahmedabad,23.1234,72.5721,Theft,63,high,2026-02-28,Ahmedabad_Zone_12,Ahmedabad_PS_5
+732,Ahmedabad,22.9578,72.5081,Rape,82,medium,2026-02-19,Ahmedabad_Zone_7,Ahmedabad_PS_3
+733,Ahmedabad,23.0828,72.4797,Theft,16,medium,2026-02-13,Ahmedabad_Zone_9,Ahmedabad_PS_4
+734,Ahmedabad,23.0715,72.4569,Mugging,74,high,2026-02-17,Ahmedabad_Zone_6,Ahmedabad_PS_1
+735,Ahmedabad,22.8844,72.5036,Vehicle Theft,83,high,2026-02-09,Ahmedabad_Zone_1,Ahmedabad_PS_4
+736,Ahmedabad,22.9262,72.5391,Kidnapping,73,low,2026-03-05,Ahmedabad_Zone_1,Ahmedabad_PS_7
+737,Ahmedabad,23.0586,72.5647,Mugging,39,high,2025-12-30,Ahmedabad_Zone_2,Ahmedabad_PS_1
+738,Ahmedabad,23.1539,72.6967,Murder,62,high,2025-12-15,Ahmedabad_Zone_11,Ahmedabad_PS_7
+739,Ahmedabad,23.1186,72.59,Rape,10,high,2026-02-25,Ahmedabad_Zone_7,Ahmedabad_PS_2
+740,Ahmedabad,23.0791,72.587,Theft,78,high,2026-01-03,Ahmedabad_Zone_15,Ahmedabad_PS_3
+741,Ahmedabad,23.0653,72.6017,Kidnapping,36,high,2026-01-04,Ahmedabad_Zone_17,Ahmedabad_PS_2
+742,Ahmedabad,23.0143,72.5349,Robbery,75,low,2026-02-20,Ahmedabad_Zone_1,Ahmedabad_PS_9
+743,Ahmedabad,23.0554,72.4936,Burglary,45,low,2025-12-09,Ahmedabad_Zone_8,Ahmedabad_PS_8
+744,Ahmedabad,23.0357,72.4909,Kidnapping,6,low,2026-01-04,Ahmedabad_Zone_9,Ahmedabad_PS_4
+745,Ahmedabad,23.1503,72.4699,Sexual Harassment,62,high,2025-12-12,Ahmedabad_Zone_18,Ahmedabad_PS_7
+746,Ahmedabad,22.9572,72.4457,Theft,22,medium,2025-12-13,Ahmedabad_Zone_5,Ahmedabad_PS_2
+747,Ahmedabad,22.9329,72.6885,Rape,86,high,2026-02-15,Ahmedabad_Zone_15,Ahmedabad_PS_9
+748,Ahmedabad,22.9667,72.5712,Assault,23,medium,2026-01-14,Ahmedabad_Zone_14,Ahmedabad_PS_1
+749,Ahmedabad,23.006,72.5681,Robbery,46,high,2026-02-18,Ahmedabad_Zone_12,Ahmedabad_PS_1
+750,Ahmedabad,23.0018,72.5151,Murder,53,high,2026-02-09,Ahmedabad_Zone_3,Ahmedabad_PS_8
+751,Ahmedabad,23.1107,72.7037,Vehicle Theft,50,medium,2026-02-19,Ahmedabad_Zone_1,Ahmedabad_PS_1
+752,Ahmedabad,22.8785,72.4402,Mugging,76,low,2026-03-01,Ahmedabad_Zone_16,Ahmedabad_PS_4
+753,Ahmedabad,22.9284,72.6462,Mugging,94,medium,2025-12-26,Ahmedabad_Zone_1,Ahmedabad_PS_9
+754,Ahmedabad,23.0173,72.4862,Rape,72,low,2026-02-09,Ahmedabad_Zone_11,Ahmedabad_PS_2
+755,Ahmedabad,23.0006,72.5639,Mugging,48,low,2026-02-22,Ahmedabad_Zone_14,Ahmedabad_PS_8
+756,Ahmedabad,23.0767,72.6214,Assault,32,medium,2025-12-24,Ahmedabad_Zone_15,Ahmedabad_PS_7
+757,Ahmedabad,22.9888,72.4629,Robbery,88,high,2026-01-20,Ahmedabad_Zone_3,Ahmedabad_PS_7
+758,Ahmedabad,23.0919,72.6523,Rape,82,high,2026-02-01,Ahmedabad_Zone_12,Ahmedabad_PS_6
+759,Ahmedabad,23.0217,72.4749,Robbery,16,high,2026-01-15,Ahmedabad_Zone_8,Ahmedabad_PS_7
+760,Ahmedabad,23.0391,72.5966,Rape,31,low,2026-01-18,Ahmedabad_Zone_7,Ahmedabad_PS_5
+761,Ahmedabad,22.927,72.5505,Mugging,73,high,2026-01-13,Ahmedabad_Zone_5,Ahmedabad_PS_9
+762,Ahmedabad,23.0631,72.4803,Theft,30,low,2025-12-25,Ahmedabad_Zone_11,Ahmedabad_PS_6
+763,Ahmedabad,23.1299,72.6215,Murder,18,high,2026-02-21,Ahmedabad_Zone_10,Ahmedabad_PS_6
+764,Ahmedabad,23.0308,72.4991,Kidnapping,14,medium,2026-02-18,Ahmedabad_Zone_17,Ahmedabad_PS_3
+765,Ahmedabad,22.9633,72.5811,Vehicle Theft,8,medium,2026-02-22,Ahmedabad_Zone_2,Ahmedabad_PS_5
+766,Ahmedabad,23.0577,72.7123,Assault,23,medium,2026-02-23,Ahmedabad_Zone_17,Ahmedabad_PS_2
+767,Ahmedabad,22.9276,72.5199,Kidnapping,16,low,2026-03-05,Ahmedabad_Zone_8,Ahmedabad_PS_5
+768,Ahmedabad,23.0909,72.6653,Sexual Harassment,40,low,2025-12-21,Ahmedabad_Zone_14,Ahmedabad_PS_6
+769,Ahmedabad,23.0975,72.6629,Robbery,98,high,2026-02-15,Ahmedabad_Zone_7,Ahmedabad_PS_9
+770,Ahmedabad,22.9709,72.6425,Burglary,65,medium,2026-01-22,Ahmedabad_Zone_10,Ahmedabad_PS_7
+771,Ahmedabad,22.8848,72.4363,Murder,42,high,2026-02-25,Ahmedabad_Zone_8,Ahmedabad_PS_5
+772,Ahmedabad,23.0279,72.6057,Vehicle Theft,92,low,2026-01-07,Ahmedabad_Zone_18,Ahmedabad_PS_8
+773,Ahmedabad,23.0975,72.5584,Mugging,31,medium,2026-01-14,Ahmedabad_Zone_10,Ahmedabad_PS_9
+774,Ahmedabad,22.9083,72.4323,Rape,91,low,2026-02-04,Ahmedabad_Zone_7,Ahmedabad_PS_8
+775,Ahmedabad,23.1556,72.4967,Theft,88,high,2026-01-15,Ahmedabad_Zone_18,Ahmedabad_PS_6
+776,Ahmedabad,23.0686,72.5265,Sexual Harassment,34,low,2026-02-25,Ahmedabad_Zone_17,Ahmedabad_PS_2
+777,Ahmedabad,23.1635,72.6809,Sexual Harassment,93,medium,2026-02-16,Ahmedabad_Zone_18,Ahmedabad_PS_5
+778,Ahmedabad,22.9595,72.4818,Burglary,84,low,2026-02-23,Ahmedabad_Zone_2,Ahmedabad_PS_5
+779,Ahmedabad,22.9065,72.473,Assault,30,medium,2026-01-12,Ahmedabad_Zone_13,Ahmedabad_PS_3
+780,Ahmedabad,22.9755,72.677,Mugging,80,medium,2025-12-22,Ahmedabad_Zone_12,Ahmedabad_PS_2
+781,Ahmedabad,22.9856,72.6024,Robbery,11,medium,2025-12-07,Ahmedabad_Zone_12,Ahmedabad_PS_7
+782,Ahmedabad,23.047,72.6513,Assault,17,low,2025-12-22,Ahmedabad_Zone_10,Ahmedabad_PS_4
+783,Ahmedabad,23.0596,72.4608,Robbery,19,medium,2026-02-28,Ahmedabad_Zone_8,Ahmedabad_PS_3
+784,Ahmedabad,22.9628,72.4766,Assault,74,low,2026-03-03,Ahmedabad_Zone_11,Ahmedabad_PS_5
+785,Ahmedabad,23.1712,72.5565,Theft,95,high,2026-01-26,Ahmedabad_Zone_13,Ahmedabad_PS_7
+786,Ahmedabad,23.1581,72.524,Rape,84,high,2026-01-13,Ahmedabad_Zone_10,Ahmedabad_PS_9
+787,Ahmedabad,22.8751,72.536,Theft,96,low,2026-02-23,Ahmedabad_Zone_5,Ahmedabad_PS_6
+788,Ahmedabad,23.0629,72.6078,Murder,73,medium,2025-12-20,Ahmedabad_Zone_7,Ahmedabad_PS_6
+789,Ahmedabad,22.9552,72.5211,Sexual Harassment,76,low,2026-01-15,Ahmedabad_Zone_10,Ahmedabad_PS_9
+790,Ahmedabad,22.9432,72.5145,Murder,58,high,2026-02-25,Ahmedabad_Zone_12,Ahmedabad_PS_6
+791,Ahmedabad,23.1674,72.6142,Sexual Harassment,40,low,2025-12-10,Ahmedabad_Zone_12,Ahmedabad_PS_2
+792,Ahmedabad,23.1131,72.5518,Assault,22,high,2026-01-31,Ahmedabad_Zone_2,Ahmedabad_PS_9
+793,Ahmedabad,23.0504,72.5682,Robbery,83,medium,2025-12-17,Ahmedabad_Zone_12,Ahmedabad_PS_4
+794,Ahmedabad,22.9625,72.5637,Vehicle Theft,94,low,2025-12-09,Ahmedabad_Zone_3,Ahmedabad_PS_6
+795,Ahmedabad,22.918,72.6007,Burglary,27,medium,2026-03-03,Ahmedabad_Zone_17,Ahmedabad_PS_9
+796,Ahmedabad,23.0481,72.4983,Theft,92,high,2026-02-04,Ahmedabad_Zone_15,Ahmedabad_PS_8
+797,Ahmedabad,22.9657,72.5757,Vehicle Theft,92,low,2025-12-07,Ahmedabad_Zone_16,Ahmedabad_PS_9
+798,Ahmedabad,23.1118,72.6807,Rape,84,medium,2026-02-05,Ahmedabad_Zone_4,Ahmedabad_PS_3
+799,Ahmedabad,23.0816,72.4464,Kidnapping,53,high,2025-12-12,Ahmedabad_Zone_4,Ahmedabad_PS_7
+800,Ahmedabad,22.92,72.4401,Vehicle Theft,32,low,2026-02-14,Ahmedabad_Zone_15,Ahmedabad_PS_1
+801,Pune,18.5112,73.9641,Robbery,82,medium,2026-01-30,Pune_Zone_4,Pune_PS_4
+802,Pune,18.6044,73.8482,Vehicle Theft,48,low,2025-12-29,Pune_Zone_2,Pune_PS_2
+803,Pune,18.4733,74.0031,Mugging,45,low,2025-12-28,Pune_Zone_10,Pune_PS_6
+804,Pune,18.476,73.9184,Assault,12,low,2025-12-19,Pune_Zone_17,Pune_PS_9
+805,Pune,18.3845,73.7125,Rape,65,medium,2026-01-23,Pune_Zone_19,Pune_PS_4
+806,Pune,18.539,73.7403,Sexual Harassment,66,low,2026-01-23,Pune_Zone_17,Pune_PS_4
+807,Pune,18.5135,73.8235,Burglary,61,low,2025-12-26,Pune_Zone_16,Pune_PS_8
+808,Pune,18.6497,73.7219,Burglary,58,low,2026-02-07,Pune_Zone_5,Pune_PS_8
+809,Pune,18.5121,73.804,Kidnapping,97,high,2026-01-01,Pune_Zone_13,Pune_PS_3
+810,Pune,18.6166,73.8244,Sexual Harassment,71,low,2026-01-11,Pune_Zone_12,Pune_PS_2
+811,Pune,18.4614,73.9967,Vehicle Theft,74,high,2025-12-20,Pune_Zone_17,Pune_PS_7
+812,Pune,18.6087,73.8943,Murder,87,high,2026-01-03,Pune_Zone_10,Pune_PS_4
+813,Pune,18.6069,73.7139,Robbery,67,medium,2026-02-16,Pune_Zone_17,Pune_PS_5
+814,Pune,18.669,73.793,Vehicle Theft,85,high,2026-01-30,Pune_Zone_8,Pune_PS_4
+815,Pune,18.6636,73.9627,Rape,92,low,2025-12-24,Pune_Zone_4,Pune_PS_3
+816,Pune,18.4015,73.7953,Mugging,61,high,2026-02-23,Pune_Zone_18,Pune_PS_1
+817,Pune,18.626,73.9519,Vehicle Theft,85,low,2025-12-18,Pune_Zone_9,Pune_PS_8
+818,Pune,18.4712,73.8609,Murder,80,low,2025-12-12,Pune_Zone_17,Pune_PS_1
+819,Pune,18.4412,73.7498,Vehicle Theft,90,medium,2026-01-20,Pune_Zone_18,Pune_PS_7
+820,Pune,18.6322,73.7799,Sexual Harassment,58,high,2026-02-01,Pune_Zone_7,Pune_PS_4
+821,Pune,18.3981,73.8441,Kidnapping,77,medium,2025-12-25,Pune_Zone_19,Pune_PS_3
+822,Pune,18.5355,73.8609,Rape,43,low,2026-02-07,Pune_Zone_12,Pune_PS_2
+823,Pune,18.5282,73.913,Vehicle Theft,52,low,2026-01-28,Pune_Zone_4,Pune_PS_8
+824,Pune,18.4121,73.9309,Mugging,9,medium,2026-01-24,Pune_Zone_6,Pune_PS_7
+825,Pune,18.4937,73.8401,Mugging,21,high,2026-01-04,Pune_Zone_9,Pune_PS_3
+826,Pune,18.5526,73.7333,Vehicle Theft,38,medium,2026-01-21,Pune_Zone_19,Pune_PS_2
+827,Pune,18.6229,73.7158,Robbery,36,high,2026-03-04,Pune_Zone_10,Pune_PS_3
+828,Pune,18.3922,73.7664,Theft,11,low,2025-12-31,Pune_Zone_4,Pune_PS_7
+829,Pune,18.585,73.788,Murder,73,medium,2026-02-26,Pune_Zone_13,Pune_PS_3
+830,Pune,18.4122,73.9666,Sexual Harassment,63,high,2026-03-04,Pune_Zone_4,Pune_PS_9
+831,Pune,18.4614,73.9217,Murder,99,low,2026-01-26,Pune_Zone_13,Pune_PS_4
+832,Pune,18.5944,73.7105,Burglary,21,low,2025-12-16,Pune_Zone_9,Pune_PS_2
+833,Pune,18.3733,73.8295,Rape,96,high,2025-12-07,Pune_Zone_15,Pune_PS_7
+834,Pune,18.6291,73.9515,Sexual Harassment,73,high,2026-01-27,Pune_Zone_13,Pune_PS_9
+835,Pune,18.4017,73.8774,Sexual Harassment,78,low,2026-01-09,Pune_Zone_8,Pune_PS_6
+836,Pune,18.5409,73.7891,Murder,9,medium,2026-02-24,Pune_Zone_7,Pune_PS_5
+837,Pune,18.5412,73.8962,Robbery,71,high,2025-12-22,Pune_Zone_13,Pune_PS_7
+838,Pune,18.4593,73.9856,Rape,61,medium,2026-01-16,Pune_Zone_16,Pune_PS_9
+839,Pune,18.5366,73.7961,Burglary,27,high,2025-12-27,Pune_Zone_6,Pune_PS_2
+840,Pune,18.6403,73.8952,Theft,97,low,2026-01-17,Pune_Zone_1,Pune_PS_6
+841,Pune,18.6124,73.7822,Robbery,42,medium,2026-01-29,Pune_Zone_19,Pune_PS_2
+842,Pune,18.4365,73.7377,Burglary,39,medium,2026-02-07,Pune_Zone_2,Pune_PS_9
+843,Pune,18.4505,73.9799,Assault,49,low,2026-01-08,Pune_Zone_13,Pune_PS_7
+844,Pune,18.4111,73.7847,Burglary,73,high,2026-01-13,Pune_Zone_15,Pune_PS_3
+845,Pune,18.5912,73.7892,Mugging,55,high,2026-03-03,Pune_Zone_3,Pune_PS_8
+846,Pune,18.4541,73.9859,Theft,62,high,2026-02-08,Pune_Zone_1,Pune_PS_5
+847,Pune,18.4928,73.811,Robbery,95,high,2025-12-15,Pune_Zone_1,Pune_PS_3
+848,Pune,18.5322,73.7832,Theft,29,high,2025-12-13,Pune_Zone_3,Pune_PS_3
+849,Pune,18.3995,73.726,Mugging,73,low,2026-03-05,Pune_Zone_2,Pune_PS_6
+850,Pune,18.649,73.899,Rape,89,low,2025-12-27,Pune_Zone_16,Pune_PS_1
+851,Pune,18.6647,73.9052,Mugging,65,low,2025-12-07,Pune_Zone_6,Pune_PS_8
+852,Pune,18.4733,73.9068,Theft,20,low,2026-03-04,Pune_Zone_15,Pune_PS_8
+853,Pune,18.6653,73.8549,Robbery,58,high,2026-01-28,Pune_Zone_6,Pune_PS_9
+854,Pune,18.6335,73.7797,Assault,75,medium,2026-02-14,Pune_Zone_8,Pune_PS_3
+855,Pune,18.5597,73.7142,Sexual Harassment,24,medium,2026-01-20,Pune_Zone_18,Pune_PS_9
+856,Pune,18.5285,73.8815,Mugging,14,low,2025-12-17,Pune_Zone_4,Pune_PS_4
+857,Pune,18.4272,73.827,Vehicle Theft,27,low,2025-12-17,Pune_Zone_6,Pune_PS_6
+858,Pune,18.4313,74.0062,Kidnapping,77,low,2025-12-09,Pune_Zone_13,Pune_PS_3
+859,Pune,18.4485,73.9582,Sexual Harassment,91,low,2026-03-02,Pune_Zone_10,Pune_PS_7
+860,Pune,18.5772,73.7918,Mugging,50,medium,2026-02-10,Pune_Zone_9,Pune_PS_5
+861,Pune,18.5563,73.7299,Mugging,56,low,2026-01-12,Pune_Zone_3,Pune_PS_6
+862,Pune,18.544,73.8922,Robbery,62,medium,2025-12-15,Pune_Zone_2,Pune_PS_6
+863,Pune,18.5947,73.962,Rape,69,low,2025-12-16,Pune_Zone_1,Pune_PS_5
+864,Pune,18.3804,73.8806,Murder,50,high,2025-12-22,Pune_Zone_12,Pune_PS_1
+865,Pune,18.3748,73.983,Sexual Harassment,32,high,2025-12-16,Pune_Zone_19,Pune_PS_6
+866,Pune,18.6389,73.8789,Robbery,15,low,2025-12-18,Pune_Zone_19,Pune_PS_4
+867,Pune,18.5048,73.8283,Mugging,79,medium,2026-01-25,Pune_Zone_10,Pune_PS_2
+868,Pune,18.5398,73.7824,Murder,80,high,2026-01-17,Pune_Zone_1,Pune_PS_5
+869,Pune,18.6546,73.7684,Vehicle Theft,36,medium,2026-01-30,Pune_Zone_13,Pune_PS_1
+870,Pune,18.5111,73.728,Burglary,40,low,2026-01-11,Pune_Zone_16,Pune_PS_3
+871,Pune,18.6091,73.7491,Burglary,92,high,2026-01-13,Pune_Zone_4,Pune_PS_4
+872,Pune,18.3964,73.7778,Robbery,54,low,2026-02-17,Pune_Zone_2,Pune_PS_5
+873,Pune,18.4359,73.7231,Vehicle Theft,33,medium,2025-12-07,Pune_Zone_17,Pune_PS_3
+874,Pune,18.6201,74.0042,Assault,6,medium,2026-02-21,Pune_Zone_1,Pune_PS_3
+875,Pune,18.4383,73.7462,Murder,88,medium,2026-01-25,Pune_Zone_19,Pune_PS_5
+876,Pune,18.6155,73.8412,Vehicle Theft,18,high,2026-02-23,Pune_Zone_3,Pune_PS_5
+877,Pune,18.599,73.9876,Mugging,47,low,2025-12-28,Pune_Zone_13,Pune_PS_9
+878,Pune,18.5576,73.8489,Robbery,13,medium,2026-01-09,Pune_Zone_18,Pune_PS_9
+879,Pune,18.4475,73.9225,Rape,86,medium,2026-01-09,Pune_Zone_17,Pune_PS_7
+880,Pune,18.4409,73.9024,Murder,66,medium,2026-01-02,Pune_Zone_6,Pune_PS_2
+881,Pune,18.6442,73.7599,Kidnapping,61,medium,2025-12-20,Pune_Zone_4,Pune_PS_7
+882,Pune,18.5693,73.9963,Assault,12,medium,2026-03-02,Pune_Zone_5,Pune_PS_9
+883,Pune,18.3889,73.927,Murder,34,medium,2025-12-21,Pune_Zone_3,Pune_PS_9
+884,Pune,18.4486,73.7345,Robbery,66,high,2026-01-20,Pune_Zone_4,Pune_PS_9
+885,Pune,18.5831,73.9785,Murder,59,high,2026-02-26,Pune_Zone_2,Pune_PS_6
+886,Pune,18.3874,73.7428,Robbery,86,low,2025-12-28,Pune_Zone_10,Pune_PS_8
+887,Pune,18.4226,73.8151,Assault,34,high,2025-12-27,Pune_Zone_3,Pune_PS_3
+888,Pune,18.5128,73.9515,Assault,74,high,2026-01-06,Pune_Zone_17,Pune_PS_1
+889,Pune,18.5849,73.7813,Robbery,94,medium,2025-12-12,Pune_Zone_4,Pune_PS_8
+890,Pune,18.379,73.8998,Assault,63,medium,2026-02-05,Pune_Zone_8,Pune_PS_2
+891,Pune,18.4192,73.9946,Rape,29,high,2026-03-02,Pune_Zone_11,Pune_PS_8
+892,Pune,18.5773,73.9903,Mugging,31,medium,2025-12-14,Pune_Zone_18,Pune_PS_7
+893,Pune,18.5943,73.7504,Assault,87,low,2026-02-19,Pune_Zone_7,Pune_PS_8
+894,Pune,18.4414,73.8951,Assault,53,medium,2026-03-02,Pune_Zone_15,Pune_PS_1
+895,Pune,18.5328,73.7226,Robbery,34,medium,2026-02-19,Pune_Zone_13,Pune_PS_7
+896,Pune,18.5226,73.8392,Theft,42,medium,2026-03-01,Pune_Zone_14,Pune_PS_2
+897,Pune,18.5057,73.9223,Kidnapping,76,medium,2026-02-18,Pune_Zone_6,Pune_PS_6
+898,Pune,18.5094,73.8527,Murder,18,medium,2026-01-15,Pune_Zone_16,Pune_PS_7
+899,Pune,18.4152,73.9857,Assault,14,low,2026-01-11,Pune_Zone_9,Pune_PS_4
+900,Pune,18.4923,73.9847,Murder,62,medium,2026-01-31,Pune_Zone_6,Pune_PS_3
+901,Jaipur,26.7877,75.9327,Burglary,52,low,2026-02-16,Jaipur_Zone_3,Jaipur_PS_2
+902,Jaipur,27.0522,75.6897,Assault,71,high,2025-12-29,Jaipur_Zone_5,Jaipur_PS_1
+903,Jaipur,26.9644,75.8216,Robbery,16,low,2026-01-25,Jaipur_Zone_2,Jaipur_PS_5
+904,Jaipur,26.8369,75.9337,Murder,26,high,2026-01-08,Jaipur_Zone_14,Jaipur_PS_3
+905,Jaipur,26.953,75.6498,Mugging,47,medium,2026-01-17,Jaipur_Zone_19,Jaipur_PS_2
+906,Jaipur,26.8431,75.9367,Murder,30,low,2025-12-30,Jaipur_Zone_14,Jaipur_PS_9
+907,Jaipur,26.7719,75.6738,Burglary,94,medium,2026-02-26,Jaipur_Zone_6,Jaipur_PS_7
+908,Jaipur,26.8026,75.672,Mugging,74,high,2026-01-22,Jaipur_Zone_4,Jaipur_PS_1
+909,Jaipur,27.0347,75.6635,Rape,7,high,2025-12-21,Jaipur_Zone_2,Jaipur_PS_8
+910,Jaipur,26.925,75.9278,Assault,13,low,2026-02-24,Jaipur_Zone_5,Jaipur_PS_3
+911,Jaipur,26.9326,75.7504,Theft,43,medium,2026-01-20,Jaipur_Zone_5,Jaipur_PS_3
+912,Jaipur,27.0505,75.6507,Vehicle Theft,6,low,2026-02-08,Jaipur_Zone_3,Jaipur_PS_2
+913,Jaipur,26.9622,75.8841,Assault,56,low,2025-12-12,Jaipur_Zone_6,Jaipur_PS_4
+914,Jaipur,26.9677,75.7883,Mugging,74,low,2025-12-30,Jaipur_Zone_1,Jaipur_PS_1
+915,Jaipur,26.8141,75.899,Kidnapping,61,high,2026-01-31,Jaipur_Zone_12,Jaipur_PS_5
+916,Jaipur,26.9379,75.7172,Kidnapping,51,medium,2026-03-04,Jaipur_Zone_5,Jaipur_PS_8
+917,Jaipur,26.9829,75.8972,Sexual Harassment,54,medium,2025-12-21,Jaipur_Zone_13,Jaipur_PS_7
+918,Jaipur,27.0513,75.9126,Sexual Harassment,51,low,2025-12-10,Jaipur_Zone_18,Jaipur_PS_2
+919,Jaipur,26.9714,75.6663,Assault,90,low,2025-12-23,Jaipur_Zone_18,Jaipur_PS_1
+920,Jaipur,26.8779,75.7627,Assault,64,high,2026-02-19,Jaipur_Zone_3,Jaipur_PS_2
+921,Jaipur,26.8984,75.8933,Theft,37,low,2026-02-14,Jaipur_Zone_17,Jaipur_PS_7
+922,Jaipur,26.9165,75.9224,Rape,34,high,2026-01-13,Jaipur_Zone_7,Jaipur_PS_8
+923,Jaipur,26.904,75.7844,Theft,22,low,2026-02-02,Jaipur_Zone_17,Jaipur_PS_3
+924,Jaipur,26.8339,75.8755,Assault,38,low,2025-12-29,Jaipur_Zone_10,Jaipur_PS_8
+925,Jaipur,27.0472,75.7288,Mugging,65,low,2025-12-17,Jaipur_Zone_7,Jaipur_PS_3
+926,Jaipur,26.9256,75.8028,Murder,25,medium,2026-01-23,Jaipur_Zone_4,Jaipur_PS_1
+927,Jaipur,26.8177,75.7866,Rape,29,medium,2026-02-26,Jaipur_Zone_6,Jaipur_PS_3
+928,Jaipur,26.9092,75.7231,Vehicle Theft,5,low,2025-12-27,Jaipur_Zone_13,Jaipur_PS_2
+929,Jaipur,26.9374,75.7761,Kidnapping,18,medium,2026-01-12,Jaipur_Zone_7,Jaipur_PS_8
+930,Jaipur,26.8191,75.7218,Theft,18,medium,2026-02-11,Jaipur_Zone_13,Jaipur_PS_6
+931,Jaipur,26.9828,75.7338,Rape,86,medium,2026-02-17,Jaipur_Zone_5,Jaipur_PS_9
+932,Jaipur,26.9601,75.934,Rape,58,medium,2025-12-11,Jaipur_Zone_19,Jaipur_PS_5
+933,Jaipur,26.7954,75.7523,Theft,98,high,2026-02-16,Jaipur_Zone_12,Jaipur_PS_5
+934,Jaipur,26.8226,75.9013,Mugging,6,high,2026-03-03,Jaipur_Zone_18,Jaipur_PS_6
+935,Jaipur,26.9536,75.8778,Sexual Harassment,70,high,2026-02-27,Jaipur_Zone_11,Jaipur_PS_5
+936,Jaipur,26.9894,75.6659,Burglary,78,high,2026-02-26,Jaipur_Zone_3,Jaipur_PS_3
+937,Jaipur,26.7775,75.6562,Vehicle Theft,29,low,2026-02-25,Jaipur_Zone_11,Jaipur_PS_3
+938,Jaipur,26.9621,75.7853,Rape,54,high,2026-02-22,Jaipur_Zone_5,Jaipur_PS_4
+939,Jaipur,26.7809,75.7723,Kidnapping,39,low,2026-02-14,Jaipur_Zone_18,Jaipur_PS_1
+940,Jaipur,26.9004,75.7211,Theft,47,high,2026-03-01,Jaipur_Zone_14,Jaipur_PS_3
+941,Jaipur,27.0271,75.8088,Robbery,6,high,2026-02-12,Jaipur_Zone_17,Jaipur_PS_7
+942,Jaipur,26.7954,75.7542,Theft,36,medium,2025-12-27,Jaipur_Zone_19,Jaipur_PS_8
+943,Jaipur,26.8031,75.681,Assault,28,medium,2026-02-01,Jaipur_Zone_8,Jaipur_PS_6
+944,Jaipur,26.8092,75.7103,Kidnapping,32,high,2026-02-12,Jaipur_Zone_2,Jaipur_PS_6
+945,Jaipur,26.8412,75.8675,Mugging,32,high,2025-12-15,Jaipur_Zone_14,Jaipur_PS_2
+946,Jaipur,26.9991,75.8418,Burglary,57,high,2026-03-02,Jaipur_Zone_1,Jaipur_PS_1
+947,Jaipur,26.8428,75.7934,Mugging,61,low,2026-02-28,Jaipur_Zone_8,Jaipur_PS_7
+948,Jaipur,26.8724,75.669,Assault,8,medium,2025-12-15,Jaipur_Zone_12,Jaipur_PS_9
+949,Jaipur,26.936,75.9107,Murder,99,high,2026-02-15,Jaipur_Zone_19,Jaipur_PS_8
+950,Jaipur,27.0224,75.9055,Vehicle Theft,38,medium,2026-02-16,Jaipur_Zone_9,Jaipur_PS_3
+951,Jaipur,26.9444,75.6873,Mugging,29,medium,2026-02-10,Jaipur_Zone_19,Jaipur_PS_7
+952,Jaipur,26.8146,75.7385,Sexual Harassment,78,high,2025-12-29,Jaipur_Zone_19,Jaipur_PS_3
+953,Jaipur,26.9483,75.8363,Theft,14,high,2026-02-05,Jaipur_Zone_3,Jaipur_PS_5
+954,Jaipur,27.0548,75.8901,Robbery,80,medium,2026-03-01,Jaipur_Zone_11,Jaipur_PS_8
+955,Jaipur,27.0323,75.9196,Robbery,77,high,2026-03-05,Jaipur_Zone_1,Jaipur_PS_2
+956,Jaipur,27.0509,75.8698,Burglary,64,low,2026-03-01,Jaipur_Zone_12,Jaipur_PS_8
+957,Jaipur,27.0036,75.79,Theft,37,medium,2026-01-26,Jaipur_Zone_5,Jaipur_PS_1
+958,Jaipur,26.892,75.9273,Robbery,13,high,2026-01-31,Jaipur_Zone_18,Jaipur_PS_7
+959,Jaipur,26.9778,75.9351,Robbery,29,high,2026-01-04,Jaipur_Zone_14,Jaipur_PS_8
+960,Jaipur,26.8739,75.6426,Sexual Harassment,43,high,2026-01-31,Jaipur_Zone_17,Jaipur_PS_6
+961,Jaipur,26.9321,75.7885,Sexual Harassment,38,high,2026-02-18,Jaipur_Zone_1,Jaipur_PS_4
+962,Jaipur,26.9809,75.7322,Theft,64,low,2025-12-20,Jaipur_Zone_5,Jaipur_PS_6
+963,Jaipur,26.9478,75.7902,Theft,24,low,2026-01-20,Jaipur_Zone_8,Jaipur_PS_9
+964,Jaipur,27.0476,75.7599,Mugging,29,low,2026-01-17,Jaipur_Zone_11,Jaipur_PS_6
+965,Jaipur,26.8426,75.7638,Vehicle Theft,60,low,2026-01-10,Jaipur_Zone_4,Jaipur_PS_8
+966,Jaipur,26.794,75.8389,Burglary,91,high,2026-02-13,Jaipur_Zone_11,Jaipur_PS_8
+967,Jaipur,26.9413,75.8502,Vehicle Theft,16,high,2026-01-11,Jaipur_Zone_7,Jaipur_PS_8
+968,Jaipur,27.0489,75.9132,Vehicle Theft,40,low,2026-02-11,Jaipur_Zone_12,Jaipur_PS_1
+969,Jaipur,26.9249,75.8261,Robbery,32,high,2026-02-20,Jaipur_Zone_8,Jaipur_PS_1
+970,Jaipur,27.0115,75.8365,Kidnapping,27,medium,2026-02-10,Jaipur_Zone_13,Jaipur_PS_7
+971,Jaipur,26.9848,75.8856,Mugging,58,low,2026-02-22,Jaipur_Zone_11,Jaipur_PS_9
+972,Jaipur,26.9561,75.9049,Vehicle Theft,42,high,2026-01-04,Jaipur_Zone_13,Jaipur_PS_7
+973,Jaipur,26.8463,75.8068,Sexual Harassment,85,high,2026-02-02,Jaipur_Zone_14,Jaipur_PS_1
+974,Jaipur,27.0596,75.7207,Sexual Harassment,27,medium,2026-01-02,Jaipur_Zone_18,Jaipur_PS_4
+975,Jaipur,27.0505,75.8354,Sexual Harassment,12,medium,2026-01-28,Jaipur_Zone_9,Jaipur_PS_4
+976,Jaipur,26.7767,75.743,Vehicle Theft,21,high,2025-12-24,Jaipur_Zone_7,Jaipur_PS_9
+977,Jaipur,26.983,75.8765,Burglary,47,high,2026-01-12,Jaipur_Zone_5,Jaipur_PS_2
+978,Jaipur,26.8786,75.8726,Mugging,90,high,2026-02-25,Jaipur_Zone_12,Jaipur_PS_5
+979,Jaipur,26.9948,75.8059,Assault,27,low,2026-01-08,Jaipur_Zone_16,Jaipur_PS_6
+980,Jaipur,26.8431,75.6436,Rape,55,medium,2026-01-27,Jaipur_Zone_5,Jaipur_PS_2
+981,Jaipur,27.0622,75.824,Theft,35,high,2026-01-12,Jaipur_Zone_12,Jaipur_PS_2
+982,Jaipur,26.7773,75.6657,Burglary,66,high,2026-01-20,Jaipur_Zone_7,Jaipur_PS_6
+983,Jaipur,26.947,75.759,Burglary,88,medium,2026-01-22,Jaipur_Zone_12,Jaipur_PS_1
+984,Jaipur,27.0469,75.7833,Robbery,49,high,2026-01-07,Jaipur_Zone_17,Jaipur_PS_4
+985,Jaipur,26.9803,75.7032,Burglary,74,high,2026-01-04,Jaipur_Zone_15,Jaipur_PS_2
+986,Jaipur,26.9885,75.8239,Sexual Harassment,58,low,2026-01-26,Jaipur_Zone_19,Jaipur_PS_3
+987,Jaipur,26.9071,75.8241,Murder,51,medium,2026-02-19,Jaipur_Zone_8,Jaipur_PS_2
+988,Jaipur,26.9101,75.8883,Theft,16,low,2026-02-25,Jaipur_Zone_7,Jaipur_PS_7
+989,Jaipur,26.8277,75.9271,Assault,28,high,2026-02-10,Jaipur_Zone_7,Jaipur_PS_1
+990,Jaipur,27.0513,75.8196,Vehicle Theft,28,high,2025-12-24,Jaipur_Zone_12,Jaipur_PS_3
+991,Jaipur,27.0047,75.8687,Kidnapping,17,high,2025-12-14,Jaipur_Zone_10,Jaipur_PS_5
+992,Jaipur,26.7781,75.8722,Robbery,75,high,2026-02-04,Jaipur_Zone_13,Jaipur_PS_2
+993,Jaipur,26.8252,75.7984,Robbery,72,high,2026-02-06,Jaipur_Zone_2,Jaipur_PS_7
+994,Jaipur,26.7824,75.9369,Murder,75,medium,2026-02-27,Jaipur_Zone_13,Jaipur_PS_5
+995,Jaipur,26.9288,75.9078,Sexual Harassment,74,low,2026-02-09,Jaipur_Zone_7,Jaipur_PS_9
+996,Jaipur,26.8375,75.8381,Vehicle Theft,70,high,2025-12-29,Jaipur_Zone_6,Jaipur_PS_1
+997,Jaipur,26.9301,75.7382,Vehicle Theft,77,low,2026-01-01,Jaipur_Zone_19,Jaipur_PS_6
+998,Jaipur,26.8057,75.7699,Theft,69,low,2025-12-13,Jaipur_Zone_1,Jaipur_PS_4
+999,Jaipur,26.84,75.6451,Theft,59,medium,2026-01-30,Jaipur_Zone_5,Jaipur_PS_5
+1000,Jaipur,26.9405,75.8197,Robbery,90,low,2026-03-03,Jaipur_Zone_4,Jaipur_PS_6

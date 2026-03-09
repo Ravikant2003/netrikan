@@ -1,4 +1,9 @@
-from pydantic_settings import BaseSettings
+from pathlib import Path
+from typing import Optional
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
 
 
 class Settings(BaseSettings):
@@ -8,19 +13,23 @@ class Settings(BaseSettings):
 
     HOST: str = "0.0.0.0"
     PORT: int = 8000
+    RELOAD: bool = False
 
     LOG_LEVEL: str = "INFO"
 
-    MAPS_API_KEY: str | None = None
-    CRIME_DATA_PATH: str = "datasets/crime_data.csv"
+    MAPS_API_KEY: Optional[str] = None
+    CRIME_DATA_PATH: str = str(ROOT_DIR / "datasets" / "crime_data.csv")
+    DB_PATH: str = str(ROOT_DIR / "backend" / "data" / "netrikan.db")
+    DEMO_USERNAME: str = "student"
+    DEMO_PASSWORD: str = "1234"
+    RATE_LIMIT_PER_MINUTE: int = 120
     
     # New settings for agent configuration
     AGENT_TIMEOUT: int = 30
     ENABLE_NOTIFICATIONS: bool = True
     SAFETY_THRESHOLD: float = 0.6
 
-    class Config:
-        env_file = ".env"
+    model_config = SettingsConfigDict(env_file=".env")
 
 
 settings = Settings()
