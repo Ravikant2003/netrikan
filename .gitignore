@@ -46,3 +46,6 @@ datasets/crime_data.csv
 models/*.pkl
 logs/
 *.log
+*.db
+*.sqlite
+backend/data/*.db

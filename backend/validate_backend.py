@@ -7,12 +7,13 @@ from main import app
 def run_validation() -> None:
 	client = TestClient(app)
 
-	payload = {
+	baseline_payload = {
 		"latitude": 12.9716,
 		"longitude": 77.5946,
 		"destination": {"lat": 12.9352, "lon": 77.6245},
 		"time_of_day": "night",
 		"speed": 38.5,
+		"severity": "medium",
 		"route_deviation": False,
 		"text_signal": "",
 	}
@@ -39,12 +40,7 @@ def run_validation() -> None:
 			"/api/guardian",
 			{"user_id": "u-1", "contact": "+910000000001"},
 		),
-		("POST", "/api/analyze", payload),
-		("POST", "/api/risk", payload),
-		("POST", "/api/route", payload),
-		("POST", "/api/emergency", payload),
 		("GET", "/api/me", None),
-		("POST", "/api/logout", None),
 	]
 
 	for method, endpoint, request_payload in endpoints:
@@ -71,6 +67,56 @@ def run_validation() -> None:
 			raise RuntimeError(
 				f"Validation failed for {endpoint}: {response.status_code} {response.text}"
 			)
+
+	scenarios = [
+		(
+			"baseline_analyze",
+			"/api/analyze",
+			baseline_payload,
+			lambda body: "decision" in body and len(body.get("tool_trace", [])) >= 3,
+		),
+		(
+			"high_risk_prediction",
+			"/api/risk",
+			{
+				**baseline_payload,
+				"speed": 92.0,
+				"severity": "high",
+				"time_of_day": "23:00",
+			},
+			lambda body: 0.0 <= body.get("risk_score", -1) <= 1.0,
+		),
+		(
+			"fallback_route",
+			"/api/route",
+			{"latitude": 12.9716, "longitude": 77.5946},
+			lambda body: body.get("details", {}).get("distance_km", 0) >= 0.5,
+		),
+		(
+			"critical_emergency",
+			"/api/emergency",
+			{**baseline_payload, "text_signal": "help me now", "route_deviation": True},
+			lambda body: body.get("level") == "CRITICAL",
+		),
+	]
+
+	for scenario_name, endpoint, request_payload, validator in scenarios:
+		response = client.post(endpoint, json=request_payload, headers=headers)
+		if response.status_code != 200:
+			raise RuntimeError(
+				f"Scenario {scenario_name} failed for {endpoint}: {response.status_code} {response.text}"
+			)
+		body = response.json()
+		if not validator(body):
+			raise RuntimeError(
+				f"Scenario {scenario_name} returned unexpected body: {body}"
+			)
+
+	logout_response = client.post("/api/logout", headers=headers)
+	if logout_response.status_code != 200:
+		raise RuntimeError(
+			f"Validation failed for /api/logout: {logout_response.status_code} {logout_response.text}"
+		)
 
 	print("Backend validation passed.")
 

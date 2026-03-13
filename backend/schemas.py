@@ -8,8 +8,11 @@ class AnalyzeRequest(BaseModel):
     destination: Dict[str, Any] = Field(default_factory=dict)
     time_of_day: str = "day"
     speed: float = 0.0
+    severity: str = "low"
     route_deviation: bool = False
     text_signal: str = ""
+    session_id: Optional[str] = None
+    user_id: Optional[str] = None
 
 
 class SafetyResponse(BaseModel):
@@ -41,6 +44,13 @@ class AnalyzeResponse(BaseModel):
     safety: SafetyResponse
     route: RouteResponse
     emergency: EmergencyResponse
+    confidence: Optional[float] = None
+    session_id: Optional[str] = None
+    tool_trace: list[Dict[str, Any]] = Field(default_factory=list)
+    agent_summary: Optional[str] = None
+    tools_used: list[str] = Field(default_factory=list)
+    planner_mode: Optional[str] = None
+    memory_size: Optional[int] = None
 
 
 class RegisterUserRequest(BaseModel):

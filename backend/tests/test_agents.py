@@ -50,6 +50,9 @@ def test_analyze_route():
     assert "route" in body
     assert "safety" in body
     assert "emergency" in body
+    assert body["planner_mode"] in {"heuristic", "llm"}
+    assert len(body["tool_trace"]) >= 3
+    assert body["confidence"] >= 0.6
 
 
 def test_risk_endpoint():
@@ -70,6 +73,16 @@ def test_emergency_endpoint_critical():
     resp = client.post("/api/emergency", json=payload, headers=get_auth_headers())
     assert resp.status_code == 200
     assert resp.json()["level"] == "CRITICAL"
+
+
+def test_analyze_returns_session_memory_metadata():
+    payload = build_payload()
+    payload["session_id"] = "demo-session"
+    resp = client.post("/api/analyze", json=payload, headers=get_auth_headers())
+    assert resp.status_code == 200
+    body = resp.json()
+    assert body["session_id"] == "demo-session"
+    assert body["memory_size"] >= 1
 
 
 def test_user_registration_and_guardian():

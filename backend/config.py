@@ -26,8 +26,15 @@ class Settings(BaseSettings):
     
     # New settings for agent configuration
     AGENT_TIMEOUT: int = 30
+    AGENT_MAX_STEPS: int = 6
+    AGENT_MEMORY_WINDOW: int = 12
+    AGENT_USE_LLM: bool = False
     ENABLE_NOTIFICATIONS: bool = True
     SAFETY_THRESHOLD: float = 0.6
+    LLM_API_BASE: Optional[str] = None
+    LLM_API_KEY: Optional[str] = None
+    LLM_MODEL: Optional[str] = None
+    LLM_TIMEOUT_SECONDS: int = 8
 
     model_config = SettingsConfigDict(env_file=".env")
 

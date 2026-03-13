@@ -4,7 +4,7 @@ Loads pre-trained XGBoost model for risk prediction
 """
 import joblib
 import numpy as np
-import os
+import pandas as pd
 from pathlib import Path
 
 MODELS_DIR = Path(__file__).parent
@@ -92,20 +92,24 @@ class XGBoostPredictor:
             lon_norm = (longitude - 77.5946) / 0.05
             severity_numeric = {'low': 0, 'medium': 1, 'high': 2}.get(severity.lower(), 0)
             
-            # Create feature vector
-            features = np.array([[
-                latitude, 
-                longitude, 
+            feature_values = [
+                latitude,
+                longitude,
                 speed,
                 hour_sin,
                 hour_cos,
                 lat_norm,
                 lon_norm,
-                severity_numeric
-            ]])
-            
+                severity_numeric,
+            ]
+
+            feature_frame = pd.DataFrame(
+                [feature_values],
+                columns=self.feature_cols,
+            )
+
             # Scale features
-            features_scaled = self.scaler.transform(features)
+            features_scaled = self.scaler.transform(feature_frame)
             
             # Predict
             prediction = self.model.predict(features_scaled)[0]
