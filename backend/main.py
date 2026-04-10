@@ -1,24 +1,25 @@
 from contextlib import asynccontextmanager
-from fastapi import Depends, FastAPI
+from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from config import settings
 from utils.logger import get_logger
-from agent_manager import AgentManager
-from schemas import AnalyzeRequest, AnalyzeResponse
-from routes import risk, route, emergency, user
-from utils.security import rate_limit, verify_session_token
-from utils.storage import init_db
+from core.orchestrator import safety_app
+from schemas import AnalyzeRequest, AnalyzeResponse, RouteRequest, SimulationRequest
+from utils.maps_api import get_multiple_routes
+from simulation.scenarios import get_scenario_steps, list_scenarios
+from services.incidents import incident_manager
+from services.ws_manager import ws_manager
 
-logger = get_logger("Main")
+
+logger = get_logger("Netrikan-Core")
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
-    init_db()
+    logger.info("Initializing Netrikan 3-Layer Agentic Architecture with LangGraph")
     yield
 
-
 app = FastAPI(
-    title=settings.APP_NAME,
+    title=f"{settings.APP_NAME} (LangGraph)",
     version=settings.APP_VERSION,
     lifespan=lifespan,
 )
@@ -31,41 +32,145 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-agent_manager = AgentManager()
-protected_dependencies = [Depends(verify_session_token), Depends(rate_limit)]
-public_api_dependencies = [Depends(rate_limit)]
-
-# Register routers
-app.include_router(risk.router, prefix="/api", dependencies=protected_dependencies)
-app.include_router(route.router, prefix="/api", dependencies=protected_dependencies)
-app.include_router(emergency.router, prefix="/api", dependencies=protected_dependencies)
-app.include_router(user.router, prefix="/api", dependencies=public_api_dependencies)
-
-logger.info(f"NETRIKAN API initialized - v{settings.APP_VERSION}")
-
-
 @app.get("/health")
 def health_check():
-    return {"status": "ok", "service": settings.APP_NAME}
+    return {"status": "ok", "architecture": "3-layer-langgraph"}
+
+@app.post("/api/analyze")
+async def analyze(payload: AnalyzeRequest):
+    """
+    Unified entry point powered by LangGraph.
+    Executes the 3-layer workflow: Monitoring -> Reasoning -> Action.
+    """
+    logger.info("New analysis request received via LangGraph")
+    
+    # Initial state for the graph
+    initial_state = {
+        "payload": payload.model_dump(),
+        "status": "started"
+    }
+    
+    # Invoke the LangGraph workflow
+    final_state = await safety_app.ainvoke(initial_state)
+
+    # PRD-style incident state (session-based) + delayed escalation scheduling
+    session_id = payload.session_id or final_state.get("timestamp") or "session"
+    decision = final_state.get("orchestrator_decision", {})
+    safety_index = final_state.get("safety_index", {})
+    decision2 = incident_manager.update_from_analysis(
+        session_id=session_id,
+        user_id=payload.user_id,
+        payload=payload.model_dump(),
+        decision=decision,
+        safety_index=safety_index,
+    )
+    # Overwrite decision for response + action layer
+    final_state["orchestrator_decision"] = decision2
+    # Broadcast snapshot over WS
+    snap = incident_manager.snapshot(session_id)
+    if snap:
+        await ws_manager.broadcast(session_id, {"type": "incident", "data": snap})
+    await ws_manager.broadcast(session_id, {"type": "analysis", "data": {
+        "safety_index": safety_index,
+        "decision": decision2,
+        "timestamp": final_state.get("timestamp"),
+    }})
+    
+    return {
+        "status": final_state.get("status", "error"),
+        "layer1_monitoring": final_state.get("layer1_monitoring", final_state.get("safety_index")),
+        "layer2_agents": final_state.get("layer2_agents", final_state.get("orchestrator_decision")),
+        "layer3_actions": final_state.get("layer3_actions", final_state.get("action_results")),
+        "timestamp": final_state.get("timestamp"),
+        "session_id": session_id,
+    }
+
+@app.post("/api/routes")
+async def get_routes(payload: RouteRequest):
+    """
+    Returns top 3 safest routes.
+    Accepts optional safety_context (XGBoost ml_risk + crime_risk)
+    to produce XGBoost-informed route risk weights.
+    """
+    start = {"lat": payload.start.lat, "lon": payload.start.lon}
+    dest = {"lat": payload.destination.lat, "lon": payload.destination.lon}
+    safety_context = payload.safety_context  # May be None
+
+    routes = get_multiple_routes(start, dest, safety_context=safety_context)
+    return {"routes": routes}
+
+@app.post("/api/simulate")
+async def simulate(payload: SimulationRequest):
+    """
+    Runs a deterministic simulation (recommended env):
+      - NETRIKAN_AGENT_MODE=sim
+      - NETRIKAN_NO_NETWORK=1
+
+    Returns a per-step trace of Layer1 -> Layer2 -> Layer3.
+    """
+    if payload.steps is None:
+        if not payload.scenario_id:
+            raise HTTPException(status_code=400, detail="Provide scenario_id or steps[]")
+        try:
+            steps = [AnalyzeRequest(**s) for s in get_scenario_steps(payload.scenario_id)]
+        except ValueError as e:
+            raise HTTPException(status_code=400, detail=str(e))
+    else:
+        steps = [AnalyzeRequest(**s) for s in payload.steps]
+
+    results = []
+    for step in steps:
+        initial_state = {"payload": step.model_dump(), "status": "started"}
+        final_state = await safety_app.ainvoke(initial_state)
+        results.append(
+            {
+                "status": final_state.get("status", "error"),
+                "layer1_processed": final_state.get("processed_data", {}),
+                "layer1_monitoring": final_state.get("safety_index", {}),
+                "layer2_agents": final_state.get("orchestrator_decision", {}),
+                "layer3_actions": final_state.get("action_results", {}),
+                "timestamp": final_state.get("timestamp"),
+            }
+        )
+
+    return {"scenario_id": payload.scenario_id, "results": results}
+
+@app.get("/api/simulate/scenarios")
+def simulate_scenarios():
+    return {"scenarios": list_scenarios()}
 
 
-@app.post("/api/analyze", response_model=AnalyzeResponse, dependencies=protected_dependencies)
-def analyze(payload: AnalyzeRequest):
-    """
-    Unified endpoint to test agent orchestration flow.
-    Processes location and contextual data through all agents.
-    """
-    logger.info("Received analysis request")
-    return agent_manager.run(payload.model_dump())
+@app.post("/api/ack")
+async def ack(payload: dict):
+    session_id = str(payload.get("session_id") or "").strip()
+    if not session_id:
+        raise HTTPException(status_code=400, detail="session_id is required")
+    ok = incident_manager.ack(session_id)
+    if not ok:
+        raise HTTPException(status_code=404, detail="incident not found")
+    snap = incident_manager.snapshot(session_id)
+    if snap:
+        await ws_manager.broadcast(session_id, {"type": "incident", "data": snap})
+    return {"status": "acknowledged", "session_id": session_id}
+
+
+@app.websocket("/ws/incidents/{session_id}")
+async def ws_incidents(websocket: WebSocket, session_id: str):
+    await ws_manager.connect(session_id, websocket)
+    try:
+        snap = incident_manager.snapshot(session_id)
+        if snap:
+            await websocket.send_json({"type": "incident", "data": snap})
+        while True:
+            # Keep-alive; client may send pings or ignore
+            await websocket.receive_text()
+    except WebSocketDisconnect:
+        await ws_manager.disconnect(session_id, websocket)
+    except Exception:
+        await ws_manager.disconnect(session_id, websocket)
+        raise
 
 
 if __name__ == "__main__":
     import uvicorn
-    logger.info(f"Starting {settings.APP_NAME} server on {settings.HOST}:{settings.PORT}")
-    uvicorn.run(
-        "main:app",
-        host=settings.HOST,
-        port=settings.PORT,
-        reload=settings.RELOAD,
-        log_level="info"
-    )
+    uvicorn.run("main:app", host=settings.HOST, port=settings.PORT, reload=settings.RELOAD)

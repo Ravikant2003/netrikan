@@ -11,6 +11,7 @@ def load_crime_data():
     global crime_df
     if crime_df is None:
         try:
+            # Note: Ensure the path is correct in settings
             crime_df = pd.read_csv(settings.CRIME_DATA_PATH)
             logger.info("Crime dataset loaded successfully")
         except Exception as e:
@@ -28,10 +29,13 @@ def crime_score(lat: float, lon: float) -> float:
     load_crime_data()
 
     if crime_df is not None and not crime_df.empty:
+        # Simple heuristic based on dataset size for demo purposes
+        # In production, this would be a spatial lookup
         row_count_factor = min(0.3, len(crime_df) / 100000)
     else:
         row_count_factor = 0.0
 
+    # Density factor based on coordinates (heuristic)
     urban_density_factor = min(0.4, (abs(lat) + abs(lon)) / 300)
     base_risk = 0.15
     return round(min(1.0, base_risk + row_count_factor + urban_density_factor), 2)

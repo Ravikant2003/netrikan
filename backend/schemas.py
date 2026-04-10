@@ -1,85 +1,55 @@
-from typing import Any, Dict, Optional
-from pydantic import BaseModel, Field
-
+from pydantic import BaseModel
+from typing import Dict, Any, Optional, List
 
 class AnalyzeRequest(BaseModel):
     latitude: float
     longitude: float
-    destination: Dict[str, Any] = Field(default_factory=dict)
+    destination: Optional[Dict[str, float]] = None
     time_of_day: str = "day"
     speed: float = 0.0
     severity: str = "low"
     route_deviation: bool = False
     text_signal: str = ""
+    is_user_alone: Optional[bool] = True
+    safe_zones: Optional[List[Dict[str, Any]]] = None
+    guardians: Optional[List[Dict[str, Any]]] = None
     session_id: Optional[str] = None
     user_id: Optional[str] = None
 
-
 class SafetyResponse(BaseModel):
     risk_score: float
-    risk_level: str
-    explanation: str
-
-
-class RouteDetails(BaseModel):
-    distance_km: float
-    eta_minutes: int
-    risk_weight: float
-
-
-class RouteResponse(BaseModel):
-    recommended_route: str
-    route_risk: float
-    details: RouteDetails
-
-
-class EmergencyResponse(BaseModel):
-    level: str
-    message: str
-
+    safety_level: str
+    thresholds: Dict[str, float]
 
 class AnalyzeResponse(BaseModel):
-    decision: str
-    reasons: list[str]
-    safety: SafetyResponse
-    route: RouteResponse
-    emergency: EmergencyResponse
-    confidence: Optional[float] = None
-    session_id: Optional[str] = None
-    tool_trace: list[Dict[str, Any]] = Field(default_factory=list)
-    agent_summary: Optional[str] = None
-    tools_used: list[str] = Field(default_factory=list)
-    planner_mode: Optional[str] = None
-    memory_size: Optional[int] = None
-
-
-class RegisterUserRequest(BaseModel):
-    id: str
-    name: Optional[str] = None
-    phone: Optional[str] = None
-    metadata: Dict[str, Any] = Field(default_factory=dict)
-
-
-class AddGuardianRequest(BaseModel):
-    user_id: str
-    contact: str
-
-
-class StatusResponse(BaseModel):
     status: str
+    layer1_monitoring: SafetyResponse
+    layer2_agents: Dict[str, Any]
+    layer3_actions: Dict[str, Any]
+    timestamp: str
+
+class Location(BaseModel):
+    lat: float
+    lon: float
+
+class RouteRequest(BaseModel):
+    start: Location
+    destination: Location
+    safety_context: Optional[Dict[str, Any]] = None
 
 
-class LoginRequest(BaseModel):
-    username: str
-    password: str
+class SimulationRequest(BaseModel):
+    """
+    Simulation helper:
+      - Provide `scenario_id` to run a built-in scenario, OR
+      - Provide `steps` to run a custom step sequence.
+    """
+    scenario_id: Optional[str] = None
+    # Use a plain dict list (instead of AnalyzeRequest) to keep test-time mocks simple.
+    steps: Optional[List[Dict[str, Any]]] = None
 
 
-class LoginResponse(BaseModel):
-    status: str
-    token: str
-    username: str
-
-
-class MeResponse(BaseModel):
-    status: str
-    username: str
+class SimulationResponse(BaseModel):
+    scenario_id: Optional[str] = None
+    # Use plain dicts to keep test-time mocks simple.
+    results: List[Dict[str, Any]]
