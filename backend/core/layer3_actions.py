@@ -441,6 +441,7 @@ class Layer3ActionExecutor:
 
         guardians = data.get("guardians") or []
         guardian_targets: List[str] = []
+        guardian_emails: List[str] = []
         if isinstance(guardians, list):
             for g in guardians:
                 try:
@@ -449,6 +450,9 @@ class Layer3ActionExecutor:
                     phone = str(g.get("phone") or "").strip()
                     if phone:
                         guardian_targets.append(phone)
+                    email = str(g.get("email") or "").strip()
+                    if email:
+                        guardian_emails.append(email)
                 except Exception:
                     continue
 
@@ -499,7 +503,7 @@ class Layer3ActionExecutor:
 
         # EMAIL_GUARDIANS - Send email notifications (for HIGH level)
         if "EMAIL_GUARDIANS" in actions:
-            targets = guardian_targets
+            targets = guardian_emails if guardian_emails else guardian_targets
             email_payload = {
                 "targets": targets,
                 "subject": plan.get("email_subject", "🚨 Safety Alert - Immediate Attention Required"),

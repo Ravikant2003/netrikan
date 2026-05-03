@@ -5,8 +5,11 @@ from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Protocol
 
 import httpx
+from dotenv import load_dotenv
 
 from utils.logger import get_logger
+
+load_dotenv()
 
 logger = get_logger("Notifiers")
 
@@ -200,6 +203,106 @@ class FcmPushNotifier(MockNotifier):
         return await super().notify_police(payload)
 
 
+class SmtpEmailNotifier(MockNotifier):
+    """
+    SMTP Email sender for guardian notifications.
+
+    Required env vars:
+      - SMTP_SERVER (e.g., smtp.gmail.com)
+      - SMTP_PORT (e.g., 587)
+      - SMTP_USER (sender email)
+      - SMTP_PASSWORD (app password or password)
+      - RECIPIENT_EMAIL (default recipient, can be overridden per send)
+
+    For Gmail: Use App Password (not regular password)
+    """
+
+    def __init__(self, fallback: Optional[Notifier] = None):
+        self.smtp_server = os.environ.get("SMTP_SERVER", "").strip()
+        self.smtp_port = int(os.environ.get("SMTP_PORT", "587") or "587")
+        self.smtp_user = os.environ.get("SMTP_USER", "").strip()
+        self.smtp_password = os.environ.get("SMTP_PASSWORD", "").strip()
+        self.default_recipient = os.environ.get("RECIPIENT_EMAIL", "").strip()
+        self._fallback = fallback
+
+        if not self.smtp_server or not self.smtp_user or not self.smtp_password:
+            raise ValueError("SMTP notifier requires SMTP_SERVER, SMTP_USER, SMTP_PASSWORD")
+
+    async def send_email(self, to_email: str, subject: str, body: str) -> None:
+        if not to_email:
+            to_email = self.default_recipient
+        
+        if not to_email:
+            logger.warning("No email recipient provided and RECIPIENT_EMAIL not configured")
+            return
+
+        try:
+            import smtplib
+            from email.mime.text import MIMEText
+            from email.mime.multipart import MIMEMultipart
+
+            # Create message
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"] = self.smtp_user
+            msg["To"] = to_email
+
+            # Create HTML and plain text versions
+            text = body
+            html = f"""\
+            <html>
+              <body>
+                <div style="font-family: Arial, sans-serif; padding: 20px; background-color: #f5f5f5;">
+                  <div style="background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                    <h2 style="color: #d32f2f; margin-top: 0;">🚨 {subject}</h2>
+                    <p style="color: #333; line-height: 1.6;">{body}</p>
+                    <hr style="border: none; border-top: 1px solid #ddd; margin: 20px 0;">
+                    <p style="color: #999; font-size: 12px;">This is an automated alert from Netrikan Safety App</p>
+                  </div>
+                </div>
+              </body>
+            </html>
+            """
+
+            part1 = MIMEText(text, "plain")
+            part2 = MIMEText(html, "html")
+            msg.attach(part1)
+            msg.attach(part2)
+
+            # Send email
+            with smtplib.SMTP(self.smtp_server, self.smtp_port) as server:
+                server.starttls()
+                server.login(self.smtp_user, self.smtp_password)
+                server.sendmail(self.smtp_user, to_email, msg.as_string())
+
+            logger.info(f"✉️ Email sent successfully to {to_email} - Subject: {subject}")
+
+        except Exception as e:
+            logger.warning(f"SMTP email send failed to {to_email}: {e}")
+            if self._fallback:
+                return await self._fallback.send_email(to_email, subject, body)
+
+    async def send_push(self, user_id: Optional[str], title: str, body: str, data: Optional[Dict[str, Any]] = None) -> None:
+        if self._fallback:
+            return await self._fallback.send_push(user_id, title, body, data)
+        return await super().send_push(user_id, title, body, data)
+
+    async def send_sms(self, to_phone: str, message: str) -> None:
+        if self._fallback:
+            return await self._fallback.send_sms(to_phone, message)
+        return await super().send_sms(to_phone, message)
+
+    async def make_call(self, to_phone: str, message: str) -> None:
+        if self._fallback:
+            return await self._fallback.make_call(to_phone, message)
+        return await super().make_call(to_phone, message)
+
+    async def notify_police(self, payload: Dict[str, Any]) -> None:
+        if self._fallback:
+            return await self._fallback.notify_police(payload)
+        return await super().notify_police(payload)
+
+
 class TwilioWhatsAppNotifier(MockNotifier):
     """
     Twilio WhatsApp sender.
@@ -298,11 +401,20 @@ class TwilioWhatsAppNotifier(MockNotifier):
 def get_notifier() -> Notifier:
     """
     Default: webhook-capable mock (logs if no webhook env vars are set).
+    Chains: SMTP Email → FCM Push → Twilio WhatsApp → Webhook → Mock
     """
     if _env_truthy("NETRIKAN_NOTIFIER_MOCK_ONLY"):
         return MockNotifier()
     webhook = WebhookNotifier()
     notifier: Notifier = webhook
+
+    # Add SMTP Email notifier if configured
+    if os.environ.get("SMTP_SERVER") and os.environ.get("SMTP_USER") and os.environ.get("SMTP_PASSWORD"):
+        try:
+            notifier = SmtpEmailNotifier(fallback=notifier)
+            logger.info("✉️ SMTP Email notifier enabled")
+        except Exception as exc:
+            logger.warning(f"SMTP Email notifier unavailable: {exc}")
 
     # Prefer FCM for push if configured.
     if os.environ.get("FCM_PROJECT_ID") and os.environ.get("GOOGLE_APPLICATION_CREDENTIALS"):
