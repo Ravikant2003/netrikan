@@ -1,0 +1,11 @@
+latitude,longitude,speed,acceleration_mps2,stop_duration_s,battery_level,severity,network_status,device_motion,route_risk,crime_score,hour,label
+12.9878,80.3121,22.74,1.2,12,78,low,wifi,moving,0.22,0.18,0,0
+13.1240,80.2278,5.56,0.6,85,64,low,cellular,still,0.18,0.15,4,0
+13.0453,80.3356,5.83,0.8,40,55,medium,wifi,still,0.26,0.20,12,0
+13.1048,80.2801,12.93,2.4,15,49,medium,cellular,moving,0.32,0.25,5,0
+12.9716,77.5946,38.5,7.4,5,41,high,cellular,moving,0.62,0.48,23,1
+12.9720,77.5952,4.1,0.5,140,39,high,none,still,0.55,0.42,0,1
+28.6139,77.2090,18.2,1.1,20,82,low,wifi,moving,0.28,0.22,14,0
+28.7041,77.1025,52.3,8.1,3,33,high,cellular,moving,0.70,0.60,21,1
+19.0760,72.8777,14.5,1.7,25,72,medium,wifi,moving,0.35,0.30,10,0
+22.5726,88.3639,9.2,0.9,95,28,high,none,still,0.58,0.52,1,1

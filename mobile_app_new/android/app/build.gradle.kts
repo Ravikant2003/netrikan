@@ -3,12 +3,16 @@ plugins {
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace = "com.netrikan.netrikan_mobile"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "28.2.13676358" // Explicit version to match Flutter's requirement
+    
+    // Disable NDK for this demo build to avoid build issues
+    // If you need NDK later, install it via: sdkmanager "ndk;28.2.13676358"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

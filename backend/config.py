@@ -1,7 +1,10 @@
 from pathlib import Path
 import os
 
+from dotenv import load_dotenv
+
 ROOT_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(Path(__file__).resolve().parent / ".env")
 
 class Settings:
     APP_NAME: str = "Netrikan"

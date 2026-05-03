@@ -1,12 +1,23 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Dict, Any, Optional, List
+
+class Location(BaseModel):
+    lat: float = Field(..., description="Latitude")
+    lon: float = Field(..., description="Longitude")
 
 class AnalyzeRequest(BaseModel):
     latitude: float
     longitude: float
-    destination: Optional[Dict[str, float]] = None
+    destination: Optional[Location] = None
     time_of_day: str = "day"
     speed: float = 0.0
+    acceleration_mps2: Optional[float] = None
+    stop_duration_s: Optional[float] = None
+    battery_level: Optional[float] = None
+    network_status: Optional[str] = None
+    device_motion: Optional[str] = None
+    screen_unlocked_recent: Optional[bool] = None
+    voice_triggered: Optional[bool] = None
     severity: str = "low"
     route_deviation: bool = False
     text_signal: str = ""
@@ -27,6 +38,7 @@ class AnalyzeResponse(BaseModel):
     layer2_agents: Dict[str, Any]
     layer3_actions: Dict[str, Any]
     timestamp: str
+    risk_class: Optional[str] = None
 
 class Location(BaseModel):
     lat: float
@@ -47,9 +59,16 @@ class SimulationRequest(BaseModel):
     scenario_id: Optional[str] = None
     # Use a plain dict list (instead of AnalyzeRequest) to keep test-time mocks simple.
     steps: Optional[List[Dict[str, Any]]] = None
+    user_id: Optional[str] = None
 
 
 class SimulationResponse(BaseModel):
     scenario_id: Optional[str] = None
     # Use plain dicts to keep test-time mocks simple.
     results: List[Dict[str, Any]]
+
+
+class PushTokenRegisterRequest(BaseModel):
+    user_id: str
+    token: str
+    platform: Optional[str] = None

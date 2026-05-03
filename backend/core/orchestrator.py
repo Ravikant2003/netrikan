@@ -57,6 +57,8 @@ def reasoning_node(state: SafetyState) -> Dict[str, Any]:
     decision_raw = layer2.orchestrate(processed_data, safety_index)
     decision = apply_action_policy(decision_raw, processed_data, safety_index)
     
+    decision["safety_index"] = safety_index
+    
     return {
         "orchestrator_decision": decision
     }

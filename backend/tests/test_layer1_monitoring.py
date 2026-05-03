@@ -15,7 +15,7 @@ sys.modules["numpy"] = MagicMock()
 
 import pandas as pd
 import numpy as np
-from core.layer1_monitoring import XGBoostPredictor, MODEL_PATH, SCALER_PATH, FEATURE_COLS_PATH
+from core.layer1_monitoring import XGBoostPredictor, _model_paths
 
 class TestLayer1Monitoring(unittest.TestCase):
     def setUp(self):

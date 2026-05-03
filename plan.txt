@@ -1,0 +1,60 @@
+#	Action	Description	Implementation
+1	AUTO_CALL_GUARDIAN	Voice call to guardian with pre-recorded message	Twilio Voice API (or webhook)
+2	SHARE_LOCATION_LINK	Generate Google Maps link for guardians	Simple URL: https://maps.google.com/?q=lat,lng
+3	LOCAL_ALARM	Trigger phone siren/alarm sound	Push to mobile app → play alarm
+4	ESCALATION_WORKFLOW	Multi-step: Push → SMS → Call → Friend	Sequential actions with delays
+5	GUARDIAN_ACK	Wait for guardian to confirm/respond	Webhook callback or polling
+6	SCHEDULED_CHECKIN	Timed check-in reminders	Timer-based queue
+7	SHARE_ETA	Share ETA with guardians	Calculate from route + speed
+8	INCIDENT_REPORT	Generate incident PDF	Python reportlab or HTML→PDF
+
+
+
+
+✅ Setup Complete!
+What Was Configured:
+Item	Status
+Gmail SMTP	✅ Ready
+Webhook Server	✅ Updated
+Firebase Mobile	✅ Already configured
+Firebase Backend	⚠️ Needs setup
+n8n integration	✅ Documented
+---
+## What's Ready to Use:
+### 1. Gmail Email (Works when you add credentials)
+- Set in `.env`:
+  ```
+  SMTP_USER=your-email@gmail.com
+  SMTP_PASSWORD=your-16-char-app-password
+  RECIPIENT_EMAIL=guardian-email@gmail.com
+  ```
+- Restart webhook server → Emails will be sent!
+### 2. Firebase Push (Needs setup)
+- Mobile app already has config
+- Backend needs service account (see guide in `backend/docs/FIREBASE_SETUP.md`)
+---
+To Complete:
+For Gmail notifications:
+1. Update .env with your Gmail credentials
+2. Restart webhook server
+For Firebase push:
+1. Follow guide in backend/docs/FIREBASE_SETUP.md
+2. Get Project ID and service account JSON
+---
+Quick Test:
+The webhook server should already be running. To test with your Gmail:
+1. Update .env with your Gmail credentials
+2. Restart the webhook server:
+      cd /Users/ravikantsaraf/Desktop/Netrikan_02
+   source .venv/bin/activate
+   WEBHOOK_PORT=5001 python backend/webhook_server.py
+   3. Trigger an emergency via API → Email will be sent!
+---
+Would you like to:
+1. Add your Gmail credentials now to test email?
+2. Create Firebase project for push notifications?
+3. Rebuild mobile app to test on device?
+▣  Build · MiniMax M2.5 Free · 38.7s
+
+
+SMTP_PASSWORD_REMOVED

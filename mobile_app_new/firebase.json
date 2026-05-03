@@ -1,0 +1,6 @@
+{
+  "flutter": {
+    "flutter_plugin_salt": "SALT_PLACEHOLDER",
+    "path": "path/to/firebase.dart"
+  }
+}

@@ -10,6 +10,21 @@ def list_scenarios() -> List[Dict[str, Any]]:
     """
     return [
         {
+            "id": "safe",
+            "title": "Safe / Normal",
+            "description": "Low-risk scenario. No notifications or actions triggered.",
+        },
+        {
+            "id": "medium",
+            "title": "Medium Risk - Human in the Loop",
+            "description": "Medium risk scenario. Telegram notification sent, requires human confirmation before further actions.",
+        },
+        {
+            "id": "high",
+            "title": "High Risk - Automatic Response",
+            "description": "High risk scenario. Automatic notifications sent via Telegram, Phone call, and Email to guardians.",
+        },
+        {
             "id": "normal",
             "title": "Normal Monitoring",
             "description": "Low-risk movement, no SOS text; should result in NORMAL_MONITORING or INCREASED_MONITORING.",
@@ -39,10 +54,42 @@ def list_scenarios() -> List[Dict[str, Any]]:
 
 def get_scenario_steps(scenario_id: str) -> List[Dict[str, Any]]:
     sid = (scenario_id or "").strip().lower()
-    if sid in {"normal", "safe"}:
+    
+    # NEW: Safe scenario - no actions
+    if sid in {"safe", "normal"}:
         return [
             {"latitude": 12.9716, "longitude": 77.5946, "speed": 12, "severity": "low", "text_signal": ""},
             {"latitude": 12.9720, "longitude": 77.5952, "speed": 10, "severity": "low", "text_signal": ""},
+        ]
+
+    # NEW: Medium risk - Human in the loop (Telegram only)
+    if sid in {"medium", "medium_risk", "hitl"}:
+        return [
+            {
+                "latitude": 12.9716,
+                "longitude": 77.5946,
+                "destination": {"lat": 12.9616, "lon": 77.5846},
+                "speed": 25,
+                "severity": "medium",
+                "route_deviation": True,
+                "text_signal": "I feel a bit uneasy about this route",
+                "notification_level": "medium",
+            }
+        ]
+
+    # NEW: High risk - Automatic notifications (Telegram + Phone + Email)
+    if sid in {"high", "high_risk", "emergency"}:
+        return [
+            {
+                "latitude": 12.9716,
+                "longitude": 77.5946,
+                "destination": {"lat": 12.9616, "lon": 77.5846},
+                "speed": 5,
+                "severity": "high",
+                "route_deviation": True,
+                "text_signal": "SOS help emergency attack",
+                "notification_level": "high",
+            }
         ]
 
     if sid in {"high_risk_no_sos", "high_risk"}:

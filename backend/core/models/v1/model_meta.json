@@ -1,0 +1,19 @@
+{
+  "version": "v1",
+  "features": [
+    "latitude",
+    "longitude",
+    "speed",
+    "acceleration_mps2",
+    "stop_duration_s",
+    "battery_level",
+    "severity_code",
+    "network_code",
+    "motion_code",
+    "route_risk",
+    "crime_score",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "val_accuracy": 0.5
+}

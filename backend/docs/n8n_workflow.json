@@ -1,0 +1,190 @@
+{
+  "name": "Netrikan Notifications",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "netrikan",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "webhook-trigger",
+      "name": "Netrikan Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300],
+      "webhookId": "netrikan"
+    },
+    {
+      "parameters": {
+        "rules": {
+          "rules": [
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "parameters": {
+                      "value1": "={{ $json.type }}",
+                      "operation": "equals",
+                      "value2": "sms"
+                    }
+                  }
+                ],
+                "logic": "and"
+              },
+              "output": "sms"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "parameters": {
+                      "value1": "={{ $json.type }}",
+                      "operation": "equals",
+                      "value2": "call"
+                    }
+                  }
+                ],
+                "logic": "and"
+              },
+              "output": "call"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "parameters": {
+                      "value1": "={{ $json.type }}",
+                      "operation": "equals",
+                      "value2": "push"
+                    }
+                  }
+                ],
+                "logic": "and"
+              },
+              "output": "push"
+            },
+            {
+              "conditions": {
+                "conditions": [
+                  {
+                    "parameters": {
+                      "value1": "={{ $json.type }}",
+                      "operation": "equals",
+                      "value2": "police_alert"
+                    }
+                  }
+                ],
+                "logic": "and"
+              },
+              "output": "police"
+            }
+          ],
+          "fallbackOutput": "other"
+        }
+      },
+      "id": "router",
+      "name": "Route by Type",
+      "type": "n8n-nodes-base.router",
+      "typeVersion": 1,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "to": "your-email@gmail.com",
+        "subject": "={{ $json.message }}",
+        "body": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "email-node",
+      "name": "Send Email (SMS Alternative)",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [750, 150]
+    },
+    {
+      "parameters": {
+        "to": "your-email@gmail.com",
+        "subject": "={{ $json.message }}",
+        "body": "Call from Netrikan: {{ $json.message }}",
+        "options": {}
+      },
+      "id": "call-email",
+      "name": "Send Email for Call",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [750, 300]
+    },
+    {
+      "parameters": {
+        "to": "your-email@gmail.com",
+        "subject": "🚨 Netrikan Alert",
+        "body": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "push-email",
+      "name": "Send Push Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [750, 450]
+    },
+    {
+      "parameters": {
+        "to": "your-email@gmail.com",
+        "subject": "🚨 EMERGENCY ALERT - Netrikan",
+        "body": "={{ JSON.stringify($json) }}",
+        "options": {}
+      },
+      "id": "police-email",
+      "name": "Emergency Alert Email",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 1,
+      "position": [750, 600]
+    }
+  ],
+  "connections": {
+    "Netrikan Webhook": {
+      "main": [
+        [
+          {
+            "node": "Route by Type",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Route by Type": {
+      "main": [
+        [
+          {
+            "node": "Send Email (SMS Alternative)",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Email for Call",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Send Push Email",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Emergency Alert Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

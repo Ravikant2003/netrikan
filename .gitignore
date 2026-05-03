@@ -2,6 +2,9 @@
 .env
 .env.local
 .env.*.local
+backend/.env
+backend/.env.example
+backend/.env.local
 
 # Python
 __pycache__/
@@ -50,3 +53,12 @@ logs/
 *.db
 *.sqlite
 backend/data/*.db
+
+# Sensitive Files & Credentials
+backend/firebase-service-account.json
+firebase-service-account.json
+*.pem
+*.key
+*.p12
+credentials.json
+
